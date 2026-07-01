@@ -1,0 +1,94 @@
+{
+  "total_files": 3400,
+  "by_category": {
+    "ai-tools": 637,
+    "homelab": 746,
+    "coding": 1216,
+    "career": 358,
+    "general": 9,
+    "streaming": 202,
+    "crypto-web3": 232
+  },
+  "by_sentiment": {
+    "stuck": 0,
+    "building": 1958,
+    "curious": 104,
+    "exploratory": 479,
+    "frustrated": 467,
+    "executing": 188
+  },
+  "by_resolution": {
+    "resolved": 1092,
+    "unresolved": 560,
+    "partial": 850,
+    "abandoned": 898
+  },
+  "by_source": {
+    "CLAUDE": 70,
+    "GEMINI": 2774,
+    "GPT": 491,
+    "GROK": 65
+  },
+  "linked_projects_distribution": {
+    "0_projects": 1695,
+    "1_project": 1403,
+    "2_projects": 247,
+    "3_projects": 45,
+    "4_projects": 10
+  },
+  "projects_found": {
+    "flappy-meme-bird": 19,
+    "homelab-stack": 1406,
+    "it-certification": 84,
+    "operation-immortal-agent": 172,
+    "private-ai-consulting": 85,
+    "second-brain-vault": 194,
+    "streaming-rig": 112
+  },
+  "top_tags": {
+    "hardware": 1025,
+    "linux": 725,
+    "windows": 670,
+    "cachyos": 668,
+    "homelab": 605,
+    "python": 554,
+    "security": 491,
+    "game-dev": 484,
+    "ai-agents": 482,
+    "streaming": 400,
+    "content-creation": 385,
+    "nvidia": 360,
+    "writing": 326,
+    "career": 312,
+    "learning": 274,
+    "ollama": 239,
+    "git": 233,
+    "crypto": 220,
+    "finance": 174,
+    "local-llm": 167,
+    "solana": 165,
+    "docker": 107,
+    "defi": 100,
+    "obsidian": 99,
+    "web3": 91,
+    "meteora": 75,
+    "it-cert": 65,
+    "javascript": 41,
+    "ai-image": 40,
+    "dlmm": 39
+  },
+  "date_range": {
+    "first": "2023-11-05",
+    "last": "2026-04-09"
+  },
+  "vault_health": {
+    "files_tagged": "3400/3400 (100%)",
+    "dataview_queries": "LIVE (topic MOCs + project timelines)",
+    "enrichment_mapping": "/vault/_meta/enrichment_mapping.json",
+    "enrichment_algorithm": "FIXED — precise phrase matching",
+    "project_timelines": "RESTORED — Dataview on linked_projects",
+    "known_issues": []
+  },
+  "last_full_audit": "2026-05-01",
+  "audit_version": 3
+}

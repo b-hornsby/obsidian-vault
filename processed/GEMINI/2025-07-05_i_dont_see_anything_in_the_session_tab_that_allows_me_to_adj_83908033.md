@@ -1,0 +1,17 @@
+---
+id: 391238
+source: GEMINI
+date: 2025-07-05
+tags: ['ai-tools', 'llm', 'ai', 'gemini', 'model', 'oobabooga', 'rag', 'text-generation']
+category: ai-tools
+sentiment: exploratory
+resolution: resolved
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/operation-immortal-agent.md', 'nodes/topics/tech/ai-tools.md']
+---
+# i dont see anything in the session tab that allows me to adjust the settings for superbooga
+
+### USER
+i dont see anything in the session tab that allows me to adjust the settings for superbooga
+
+### GEMINI
+You are absolutely right, Bryan! My apologies for leading you to the "Session" tab when the settings weren't there. You've successfully enabled superboogav2, and it's loading correctly. The model downloading is a good sign. Here's the crucial insight: Looking at your image_cd1945.png screenshot (the one showing "Chat", "Notebook", "Parameters", "Model", "Training", "Session" on the left), under the "Settings" column, there's a checkbox: "Include attachments/search results from previous messages in the chat prompt" This checkbox, combined with superboogav2 being loaded, is very likely how the RAG functionality is integrated. Oobabooga has a built-in "attachments" system that extensions can hook into. The "Session" tab itself doesn't typically hold configuration for all extensions; some extensions add their own dedicated tabs (which superboogav2 does not seem to have done) or integrate into existing core features. Step 1: Activate the RAG functionality via "Settings" Go to your Oobabooga Web UI (http://127.0.0.1:7860). Navigate to the "Chat" tab. In the right-hand panel, under the "Settings" column (where you see "Toggle light/dark theme"), find and check the box for: "Include attachments/search results from previous messages in the chat prompt" (This checkbox can be seen in your image_cd1945.png screenshot). Important: After checking this box, there might be a "Save" or "Apply" button nearby, or it might save automatically. Make sure the setting is applied. Step 2: Ensure your Knowledge Base is Configured (and linked by superboogav2) While superboogav2 is active, it should be looking for a knowledge base. There might be a default location it checks, or a way to manually point it. Confirm your chroma_db is in ~/text-generation-webui/user_data/: We just did this with the cp -r command, so this should be correct. The full path the extension will look for is user_data/chroma_db. It's possible superboogav2 automatically uses user_data/chroma_db if it detects it, or it might have a default "Knowledge Base" setting within the chat input area itself. Step 3: Test RAG in Chat Mode Still in the "Chat" tab. Make sure you are in chat-instruct mode (which is selected in your screenshot and recommended for RAG). In the "send a message" input box at the bottom, type your question, e.g.: my wifi drops frequently how to clear browser cache what are common printer issues Press "Generate". Observation: When you ask a question, look for a new section in the UI (perhaps above or below the AI's response) that indicates "Sources," "Retrieved Documents," or "Knowledge Base Results." This would confirm RAG is active. It's very likely that superboogav2 works by enhancing the existing attachment/search results mechanism. By checking that box in the "Settings" column, you are telling Oobabooga to include that external context in the prompt sent to the LLM. Let me know what happens when you try this!

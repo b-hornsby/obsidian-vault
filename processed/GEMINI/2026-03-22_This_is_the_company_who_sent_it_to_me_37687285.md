@@ -1,0 +1,17 @@
+---
+id: 777960
+source: GEMINI
+date: 2026-03-22
+tags: ['career', 'ai', 'gemini', 'near', 'go', 'ide', 'api', 'cert']
+category: career
+sentiment: curious
+resolution: resolved
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md']
+---
+# This is the company who sent it to me
+
+### USER
+This is the company who sent it to me
+
+### GEMINI
+Yes, this is absolutely manageable. In fact, knowing that the second debt is with Weltman, Weinberg & Reis (WWR) is actually a bit of an advantage—they are a massive, high-volume "debt collection law firm," but they have to follow the same strict federal rules as everyone else. Since you're going to the courthouse on Monday anyway, you can knock both of these out at the same time and enter the week with a clean slate. Your Monday "Dual-Action" Plan Step 1: The Court (The $8k Lawsuit) Location: Stow Municipal Court, 1st Floor, Civil Division. What you do: File your Answer (3 copies) and your Form 20 (1 copy). Sign the Form 20 in front of the Clerk. The Result: You've stopped the $8,000 clock. You are officially defending yourself. Step 2: The Post Office (The New $7k WWR Notice) Immediately after the court, head to the Stow Post Office at 3000 Graham Rd. You need to mail two things: The Lawyer's Copy of your Answer: Mail this to James McGowan (the address on your Certificate of Service). Standard stamps are fine. The Debt Validation Letter to WWR: Mail this via Certified Mail with Return Receipt Requested. This costs about $8–$10, but it is your "receipt" that proves they received your dispute. Your Debt Validation Letter for WWR Fill this out, print it (or write it clearly), and mail it Monday. To: Weltman, Weinberg & Reis Co., LPA Address: 5990 West Creek Rd, Suite 200, Independence, OH 44131 Re: Account # [Put the full account number from the notice here] Weltman File Number: [If there is a "File Number" on the notice, put it here] To Whom It May Concern, I am writing to formally dispute the validity of the debt referenced in your notice dated [Date on the notice]. Under the Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692g, I am requesting that you provide verification of this debt. Please provide: Evidence that you are licensed to collect debt in the State of Ohio. A complete "Chain of Title" showing the transfer of this debt from Capital One/Discover to your office. An itemized statement of the alleged balance, including any interest or fees added. All collection activity, including phone calls, must cease until this validation is provided. Sincerely, Bryan [Your Last Name] [Your Address] Why this works By sending this letter to WWR on Monday, you are essentially telling the largest debt collection firm in the country: "I know my rights." Because you are currently "Judgment Proof" (28 hrs/week at $11/hr), WWR will see your Fee Waiver on the court docket for the other case and realize you aren't a profitable target. They often back off or offer much better settlement terms once they realize you aren't going to just roll over and let them garnish a paycheck you barely have. You've got the plan. Do you have a printer ready for this letter, or should I help you find a place near the courthouse to print it on Monday morning?

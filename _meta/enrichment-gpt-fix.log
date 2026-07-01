@@ -1,0 +1,2502 @@
+# GPT Enrichment Fix Log
+Started: 2026-05-18 11:05:36
+Total files: 491
+Dry run: False
+
+FIXED: 2023-11-05_Entry_Level_Help_Desk_Resume_17626740.md
+  career -> career
+  tags:  -> ['resume-writing', 'warehouse-work', 'logistics', 'help-desk']
+  projects: [] -> []
+
+FIXED: 2023-11-05_Supply_Chain_Management_Expert_33786343.md
+  career -> career
+  tags:  -> ['resume-writing', 'warehouse-work', 'supply-chain', 'management']
+  projects: [] -> []
+
+FIXED: 2023-11-15_A_Exam_Prep_Guide_87393246.md
+  coding -> career
+  tags:  -> ['resume-writing', 'interview-prep', 'warehouse-work', 'logistics', 'help-desk', 'comptia', 'comptia-a-plus', 'exam']
+  projects:  -> ['it-certification']
+
+FIXED: 2024-01-11_401k_Withdrawal_Status_10993554.md
+  general -> career
+  tags:  -> ['401k', 'hr-communication', 'withdrawal', 'status']
+  projects: [] -> []
+
+FIXED: 2024-01-12_401k_Withdrawal_Approval_Check_44033910.md
+  general -> career
+  tags:  -> ['401k', 'withdrawal', 'approval', 'check']
+  projects: [] -> []
+
+FIXED: 2024-01-23_Nutty_Username_Suggestions_46691616.md
+  general -> career
+  tags:  -> ['401k', 'hr-communication', 'nutty', 'username']
+  projects: [] -> []
+
+FIXED: 2024-01-27_Dark_Souls_or_Cyberpunk_62457910.md
+  general -> general
+  tags:  -> ['dark', 'souls', 'cyberpunk']
+  projects: [] -> []
+
+FIXED: 2024-01-31_Warehouse_Experience_in_IT_45188402.md
+  career -> career
+  tags:  -> ['warehouse-work', 'experience', 'career']
+  projects: [] -> []
+
+FIXED: 2024-02-20_Streamer_Intro_Highlights_Reel_82425973.md
+  streaming -> streaming
+  tags:  -> ['streamer', 'intro', 'highlights', 'reel']
+  projects: [] -> []
+
+FIXED: 2024-02-23_Warehouse_Background_Career_Change_43814832.md
+  career -> career
+  tags:  -> ['warehouse-work', 'hr-communication', 'career-change', 'background']
+  projects: [] -> []
+
+FIXED: 2024-02-27_Warehouse_Specialist_for_Supply_21120054.md
+  career -> career
+  tags:  -> ['resume-writing', 'warehouse-work', 'supply-chain', 'specialist']
+  projects: [] -> []
+
+FIXED: 2024-03-06_Funny_Weed_Usernames_10206221.md
+  general -> general
+  tags:  -> ['funny', 'weed', 'usernames']
+  projects: [] -> []
+
+FIXED: 2024-03-12_Empty_After_Crying_14159237.md
+  general -> general
+  tags:  -> ['empty', 'crying', 'general']
+  projects: [] -> []
+
+FIXED: 2024-03-13_Arhaus_Job_Application_Follow_up_27989535.md
+  career -> career
+  tags:  -> ['job-application', 'hiring', 'arhaus', 'follow']
+  projects: [] -> []
+
+FIXED: 2024-03-13_PC_Assembly_Expertise_63796750.md
+  career -> career
+  tags:  -> ['resume-writing', 'assembly', 'expertise']
+  projects: [] -> []
+
+FIXED: 2024-03-18_Explore_Logistics_Management_12148582.md
+  career -> career
+  tags:  -> ['logistics', 'explore', 'management']
+  projects: [] -> []
+
+FIXED: 2024-03-18_Internet_Technician_Installer_66949181.md
+  career -> career
+  tags:  -> ['internet', 'technician', 'installer']
+  projects: [] -> []
+
+FIXED: 2024-03-21_Hormones_Influence_Bone_Structure_12705244.md
+  general -> general
+  tags:  -> ['hormones', 'influence', 'bone', 'structure']
+  projects: [] -> []
+
+FIXED: 2024-04-16_Discount_Percentage_Calculation_14821289.md
+  general -> general
+  tags:  -> ['discount', 'percentage', 'calculation']
+  projects: [] -> []
+
+FIXED: 2024-04-25_Alternative_Position_Inquiry_65100006.md
+  career -> career
+  tags:  -> ['warehouse-work', 'alternative', 'position', 'inquiry']
+  projects: [] -> []
+
+FIXED: 2024-04-30_Enhanced_Resume_Summary_45408875.md
+  career -> career
+  tags:  -> ['resume-writing', 'warehouse-work', 'supply-chain', 'enhanced', 'summary']
+  projects: [] -> []
+
+FIXED: 2024-04-30_Warehousing_to_IT_Transition_38433929.md
+  general -> general
+  tags:  -> ['warehousing', 'transition', 'general']
+  projects: [] -> []
+
+FIXED: 2024-05-01_Help_Desk_Cover_Letter_71175010.md
+  career -> career
+  tags:  -> ['warehouse-work', 'cover-letter', 'help-desk']
+  projects: [] -> []
+
+FIXED: 2024-05-01_Personable_Resume_Rewriting_80909443.md
+  career -> career
+  tags:  -> ['resume-writing', 'warehouse-work', 'logistics', 'hr-communication', 'personable', 'rewriting']
+  projects:  -> []
+
+FIXED: 2024-05-06_Imap_Email_Request_52668133.md
+  general -> general
+  tags:  -> ['imap', 'email', 'general']
+  projects: [] -> []
+
+FIXED: 2024-05-21_Exciting_IMAP_Journey_Begins_43311796.md
+  career -> career
+  tags:  -> ['comptia', 'exciting', 'imap', 'journey', 'begins']
+  projects:  -> ['it-certification']
+
+FIXED: 2024-06-09_Disability_Leave_Request_80729926.md
+  general -> general
+  tags:  -> ['disability', 'leave', 'general']
+  projects: [] -> []
+
+FIXED: 2024-06-30_Follow_Up_on_Production_Application_26606570.md
+  general -> career
+  tags:  -> ['follow', 'production', 'application']
+  projects: [] -> []
+
+FIXED: 2024-07-22_Follow_Up_Email_Template_80956830.md
+  career -> career
+  tags:  -> ['interview-prep', 'follow', 'email', 'template']
+  projects: [] -> []
+
+FIXED: 2024-08-07_Follow_Up_Email_Draft_38052393.md
+  career -> career
+  tags:  -> ['hr-communication', 'follow', 'email', 'draft']
+  projects: [] -> []
+
+FIXED: 2024-09-19_Evolution_and_Species_Change_79453840.md
+  general -> general
+  tags:  -> ['evolution', 'species', 'change']
+  projects: [] -> []
+
+FIXED: 2024-09-22_Wiz_Khalifa_Smoking_Image_Request_52473758.md
+  ai-tools -> general
+  tags:  -> ['wiz', 'khalifa', 'smoking', 'image']
+  projects: [] -> []
+
+FIXED: 2024-11-10_Beginner_Guide_to_NFTs_81838009.md
+  general -> crypto-web3
+  tags:  -> ['nft', 'beginner', 'crypto-web3']
+  projects: [] -> []
+
+FIXED: 2024-11-12_Crypto_Coins_to_Watch_57088254.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'solana', 'market-analysis', 'crypto', 'coins', 'watch']
+  projects:  -> []
+
+FIXED: 2024-12-13_MemesAI_Project_on_Solana_85271322.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['solana', 'memesai', 'project']
+  projects: [] -> []
+
+FIXED: 2024-12-20_Best_Stablecoin_Comparison_77077201.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['market-analysis', 'best', 'stablecoin', 'comparison']
+  projects: [] -> []
+
+FIXED: 2024-12-22_Weed_Themed_Banner_Request_92125664.md
+  streaming -> general
+  tags:  -> ['weed', 'themed', 'banner']
+  projects: [] -> []
+
+FIXED: 2024-12-29_Video_Creation_Assistance_87018827.md
+  streaming -> general
+  tags: ['streaming', 'script', 'ide', 'at', 'ram', 'video'] -> ['video', 'creation', 'assistance']
+  projects: [] -> []
+
+FIXED: 2025-01-06_Investment_Growth_Calculation_52156886.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['market-analysis', 'investment', 'growth', 'calculation']
+  projects: [] -> []
+
+FIXED: 2025-01-08_Hourly_wage_calculation_82258840.md
+  general -> career
+  tags:  -> ['hourly', 'wage', 'calculation']
+  projects: [] -> []
+
+FIXED: 2025-01-09_146_SOL_to_USD_58858547.md
+  general -> crypto-web3
+  tags:  -> ['sol', 'usd', 'crypto-web3']
+  projects: [] -> []
+
+FIXED: 2025-01-10_Ohio_Salary_Take_home_Estimate_11878800.md
+  crypto-web3 -> career
+  tags:  -> ['salary', 'ohio', 'home', 'estimate']
+  projects: [] -> []
+
+FIXED: 2025-01-10_What_is_Market_Cap_39352286.md
+  general -> crypto-web3
+  tags:  -> ['market-analysis', 'cap', 'crypto-web3']
+  projects: [] -> []
+
+FIXED: 2025-01-11_Blockchain_Biz_Ideas_52889925.md
+  streaming -> crypto-web3
+  tags:  -> ['blockchain', 'biz', 'crypto-web3']
+  projects: [] -> []
+
+FIXED: 2025-01-12_Market_Going_Sideways_31447894.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'market-analysis', 'sideways']
+  projects: [] -> []
+
+FIXED: 2025-01-13_Modded_Switch_for_Mig_V2_50792684.md
+  general -> homelab
+  tags:  -> ['modded', 'switch', 'mig']
+  projects: [] -> []
+
+FIXED: 2025-01-15_Cat_Age_Indicators_78517973.md
+  general -> general
+  tags:  -> ['cat', 'age', 'general']
+  projects: [] -> []
+
+FIXED: 2025-01-17_Taurus_Zodiac_Sign_40663365.md
+  general -> general
+  tags:  -> ['taurus', 'zodiac', 'sign']
+  projects: [] -> []
+
+FIXED: 2025-01-25_Best_Music_Streaming_Platforms_65605130.md
+  streaming -> streaming
+  tags:  -> ['best', 'music', 'streaming', 'platforms']
+  projects:  -> []
+
+FIXED: 2025-01-26_Conversation_Summary_75544141.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'conversation', 'summary']
+  projects: [] -> []
+
+FIXED: 2025-01-26_Funny_Atom_Joke_60156990.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'funny', 'atom', 'joke']
+  projects: [] -> []
+
+FIXED: 2025-01-27_Telegram_Bots_for_Crypto_26711575.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['telegram', 'bots', 'crypto']
+  projects: [] -> []
+
+FIXED: 2025-02-02_Bull_X_Memecoin_Strategy_85579597.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'bull', 'strategy']
+  projects: [] -> []
+
+FIXED: 2025-02-08_Weed_Ghost_Theme_17428497.md
+  streaming -> general
+  tags:  -> ['weed', 'ghost', 'theme']
+  projects: [] -> []
+
+FIXED: 2025-02-09_Weed_Edit_Ideas_21430003.md
+  streaming -> general
+  tags:  -> ['weed', 'edit', 'general']
+  projects: [] -> []
+
+FIXED: 2025-02-15_Crypto_Retrace_Explained_96516980.md
+  streaming -> crypto-web3
+  tags:  -> ['crypto', 'retrace', 'explained']
+  projects: [] -> []
+
+FIXED: 2025-02-15_Life_Path_11_Meaning_16077116.md
+  general -> general
+  tags:  -> ['life', 'path', 'meaning']
+  projects: [] -> []
+
+FIXED: 2025-02-15_Life_Path_9_Meaning_47606966.md
+  general -> general
+  tags:  -> ['life', 'path', 'meaning']
+  projects: [] -> []
+
+FIXED: 2025-02-15_Life_Path_Calculation_49104005.md
+  homelab -> general
+  tags:  -> ['life', 'path', 'calculation']
+  projects: [] -> []
+
+FIXED: 2025-02-16_Ghost_Sunglasses_Weed_Fantasy_26332400.md
+  ai-tools -> general
+  tags:  -> ['ghost', 'sunglasses', 'weed', 'fantasy']
+  projects: [] -> []
+
+FIXED: 2025-02-18_Government_Waste_Payments_Inquiry_54514768.md
+  general -> general
+  tags:  -> ['government', 'waste', 'payments', 'inquiry']
+  projects: [] -> []
+
+FIXED: 2025-02-20_ATS_Resume_Optimization_15165812.md
+  career -> career
+  tags:  -> ['resume-writing', 'warehouse-work', 'ats', 'optimization']
+  projects:  -> []
+
+FIXED: 2025-02-20_Buying_Coins_on_Base_23473145.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['wallet', 'buying', 'coins', 'base']
+  projects: [] -> []
+
+FIXED: 2025-02-20_Careers_in_Web3_89895945.md
+  career -> career
+  tags:  -> ['comptia', 'careers', 'web3']
+  projects:  -> ['it-certification']
+
+FIXED: 2025-02-20_What_is_Listeria_51807870.md
+  general -> general
+  tags:  -> ['listeria', 'general', 'gpt-conversation']
+  projects: [] -> []
+
+FIXED: 2025-02-21_Explain_request_summary_58677744.md
+  general -> homelab
+  tags:  -> ['explain', 'summary', 'homelab']
+  projects: [] -> []
+
+FIXED: 2025-02-22_Best_Fire_Stick_Apps_95873532.md
+  general -> general
+  tags:  -> ['best', 'fire', 'stick', 'apps']
+  projects: [] -> []
+
+FIXED: 2025-02-22_Crypto_Wallet_Safety_62098571.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'wallet', 'crypto', 'safety']
+  projects: [] -> []
+
+FIXED: 2025-02-22_Python_Assistance_Overview_12887883.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['solana', 'token', 'python', 'assistance']
+  projects: [] -> []
+
+FIXED: 2025-02-23_Best_Hall_Effect_Keyboards_35500310.md
+  general -> homelab
+  tags:  -> ['best', 'hall', 'effect', 'keyboards']
+  projects: [] -> []
+
+FIXED: 2025-02-23_Hall_Effect_Keyboards_Guide_84443155.md
+  general -> general
+  tags:  -> ['hall', 'effect', 'keyboards']
+  projects: [] -> []
+
+FIXED: 2025-02-25_QHD_vs_UHD_Comparison_44198755.md
+  general -> general
+  tags:  -> ['qhd', 'uhd', 'comparison']
+  projects: [] -> []
+
+FIXED: 2025-02-25_Slurricane_vs_Grape_Runtz_79310796.md
+  general -> general
+  tags:  -> ['slurricane', 'grape', 'runtz']
+  projects: [] -> []
+
+FIXED: 2025-02-26_ATS_Resume_Refining_47629175.md
+  career -> career
+  tags:  -> ['resume-writing', 'hr-communication', 'ats', 'refining']
+  projects:  -> []
+
+FIXED: 2025-02-27_Slurricane_vs_Grape_Runtz_13834467.md
+  general -> general
+  tags:  -> ['slurricane', 'grape', 'runtz']
+  projects: [] -> []
+
+FIXED: 2025-02-28_Ohio_Pay_After_Taxes_34683972.md
+  general -> general
+  tags:  -> ['ohio', 'pay', 'taxes']
+  projects: [] -> []
+
+FIXED: 2025-03-05_Coinbase_Wallet_XRP_Support_65463562.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['wallet', 'coinbase', 'xrp', 'support']
+  projects: [] -> []
+
+FIXED: 2025-03-06_Best_Apps_for_Jailbroken_Fire_Stick_67166233.md
+  general -> general
+  tags:  -> ['best', 'apps', 'jailbroken', 'fire', 'stick']
+  projects: [] -> []
+
+FIXED: 2025-03-06_Image_Blending_Request_65636497.md
+  streaming -> general
+  tags:  -> ['image', 'blending', 'general']
+  projects: [] -> []
+
+FIXED: 2025-03-06_Rib_cracking_explanation_42165405.md
+  homelab -> homelab
+  tags: ['homelab', 'ai', 'gpt', 'rag', 'lora', 'amm', 'near', 'long'] -> ['rib', 'cracking', 'explanation']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-03-07_Gelati_vs_Grape_Runtz_37422537.md
+  general -> general
+  tags:  -> ['gelati', 'grape', 'runtz']
+  projects: [] -> []
+
+FIXED: 2025-03-10_Managing_ADHD_Anxiety_Without_Meds_38292352.md
+  crypto-web3 -> general
+  tags:  -> ['managing', 'adhd', 'anxiety', 'without', 'meds']
+  projects: [] -> []
+
+FIXED: 2025-03-11_Chills_and_Headache_Symptoms_34944452.md
+  general -> general
+  tags:  -> ['chills', 'headache', 'symptoms']
+  projects: [] -> []
+
+FIXED: 2025-03-12_APA_Reference_Format_Guide_67457793.md
+  general -> general
+  tags:  -> ['apa', 'reference', 'format']
+  projects: [] -> []
+
+FIXED: 2025-03-13_Blood_Moon_Significance_42757792.md
+  general -> general
+  tags:  -> ['blood', 'moon', 'significance']
+  projects: [] -> []
+
+FIXED: 2025-03-13_Emotional_Detachment_from_Parents_57623935.md
+  general -> general
+  tags:  -> ['emotional', 'detachment', 'parents']
+  projects: [] -> []
+
+FIXED: 2025-03-13_US_Tariff_History_73234597.md
+  homelab -> general
+  tags:  -> ['tariff', 'history', 'general']
+  projects:  -> []
+
+FIXED: 2025-03-14_Best_Strain_Selection_87697998.md
+  streaming -> general
+  tags:  -> ['best', 'strain', 'selection']
+  projects: [] -> []
+
+FIXED: 2025-03-14_Cashing_Out_Memecoins_Phantom_51231659.md
+  crypto-web3 -> crypto-web3
+  tags: ['crypto-web3', 'crypto', 'jupiter', 'token', 'wallet', 'phantom', 'liquidity', 'swap'] -> ['memecoin', 'wallet', 'cashing', 'phantom']
+  projects: [] -> []
+
+FIXED: 2025-03-14_Gumbo_Weed_Strain_Info_61587583.md
+  general -> general
+  tags:  -> ['gumbo', 'weed', 'strain', 'info']
+  projects: [] -> []
+
+FIXED: 2025-03-17_Finding_Your_Ikigai_35071179.md
+  general -> general
+  tags:  -> ['finding', 'ikigai', 'general']
+  projects: [] -> []
+
+FIXED: 2025-03-18_Shorting_Memecoins_in_Crypto_41671905.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'shorting', 'crypto']
+  projects: [] -> []
+
+FIXED: 2025-03-19_Strongest_Weed_Option_44627525.md
+  general -> general
+  tags:  -> ['strongest', 'weed', 'option']
+  projects: [] -> []
+
+FIXED: 2025-03-20_Trump_Board_of_Education_Rumor_40249963.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'trump', 'board', 'education', 'rumor']
+  projects: [] -> []
+
+FIXED: 2025-03-21_CompTIA_A_Key_Points_10732877.md
+  homelab -> career
+  tags: ['homelab', 'ai', 'model', 'rag', 'python', 'go', 'bash', 'shell'] -> ['comptia', 'key', 'points']
+  projects: ['homelab-stack', 'it-certification'] -> ['it-certification']
+
+FIXED: 2025-03-22_Klarna_DoorDash_Payment_Rollout_14825069.md
+  general -> general
+  tags:  -> ['klarna', 'doordash', 'payment', 'rollout']
+  projects: [] -> []
+
+FIXED: 2025-03-24_Potent_Strain_Recommendation_38418933.md
+  streaming -> general
+  tags:  -> ['potent', 'strain', 'recommendation']
+  projects: [] -> []
+
+FIXED: 2025-03-25_Time_Addition_Query_81507953.md
+  general -> general
+  tags:  -> ['time', 'addition', 'query']
+  projects: [] -> []
+
+FIXED: 2025-03-26_AV_stand_identification_10459413.md
+  streaming -> general
+  tags:  -> ['stand', 'identification', 'general']
+  projects: [] -> []
+
+FIXED: 2025-03-26_Arma_Reforger_vs_HLL_40437941.md
+  general -> general
+  tags:  -> ['arma', 'reforger', 'hll']
+  projects: [] -> []
+
+FIXED: 2025-03-27_Best_Silent_Gaming_Keyboards_59448593.md
+  general -> general
+  tags:  -> ['best', 'silent', 'gaming', 'keyboards']
+  projects: [] -> []
+
+FIXED: 2025-03-27_Studio_Ghibli_Style_Request_32677241.md
+  streaming -> general
+  tags:  -> ['studio', 'ghibli', 'style']
+  projects: [] -> []
+
+FIXED: 2025-03-28_Best_XRP_Hot_Wallets_45495100.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['wallet', 'best', 'xrp', 'hot']
+  projects: [] -> []
+
+FIXED: 2025-03-28_Crypto_Chart_Analysis_70323145.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'liquidity', 'wallet', 'market-analysis', 'crypto', 'chart']
+  projects: [] -> []
+
+FIXED: 2025-03-28_Ghibli_Style_Request_14680759.md
+  streaming -> general
+  tags:  -> ['ghibli', 'style', 'general']
+  projects: [] -> []
+
+FIXED: 2025-03-28_Studio_Ghibli_Style_Request_96482315.md
+  streaming -> general
+  tags:  -> ['studio', 'ghibli', 'style']
+  projects: [] -> []
+
+FIXED: 2025-03-28_XRP_Wallet_Options_70265643.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['wallet', 'xrp', 'options']
+  projects: [] -> []
+
+FIXED: 2025-03-29_Ghibli_style_Farod_Illustration_89756988.md
+  general -> general
+  tags:  -> ['ghibli', 'style', 'farod', 'illustration']
+  projects: [] -> []
+
+FIXED: 2025-03-29_Inappropriate_request_rejection_62788521.md
+  general -> general
+  tags:  -> ['inappropriate', 'rejection', 'general']
+  projects: [] -> []
+
+FIXED: 2025-03-29_MLK_Dunking_on_Ajani_36646250.md
+  ai-tools -> general
+  tags:  -> ['mlk', 'dunking', 'ajani']
+  projects: [] -> []
+
+FIXED: 2025-03-29_Minecraft_Style_Request_13553028.md
+  streaming -> general
+  tags:  -> ['minecraft', 'style', 'general']
+  projects: [] -> []
+
+FIXED: 2025-03-29_Signature_Item_Value_Estimate_25459102.md
+  streaming -> general
+  tags:  -> ['signature', 'item', 'value', 'estimate']
+  projects: [] -> []
+
+FIXED: 2025-03-29_Studio_Ghibli_Style_Request_52473743.md
+  streaming -> general
+  tags:  -> ['studio', 'ghibli', 'style']
+  projects: [] -> []
+
+FIXED: 2025-03-29_Trade_ETFs_on_TV_45037222.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['trading', 'trade', 'etfs']
+  projects: [] -> []
+
+FIXED: 2025-03-30_Best_Crypto_Hardware_Wallets_12986902.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'wallet', 'best', 'crypto', 'hardware']
+  projects: [] -> []
+
+FIXED: 2025-03-30_Discord_Music_Visualizer_Bot_56035757.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'discord', 'music', 'visualizer', 'bot']
+  projects: [] -> []
+
+FIXED: 2025-03-30_Minecraft_Villager_Image_Request_23374613.md
+  streaming -> general
+  tags:  -> ['minecraft', 'villager', 'image']
+  projects: [] -> []
+
+FIXED: 2025-03-31_CompTIA_A_Exam_Guide_61526940.md
+  homelab -> career
+  tags:  -> ['comptia', 'exam', 'career']
+  projects:  -> ['it-certification']
+
+FIXED: 2025-03-31_CompTIA_A_Operational_Procedures_Summary_48314026.md
+  general -> career
+  tags:  -> ['comptia', 'operational', 'procedures', 'summary']
+  projects:  -> ['it-certification']
+
+FIXED: 2025-03-31_Liquidity_for_Market_Cap_91578569.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['liquidity', 'market-analysis', 'cap']
+  projects: [] -> []
+
+FIXED: 2025-03-31_Pixel_Art_Request_69191909.md
+  streaming -> general
+  tags:  -> ['pixel', 'art', 'general']
+  projects: [] -> []
+
+FIXED: 2025-03-31_Violent_Tendencies_and_Genetics_25789202.md
+  general -> general
+  tags:  -> ['violent', 'tendencies', 'genetics']
+  projects: [] -> []
+
+FIXED: 2025-04-01_Flower_vs_Concentrates_Cost_Effectiveness_28307859.md
+  general -> general
+  tags:  -> ['flower', 'concentrates', 'cost', 'effectiveness']
+  projects: [] -> []
+
+FIXED: 2025-04-01_Flower_vs_Concentrates_Strategy_15156407.md
+  general -> general
+  tags:  -> ['flower', 'concentrates', 'strategy']
+  projects: [] -> []
+
+FIXED: 2025-04-01_SPX_Wormhole_vs_ETH_52869763.md
+  general -> general
+  tags:  -> ['spx', 'wormhole', 'eth']
+  projects: [] -> []
+
+FIXED: 2025-04-02_Rainbow_Blts_Inquiry_59075647.md
+  general -> general
+  tags:  -> ['rainbow', 'blts', 'inquiry']
+  projects: [] -> []
+
+FIXED: 2025-04-03_Action_Figure_Design_Concept_39446578.md
+  streaming -> homelab
+  tags:  -> ['container', 'action', 'figure', 'design', 'concept']
+  projects: [] -> []
+
+FIXED: 2025-04-03_Figure_Memecoin_Pump_Analysis_25008465.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'market-analysis', 'figure', 'pump']
+  projects: [] -> []
+
+FIXED: 2025-04-03_Moonman_Character_Concept_38134415.md
+  streaming -> general
+  tags:  -> ['moonman', 'character', 'concept']
+  projects: [] -> []
+
+FIXED: 2025-04-04_3_Raise_Take_Home_Ohio_44455521.md
+  general -> career
+  tags:  -> ['raise', 'home', 'ohio']
+  projects: [] -> []
+
+FIXED: 2025-04-04_Ohio_tax_estimate_76918525.md
+  general -> general
+  tags:  -> ['ohio', 'tax', 'estimate']
+  projects: [] -> []
+
+FIXED: 2025-04-07_How_to_Buy_ONDO_20678709.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['token', 'wallet', 'buy', 'ondo']
+  projects: [] -> []
+
+FIXED: 2025-04-07_Network_Study_Guide_69200188.md
+  homelab -> career
+  tags:  -> ['hr-communication', 'comptia', 'network', 'study']
+  projects:  -> ['it-certification']
+
+FIXED: 2025-04-07_Network_Study_Notes_46985921.md
+  homelab -> career
+  tags:  -> ['hr-communication', 'comptia', 'network', 'study', 'notes']
+  projects:  -> ['it-certification']
+
+FIXED: 2025-04-07_Untreated_Patellar_Tendinitis_Risks_51428385.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['wallet', 'untreated', 'patellar', 'tendinitis', 'risks']
+  projects: [] -> []
+
+FIXED: 2025-04-08_Best_ETF_Trading_Apps_59302157.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['trading', 'best', 'etf', 'apps']
+  projects: [] -> []
+
+FIXED: 2025-04-08_Best_Stock_Tracking_Apps_41183193.md
+  general -> crypto-web3
+  tags:  -> ['best', 'stock', 'tracking', 'apps']
+  projects: [] -> []
+
+FIXED: 2025-04-08_Top_ETF_Picks_Dip_23158276.md
+  general -> general
+  tags:  -> ['top', 'etf', 'picks', 'dip']
+  projects: [] -> []
+
+FIXED: 2025-04-08_TradingView_Overview_15974572.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['trading', 'crypto-web3', 'gpt-conversation']
+  projects: [] -> []
+
+FIXED: 2025-04-09_Approve_Ledger_Transactions_Bluetooth_63476252.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'solana', 'wallet', 'approve', 'ledger', 'transactions', 'bluetooth']
+  projects: [] -> []
+
+FIXED: 2025-04-09_Cereal_Milk_Rosin_Dab_Tips_12435710.md
+  general -> general
+  tags:  -> ['cereal', 'milk', 'rosin', 'dab']
+  projects: [] -> []
+
+FIXED: 2025-04-09_Flavor_vs_Effect_Selection_12546184.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'solana', 'wallet', 'flavor', 'effect', 'selection']
+  projects: [] -> []
+
+FIXED: 2025-04-11_Mimo_for_Python_Learning_49156486.md
+  coding -> general
+  tags: ['coding', 'ai', 'rag', 'short', 'python', 'go', 'code', 'ide'] -> ['mimo', 'python', 'learning']
+  projects: [] -> []
+
+FIXED: 2025-04-11_USDC_to_Coinbase_Card_77012977.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['wallet', 'usdc', 'coinbase', 'card']
+  projects: [] -> []
+
+FIXED: 2025-04-12_Judging_Individuals_Responsibly_81556302.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'judging', 'individuals', 'responsibly']
+  projects: [] -> []
+
+FIXED: 2025-04-12_R_Kelly_song_inquiry_89938568.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'kelly', 'song', 'inquiry']
+  projects: [] -> []
+
+FIXED: 2025-04-12_Woodchuck_Chucking_Calculation_58236222.md
+  general -> general
+  tags:  -> ['woodchuck', 'chucking', 'calculation']
+  projects: [] -> []
+
+FIXED: 2025-04-12_Woodchuck_Dih_Suh_Rhyme_87181036.md
+  general -> general
+  tags:  -> ['woodchuck', 'dih', 'suh', 'rhyme']
+  projects: [] -> []
+
+FIXED: 2025-04-13_HarryPotterObamaSonic10Inu_Overview_48516811.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['solana', 'harrypotterobamasonic10inu', 'crypto-web3']
+  projects: [] -> []
+
+FIXED: 2025-04-13_Heavy_Hitting_Strain_Recommendations_41683259.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'liquidity', 'heavy', 'hitting', 'strain', 'recommendations']
+  projects: [] -> []
+
+FIXED: 2025-04-14_Meditation_Third_Eye_Pressure_75872392.md
+  crypto-web3 -> general
+  tags:  -> ['meditation', 'third', 'eye', 'pressure']
+  projects: [] -> []
+
+FIXED: 2025-04-15_Memecoin_Profit_Taking_Strategy_47196238.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'profit', 'taking', 'strategy']
+  projects: [] -> []
+
+FIXED: 2025-04-16_Blue_Origin_All_Female_Flight_74174388.md
+  homelab -> general
+  tags:  -> ['blue', 'origin', 'female', 'flight']
+  projects:  -> []
+
+FIXED: 2025-04-17_ChatGPT_4_Version_Info_27178575.md
+  ai-tools -> ai-tools
+  tags: ['ai-tools', 'ai', 'gpt', 'model', 'script', 'at'] -> ['chatgpt', 'version', 'info']
+  projects: [] -> []
+
+FIXED: 2025-04-17_Learning_Python_for_Beginners_27085461.md
+  career -> career
+  tags:  -> ['learning', 'python', 'beginners']
+  projects:  -> []
+
+FIXED: 2025-04-17_Orange_Juice_Bong_Risks_23290891.md
+  general -> general
+  tags:  -> ['orange', 'juice', 'bong', 'risks']
+  projects: [] -> []
+
+FIXED: 2025-04-18_Patellar_Tendinitis_Surgery_Overview_52461149.md
+  coding -> crypto-web3
+  tags: ['coding', 'module', 'ai', 'model', 'rag', 'solana', 'ethereum', 'defi'] -> ['solana', 'patellar', 'tendinitis', 'surgery']
+  projects: [] -> []
+
+FIXED: 2025-04-18_Web3_Career_Fit_10954534.md
+  career -> career
+  tags:  -> ['warehouse-work', 'web3', 'career', 'fit']
+  projects: [] -> []
+
+FIXED: 2025-04-19_Beginner_Python_Video_Suggestions_78180074.md
+  coding -> general
+  tags: ['coding', 'ai', 'amm', 'short', 'python', 'go', 'shell', 'code'] -> ['beginner', 'python', 'video']
+  projects: [] -> []
+
+FIXED: 2025-04-19_Ledger_Nano_Security_Features_60311797.md
+  general -> crypto-web3
+  tags:  -> ['ledger', 'nano', 'security', 'features']
+  projects: [] -> []
+
+FIXED: 2025-04-19_Python_Blockchain_Portfolio_Guide_68167262.md
+  coding -> crypto-web3
+  tags: ['coding', 'module', 'ai', 'model', 'lora', 'bitcoin', 'ethereum', 'crypto'] -> ['python', 'blockchain', 'portfolio']
+  projects: [] -> []
+
+FIXED: 2025-04-19_Python_for_Dummies_35736198.md
+  coding -> general
+  tags: ['coding', 'ai', 'gpt', 'python', 'script', 'function', 'cli', 'exam'] -> ['python', 'dummies', 'general']
+  projects: [] -> []
+
+FIXED: 2025-04-19_Web3_Python_Projects_61854887.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['solana', 'wallet', 'ethereum', 'web3', 'python', 'projects']
+  projects: [] -> []
+
+FIXED: 2025-04-20_Brutally_Honest_Execution_Review_63120249.md
+  coding -> crypto-web3
+  tags:  -> ['memecoin', 'solana', 'bitcoin', 'brutally', 'honest', 'execution', 'review']
+  projects: [] -> []
+
+FIXED: 2025-04-20_Python_Journey_Progress_89088221.md
+  coding -> general
+  tags: ['coding', 'ai', 'model', 'rag', 'crypto', 'blockchain', 'trading', 'leverage'] -> ['python', 'journey', 'progress']
+  projects: [] -> []
+
+FIXED: 2025-04-20_What_is_def_in_Python_86149090.md
+  coding -> coding
+  tags: ['coding', 'ai', 'embedding', 'solana', 'bitcoin', 'crypto', 'defi', 'dex'] -> ['python', 'api', 'def']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-04-21_Idea_Feedback_Request_27556172.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['solana', 'idea', 'feedback']
+  projects: [] -> []
+
+FIXED: 2025-04-21_Ledger_Memecoin_Approval_Process_81318461.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'wallet', 'ledger', 'approval', 'process']
+  projects: [] -> []
+
+FIXED: 2025-04-21_Puffco_Pivot_Party_Mode_43545820.md
+  homelab -> general
+  tags:  -> ['puffco', 'pivot', 'party', 'mode']
+  projects:  -> []
+
+FIXED: 2025-04-21_Trump_Sharpiegate_Controversy_43308361.md
+  general -> general
+  tags:  -> ['trump', 'sharpiegate', 'controversy']
+  projects: [] -> []
+
+FIXED: 2025-04-22_Solana_Tracker_Code_Help_79713582.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['solana', 'tracker', 'code']
+  projects: [] -> []
+
+FIXED: 2025-04-22_Web3_Data_Career_Plan_22228389.md
+  career -> general
+  tags:  -> ['web3', 'data', 'career', 'plan']
+  projects:  -> []
+
+FIXED: 2025-04-23_Coding_By_Hand_Tips_44723931.md
+  coding -> general
+  tags: ['coding', 'ai', 'python', 'go', 'code', 'debug', 'error', 'syntax'] -> ['coding', 'hand', 'general']
+  projects: [] -> []
+
+FIXED: 2025-04-23_Solana_Price_Surge_Factors_69923800.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['solana', 'price', 'surge', 'factors']
+  projects:  -> []
+
+FIXED: 2025-04-24_Halle_Berry_strain_overview_87578689.md
+  coding -> general
+  tags: ['coding', 'ai', 'gpt', 'cursor', 'copilot', 'ai assistant', 'defi', 'amm'] -> ['halle', 'berry', 'strain']
+  projects: [] -> []
+
+FIXED: 2025-04-24_Mumu_the_Bull_Crypto_17830113.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['mumu', 'bull', 'crypto']
+  projects: [] -> []
+
+FIXED: 2025-04-24_Strain_Choice_Breakdown_29886480.md
+  streaming -> general
+  tags:  -> ['strain', 'choice', 'breakdown']
+  projects: [] -> []
+
+FIXED: 2025-04-25_API_Naming_Convention_56989872.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'solana', 'market-analysis', 'bitcoin', 'api', 'naming', 'convention']
+  projects: [] -> []
+
+FIXED: 2025-04-26_Portfolio_Project_Brainstorming_50180736.md
+  coding -> crypto-web3
+  tags: ['coding', 'ai', 'rag', 'solana', 'crypto', 'defi', 'web3', 'memecoin'] -> ['solana', 'portfolio', 'project', 'brainstorming']
+  projects: [] -> []
+
+FIXED: 2025-04-26_Project_Worth_or_Pivot_19169951.md
+  coding -> crypto-web3
+  tags:  -> ['solana', 'market-analysis', 'project', 'worth', 'pivot']
+  projects: [] -> []
+
+FIXED: 2025-04-27_Brutal_Reality_Check_85404796.md
+  career -> career
+  tags:  -> ['warehouse-work', 'hr-communication', 'brutal', 'reality', 'check']
+  projects: [] -> []
+
+FIXED: 2025-04-28_A_Network_Exam_Notes_54860515.md
+  crypto-web3 -> homelab
+  tags:  -> ['networking', 'storage', 'exam', 'notes']
+  projects:  -> ['it-certification']
+
+FIXED: 2025-04-28_Network_Exam_Simplified_43438477.md
+  ai-tools -> general
+  tags:  -> ['network', 'exam', 'simplified']
+  projects: [] -> []
+
+FIXED: 2025-04-29_AI_Project_Breakdown_70232569.md
+  coding -> crypto-web3
+  tags: ['coding', 'ai', 'solana', 'crypto', 'defi', 'wallet', 'web3', 'memecoin'] -> ['solana', 'market-analysis', 'project', 'breakdown']
+  projects: [] -> []
+
+FIXED: 2025-04-29_Brutal_Truth_for_Growth_10343908.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['solana', 'brutal', 'truth', 'growth']
+  projects: [] -> []
+
+FIXED: 2025-04-29_Code_Help_Request_64777124.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['solana', 'market-analysis', 'code']
+  projects: [] -> []
+
+FIXED: 2025-04-29_Code_Review_and_Next_Steps_46045168.md
+  coding -> crypto-web3
+  tags: ['coding', 'ai', 'solana', 'bitcoin', 'ethereum', 'defi', 'memecoin', 'long'] -> ['solana', 'market-analysis', 'code', 'review', 'next', 'steps']
+  projects: [] -> []
+
+FIXED: 2025-04-29_Memecoin_ROI_Calculation_59168438.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'market-analysis', 'roi', 'calculation']
+  projects: [] -> []
+
+FIXED: 2025-04-29_Most_Dangerous_Game_Act_86914682.md
+  general -> general
+  tags:  -> ['dangerous', 'game', 'act']
+  projects: [] -> []
+
+FIXED: 2025-04-29_Network_Exam_Resources_27293132.md
+  streaming -> career
+  tags:  -> ['network', 'exam', 'resources']
+  projects: [] -> []
+
+FIXED: 2025-04-29_Trollcoin_Price_Prediction_27853544.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['market-analysis', 'trollcoin', 'price', 'prediction']
+  projects: [] -> []
+
+FIXED: 2025-05-01_Count_apples_in_image_10126418.md
+  general -> general
+  tags: ['general'] -> ['count', 'apples', 'image']
+  projects: [] -> []
+
+FIXED: 2025-05-01_LLM_Server_Cooling_Solutions_27119142.md
+  homelab -> ai-tools
+  tags:  -> ['llm', 'server', 'cooling', 'solutions']
+  projects: [] -> []
+
+FIXED: 2025-05-01_TROLL_Memecoin_Analysis_75841081.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'market-analysis', 'troll']
+  projects: [] -> []
+
+FIXED: 2025-05-01_TROLL_Token_Analysis_74412888.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'market-analysis', 'troll']
+  projects: [] -> []
+
+FIXED: 2025-05-02_Eames_Chair_Identification_65025666.md
+  streaming -> general
+  tags:  -> ['eames', 'chair', 'identification']
+  projects: [] -> []
+
+FIXED: 2025-05-02_Pet_Nap_Illustration_Request_81094623.md
+  general -> general
+  tags:  -> ['pet', 'nap', 'illustration']
+  projects: [] -> []
+
+FIXED: 2025-05-03_Alien_Mints_Weed_Strain_66656418.md
+  homelab -> general
+  tags:  -> ['alien', 'mints', 'weed', 'strain']
+  projects:  -> []
+
+FIXED: 2025-05-04_Star_Wars_Viewing_Order_17876467.md
+  general -> general
+  tags:  -> ['star', 'wars', 'viewing', 'order']
+  projects: [] -> []
+
+FIXED: 2025-05-05_How_Tater_Tots_Work_24453838.md
+  general -> general
+  tags:  -> ['tater', 'tots', 'work']
+  projects: [] -> []
+
+FIXED: 2025-05-06_Fortnite_on_Linux_40305815.md
+  homelab -> general
+  tags: ['homelab', 'ide', 'node', 'at', 'linux', 'windows', 'nvidia', 'gpu'] -> ['fortnite', 'linux', 'general']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-05-06_Half_Day_Request_Justification_40865788.md
+  general -> general
+  tags:  -> ['half', 'day', 'justification']
+  projects: [] -> []
+
+FIXED: 2025-05-06_Leaving_Early_Justification_76941117.md
+  streaming -> general
+  tags:  -> ['leaving', 'early', 'justification']
+  projects: [] -> []
+
+FIXED: 2025-05-09_Crypto_Trust_Tax_Strategy_76037452.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['crypto', 'trust', 'tax', 'strategy']
+  projects: [] -> []
+
+FIXED: 2025-05-09_Granny_Apple_vs_Sunset_Biscotti_89537318.md
+  career -> career
+  tags:  -> ['401k', 'granny', 'apple', 'sunset', 'biscotti']
+  projects: [] -> []
+
+FIXED: 2025-05-10_Exit_Ubuntu_Return_Windows_24149382.md
+  homelab -> general
+  tags:  -> ['exit', 'ubuntu', 'return', 'windows']
+  projects: [] -> []
+
+FIXED: 2025-05-10_Python_Code_Debugging_Help_90946988.md
+  crypto-web3 -> coding
+  tags:  -> ['python', 'api', 'debugging', 'error-fixing', 'code']
+  projects: [] -> []
+
+FIXED: 2025-05-10_Trust_and_Crypto_Taxes_23642272.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['trust', 'crypto', 'taxes']
+  projects: [] -> []
+
+FIXED: 2025-05-11_Apple_Music_on_Linux_70779454.md
+  homelab -> homelab
+  tags:  -> ['linux', 'gpu', 'apple', 'music']
+  projects: [] -> []
+
+FIXED: 2025-05-11_Best_Linux_Distro_for_Gaming_74634281.md
+  streaming -> general
+  tags:  -> ['best', 'linux', 'distro', 'gaming']
+  projects: [] -> []
+
+FIXED: 2025-05-11_Create_Nobara_Bootable_USB_31815713.md
+  homelab -> homelab
+  tags: ['homelab', 'module', 'ai', 'gpt', 'model', 'go', 'shell', 'error'] -> ['container', 'create', 'nobara', 'bootable', 'usb']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-05-11_Fix_USB_Storage_Issue_79762668.md
+  ai-tools -> general
+  tags:  -> ['fix', 'usb', 'storage', 'issue']
+  projects: [] -> []
+
+FIXED: 2025-05-11_Hyprland_on_Nobara_52246810.md
+  homelab -> general
+  tags:  -> ['hyprland', 'nobara', 'general']
+  projects:  -> []
+
+FIXED: 2025-05-11_Ricing_Nobara_OS_32444713.md
+  general -> general
+  tags:  -> ['ricing', 'nobara', 'general']
+  projects: [] -> []
+
+FIXED: 2025-05-11_UEFI_settings_after_Nobara_91136057.md
+  streaming -> homelab
+  tags:  -> ['linux', 'container', 'uefi', 'settings', 'nobara']
+  projects: [] -> []
+
+FIXED: 2025-05-11_Uninstalling_Rufus_83336441.md
+  general -> general
+  tags:  -> ['uninstalling', 'rufus', 'general']
+  projects: [] -> []
+
+FIXED: 2025-05-13_Learning_Python_with_AI_51242032.md
+  coding -> general
+  tags: ['coding', 'ai', 'gpt', 'cursor', 'copilot', 'crypto', 'perp', 'long'] -> ['learning', 'python', 'general']
+  projects: [] -> []
+
+FIXED: 2025-05-13_Long_term_LLM_Cooling_Solutions_86697487.md
+  ai-tools -> ai-tools
+  tags:  -> ['llm', 'long', 'term', 'cooling', 'solutions']
+  projects: [] -> []
+
+FIXED: 2025-05-15_Stoner_Game_Night_Ideas_86513005.md
+  homelab -> general
+  tags:  -> ['stoner', 'game', 'night']
+  projects: [] -> []
+
+FIXED: 2025-05-16_USD_Collapse_Stablecoin_Alternatives_69383023.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['usd', 'collapse', 'stablecoin', 'alternatives']
+  projects: [] -> []
+
+FIXED: 2025-05-17_Memecoin_Market_Bloodbath_Explained_15543415.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'market-analysis', 'bloodbath', 'explained']
+  projects: [] -> []
+
+FIXED: 2025-05-23_Strain_Choice_Advice_87317373.md
+  streaming -> general
+  tags:  -> ['strain', 'choice', 'advice']
+  projects: [] -> []
+
+FIXED: 2025-05-23_What_is_Market_Cap_43988046.md
+  general -> crypto-web3
+  tags:  -> ['market-analysis', 'cap', 'crypto-web3']
+  projects: [] -> []
+
+FIXED: 2025-05-26_Cloud_Computing_Resource_Pools_84891895.md
+  homelab -> general
+  tags: ['homelab', 'module', 'docker', 'ai', 'rag', 'go', 'code', 'import'] -> ['cloud', 'computing', 'resource', 'pools']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-05-26_Doubt_and_Self_Confidence_52390143.md
+  crypto-web3 -> general
+  tags:  -> ['doubt', 'self', 'confidence']
+  projects: [] -> []
+
+FIXED: 2025-05-26_Project_Stargate_Explained_65085606.md
+  general -> general
+  tags:  -> ['project', 'stargate', 'explained']
+  projects: [] -> []
+
+FIXED: 2025-05-26_Red_Dry_Peeling_Hands_28003736.md
+  streaming -> general
+  tags:  -> ['red', 'dry', 'peeling', 'hands']
+  projects: [] -> []
+
+FIXED: 2025-05-27_AI_as_Human_Reflection_70773559.md
+  general -> general
+  tags:  -> ['human', 'reflection', 'general']
+  projects: [] -> []
+
+FIXED: 2025-05-27_Burning_Knee_Patellar_Tendinitis_22316688.md
+  general -> general
+  tags:  -> ['burning', 'knee', 'patellar', 'tendinitis']
+  projects: [] -> []
+
+FIXED: 2025-05-27_Port_Numbers_Made_Simple_80651440.md
+  career -> career
+  tags:  -> ['hr-communication', 'comptia', 'comptia-a-plus', 'port', 'numbers', 'simple']
+  projects:  -> ['it-certification']
+
+FIXED: 2025-05-28_Career_Advice_Request_64660556.md
+  career -> career
+  tags:  -> ['resume-writing', 'warehouse-work', 'hr-communication', 'comptia', 'career', 'advice']
+  projects:  -> ['it-certification']
+
+FIXED: 2025-05-28_SB_56_HB_160_Summary_31516412.md
+  streaming -> general
+  tags:  -> ['summary', 'general', 'gpt-conversation']
+  projects: [] -> []
+
+FIXED: 2025-05-29_AI_Prompting_and_Automation_Skills_74730885.md
+  career -> career
+  tags:  -> ['resume-writing', 'interview-prep', 'prompting', 'automation', 'skills']
+  projects: [] -> []
+
+FIXED: 2025-05-29_ATS_Resume_Formatting_Help_82225969.md
+  career -> career
+  tags:  -> ['resume-writing', 'hr-communication', 'ats', 'formatting']
+  projects: [] -> []
+
+FIXED: 2025-05-29_ATS_Resume_Optimization_36757648.md
+  career -> career
+  tags:  -> ['resume-writing', 'warehouse-work', 'logistics', 'hr-communication', 'help-desk', 'ats', 'optimization']
+  projects: [] -> []
+
+FIXED: 2025-05-29_ATS_Resume_Optimization_Help_33953775.md
+  career -> career
+  tags:  -> ['resume-writing', 'warehouse-work', 'logistics', 'hr-communication', 'ats', 'optimization']
+  projects: [] -> []
+
+FIXED: 2025-05-29_Bullish_vs_Bearish_Explained_84373136.md
+  crypto-web3 -> career
+  tags:  -> ['bullish', 'bearish', 'explained']
+  projects: [] -> []
+
+FIXED: 2025-05-29_Delete_blank_page_Docs_10620361.md
+  career -> career
+  tags:  -> ['resume-writing', 'delete', 'blank', 'page', 'docs']
+  projects: [] -> []
+
+FIXED: 2025-05-29_Resume_Summary_Advice_43385633.md
+  career -> career
+  tags:  -> ['resume-writing', 'warehouse-work', 'logistics', 'supply-chain', 'hr-communication', 'help-desk', 'summary', 'advice']
+  projects: [] -> []
+
+FIXED: 2025-05-29_Rewording_for_Clarity_56727957.md
+  career -> career
+  tags:  -> ['interview-prep', 'comptia', 'rewording', 'clarity']
+  projects:  -> ['it-certification']
+
+FIXED: 2025-05-31_Building_LinkedIn_Presence_Tech_Transition_72544138.md
+  career -> homelab
+  tags:  -> ['storage', 'building', 'linkedin', 'presence', 'tech', 'transition']
+  projects:  -> []
+
+FIXED: 2025-05-31_Custom_PC_LinkedIn_Post_71016027.md
+  career -> homelab
+  tags:  -> ['custom', 'linkedin', 'post']
+  projects:  -> []
+
+FIXED: 2025-05-31_LinkedIn_Post_Feedback_33152914.md
+  career -> career
+  tags:  -> ['linkedin', 'post', 'feedback']
+  projects: [] -> []
+
+FIXED: 2025-05-31_Project_Brainstorming_Ideas_39486724.md
+  coding -> homelab
+  tags: ['coding', 'ai', 'agent', 'ethereum', 'crypto', 'defi', 'token', 'wallet'] -> ['project', 'brainstorming', 'homelab']
+  projects: ['it-certification'] -> []
+
+FIXED: 2025-05-31_Python_IT_Troubleshooter_53262298.md
+  coding -> homelab
+  tags: ['coding', 'ai', 'defi', 'python', 'go', 'code', 'ide', 'function'] -> ['python', 'troubleshooter', 'homelab']
+  projects: [] -> []
+
+FIXED: 2025-05-31_Start_Python_in_VS_Code_33452001.md
+  coding -> general
+  tags: ['coding', 'ai', 'python', 'go', 'code', 'script', 'debug', 'syntax'] -> ['start', 'python', 'code']
+  projects: [] -> []
+
+FIXED: 2025-05-31_Web3_Portfolio_Projects_20939400.md
+  career -> career
+  tags:  -> ['resume-writing', 'help-desk', 'web3', 'portfolio', 'projects']
+  projects:  -> []
+
+FIXED: 2025-06-01_Swap_SOL_for_BTC_60880392.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['solana', 'wallet', 'bitcoin', 'swap', 'btc']
+  projects: [] -> []
+
+FIXED: 2025-06-02_CompTIA_A_Study_Notes_19320249.md
+  streaming -> career
+  tags:  -> ['comptia', 'study', 'notes']
+  projects: [] -> []
+
+FIXED: 2025-06-02_Networking_Terms_Explained_65011153.md
+  homelab -> homelab
+  tags: ['homelab', 'ai', 'short', 'ide', 'node', 'at', 'network', 'firewall'] -> ['networking', 'container', 'terms', 'explained']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-06-02_OXFUN_App_Features_25010821.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['trading', 'leverage-trading', 'oxfun', 'app', 'features']
+  projects: [] -> []
+
+FIXED: 2025-06-02_Reflection_vs_Presence_39693742.md
+  crypto-web3 -> general
+  tags:  -> ['reflection', 'presence', 'general']
+  projects: [] -> []
+
+FIXED: 2025-06-02_Shorting_Explained_in_Leverage_81614546.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['trading', 'leverage-trading', 'shorting', 'explained']
+  projects: [] -> []
+
+FIXED: 2025-06-03_10_Year_AI_Outlook_35439803.md
+  general -> general
+  tags:  -> ['year', 'outlook', 'general']
+  projects: [] -> []
+
+FIXED: 2025-06-06_No_Locked_Liquidity_Risk_68355608.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['liquidity', 'bitcoin', 'locked', 'risk']
+  projects: [] -> []
+
+FIXED: 2025-06-10_CEX_vs_DEX_Explained_49921021.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['dex', 'cex', 'explained']
+  projects: [] -> []
+
+FIXED: 2025-06-11_GME_SOL_ATH_Return_56632867.md
+  streaming -> crypto-web3
+  tags:  -> ['market-analysis', 'gme', 'sol', 'ath', 'return']
+  projects: [] -> []
+
+FIXED: 2025-06-15_Delete_WSL_and_Reinstall_11843067.md
+  homelab -> general
+  tags:  -> ['delete', 'wsl', 'reinstall']
+  projects: [] -> []
+
+FIXED: 2025-06-15_LLM_Error_Breakdown_Request_20599459.md
+  crypto-web3 -> ai-tools
+  tags:  -> ['llm', 'prompt-engineering', 'rag', 'local-llm', 'error', 'breakdown']
+  projects:  -> []
+
+FIXED: 2025-06-15_LLM_VM_Project_Feedback_77362061.md
+  ai-tools -> homelab
+  tags:  -> ['storage', 'llm', 'project', 'feedback']
+  projects:  -> []
+
+FIXED: 2025-06-15_VM_LLM_Project_Idea_55071049.md
+  homelab -> homelab
+  tags:  -> ['linux', 'storage', 'container', 'llm', 'project', 'idea']
+  projects:  -> []
+
+FIXED: 2025-06-15_WSL2_vs_Docker_for_LLM_57259479.md
+  homelab -> homelab
+  tags: ['homelab', 'docker', 'llm', 'ai', 'model', 'llama.cpp', 'quantized', 'local llm'] -> ['docker', 'wsl2', 'llm']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-06-17_RWA_Tokenization_Regulations_Overview_26660754.md
+  general -> crypto-web3
+  tags:  -> ['token', 'rwa', 'regulations']
+  projects: [] -> []
+
+FIXED: 2025-06-18_Project_Brainstorming_Support_62930296.md
+  coding -> ai-tools
+  tags: ['coding', 'module', 'docker', 'llm', 'ai', 'agent', 'claude', 'gpt'] -> ['llm', 'prompt-engineering', 'rag', 'ai-agent', 'local-llm', 'image-gen', 'project', 'brainstorming']
+  projects: ['homelab-stack', 'it-certification', 'private-ai-consulting'] -> ['it-certification']
+
+FIXED: 2025-06-18_WSL2_LLM_Debugging_Assistance_43238663.md
+  coding -> ai-tools
+  tags:  -> ['llm', 'rag', 'local-llm', 'wsl2', 'debugging', 'assistance']
+  projects: [] -> []
+
+FIXED: 2025-06-21_WSL2_Local_Model_Setup_48314161.md
+  homelab -> ai-tools
+  tags: ['homelab', 'llm', 'ai', 'gpt', 'gemini', 'model', 'rag', 'llama.cpp'] -> ['local-llm', 'wsl2', 'model', 'setup']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-06-22_Model_not_loading_fix_23132992.md
+  streaming -> general
+  tags:  -> ['model', 'loading', 'fix']
+  projects: [] -> []
+
+FIXED: 2025-06-23_Model_Setup_for_Helpdesk_73907569.md
+  general -> ai-tools
+  tags:  -> ['image-gen', 'model', 'setup', 'helpdesk']
+  projects: [] -> []
+
+FIXED: 2025-06-24_LLM_Setup_and_Integration_40485909.md
+  homelab -> career
+  tags:  -> ['resume-writing', 'hr-communication', 'help-desk', 'comptia', 'llm', 'setup', 'integration']
+  projects:  -> ['it-certification']
+
+FIXED: 2025-06-24_Oobabooga_AI_Helpdesk_Project_46673946.md
+  streaming -> general
+  tags:  -> ['oobabooga', 'helpdesk', 'project']
+  projects: [] -> []
+
+FIXED: 2025-06-25_Oobabooga_WSL2_Setup_78569878.md
+  homelab -> homelab
+  tags: ['homelab', 'llm', 'ai', 'agent', 'gpt', 'model', 'oobabooga', 'rag'] -> ['storage', 'oobabooga', 'wsl2', 'setup']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-06-26_Is_WSL2_a_VM_57390537.md
+  homelab -> general
+  tags:  -> ['wsl2', 'general', 'gpt-conversation']
+  projects: [] -> []
+
+FIXED: 2025-06-26_Offline_AI_Helpdesk_Queries_10324900.md
+  general -> general
+  tags:  -> ['offline', 'helpdesk', 'queries']
+  projects: [] -> []
+
+FIXED: 2025-06-26_Offline_AI_Project_Update_19138359.md
+  career -> ai-tools
+  tags:  -> ['prompt-engineering', 'offline', 'project', 'update']
+  projects: [] -> []
+
+FIXED: 2025-06-26_Phantom_Wallet_iCloud_Recovery_32094409.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['wallet', 'phantom', 'icloud', 'recovery']
+  projects: [] -> []
+
+FIXED: 2025-06-27_Agentic_RAG_Integration_Guide_51044795.md
+  ai-tools -> ai-tools
+  tags:  -> ['prompt-engineering', 'rag', 'ai-agent', 'agentic', 'integration']
+  projects:  -> []
+
+FIXED: 2025-06-27_Facecam_Gameplay_Layout_Tips_80763414.md
+  streaming -> general
+  tags:  -> ['facecam', 'gameplay', 'layout']
+  projects: [] -> []
+
+FIXED: 2025-06-30_Help_Desk_Job_Titles_56179771.md
+  career -> career
+  tags:  -> ['help-desk', 'job', 'titles']
+  projects:  -> []
+
+FIXED: 2025-07-02_Centralized_Exchange_Explained_70668163.md
+  streaming -> general
+  tags:  -> ['centralized', 'exchange', 'explained']
+  projects: [] -> []
+
+FIXED: 2025-07-02_IT_Help_Desk_Job_Titles_59025270.md
+  career -> career
+  tags:  -> ['help-desk', 'job', 'titles']
+  projects: [] -> []
+
+FIXED: 2025-07-05_AI_Helpdesk_Post_Brainstorm_27763359.md
+  ai-tools -> ai-tools
+  tags:  -> ['llm', 'prompt-engineering', 'fine-tuning', 'rag', 'inference', 'local-llm', 'helpdesk', 'post']
+  projects:  -> ['second-brain-vault', 'it-certification']
+
+FIXED: 2025-07-05_Project_Goal_Assessment_83744601.md
+  career -> ai-tools
+  tags:  -> ['rag', 'project', 'goal', 'assessment']
+  projects: [] -> []
+
+FIXED: 2025-07-05_RAG_Extension_for_Chroma_79607582.md
+  ai-tools -> ai-tools
+  tags: ['ai-tools', 'ai', 'oobabooga', 'rag', 'embedding', 'text-generation', 'vector db', 'chroma'] -> ['rag', 'local-llm', 'extension', 'chroma']
+  projects: [] -> []
+
+FIXED: 2025-07-06_MCP_Servers_in_LM_Studio_92016726.md
+  ai-tools -> ai-tools
+  tags: ['ai-tools', 'ollama', 'module', 'llm', 'ai', 'agent', 'claude', 'gpt'] -> ['claude', 'ai-agent', 'local-llm', 'image-gen', 'mcp', 'servers', 'studio']
+  projects: ['homelab-stack', 'private-ai-consulting'] -> []
+
+FIXED: 2025-07-06_Mac_Studio_vs_GPU_Setup_54795572.md
+  general -> homelab
+  tags:  -> ['gpu', 'mac', 'studio', 'setup']
+  projects: [] -> []
+
+FIXED: 2025-07-06_Oobabooga_vs_LM_Studio_63011020.md
+  homelab -> ai-tools
+  tags: ['homelab', 'llm', 'ai', 'claude', 'gpt', 'model', 'oobabooga', 'rag'] -> ['claude', 'oobabooga', 'studio']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-07-06_Superbooga_v2_Offline_Issue_18473165.md
+  ai-tools -> ai-tools
+  tags:  -> ['rag', 'superbooga', 'offline', 'issue']
+  projects: [] -> []
+
+FIXED: 2025-07-07_Follow_up_After_Holiday_20491699.md
+  ai-tools -> career
+  tags:  -> ['interview-prep', 'warehouse-work', 'hr-communication', 'help-desk', 'follow', 'holiday']
+  projects:  -> []
+
+FIXED: 2025-07-07_Hermes_model_performance_issues_49327680.md
+  ai-tools -> homelab
+  tags:  -> ['hermes', 'model', 'performance', 'issues']
+  projects: [] -> []
+
+FIXED: 2025-07-07_MCP_Servers_in_LLMs_66876385.md
+  ai-tools -> ai-tools
+  tags:  -> ['claude', 'llm', 'rag', 'ai-agent', 'local-llm', 'mcp', 'servers']
+  projects:  -> []
+
+FIXED: 2025-07-07_Mac_UMA_vs_PC_GPU_55359827.md
+  ai-tools -> homelab
+  tags: ['ai-tools', 'llm', 'ai', 'gpt', 'model', 'oobabooga', 'llama.cpp', 'quantized'] -> ['gpu', 'mac', 'uma']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-07-08_Cursor_Multi_Agent_Setup_43205797.md
+  coding -> homelab
+  tags: ['coding', 'llm', 'ai', 'agent', 'gpt', 'model', 'cursor', 'rag'] -> ['gpu', 'cursor', 'multi', 'agent', 'setup']
+  projects: ['homelab-stack', 'private-ai-consulting'] -> ['second-brain-vault']
+
+FIXED: 2025-07-08_Cursor_Relationship_Progression_39103126.md
+  ai-tools -> general
+  tags:  -> ['cursor', 'relationship', 'progression']
+  projects: [] -> []
+
+FIXED: 2025-07-08_Cursor_vs_VS_Code_34636680.md
+  coding -> general
+  tags: ['coding', 'module', 'llm', 'ai', 'agent', 'model', 'oobabooga', 'cursor'] -> ['cursor', 'code', 'general']
+  projects: [] -> []
+
+FIXED: 2025-07-08_Vibe_Coding_for_Beginners_59989506.md
+  coding -> career
+  tags:  -> ['hr-communication', 'help-desk', 'vibe', 'coding', 'beginners']
+  projects: [] -> []
+
+FIXED: 2025-07-09_Free_CapCut_Alternatives_62493646.md
+  general -> general
+  tags:  -> ['free', 'capcut', 'alternatives']
+  projects: [] -> []
+
+FIXED: 2025-07-09_Interview_Question_Brainstorming_31503744.md
+  career -> career
+  tags:  -> ['interview-prep', 'brainstorming', 'career']
+  projects: [] -> []
+
+FIXED: 2025-07-09_Learning_Through_Code_Friction_81317433.md
+  coding -> general
+  tags: ['coding', 'llm', 'ai', 'agent', 'model', 'cursor', 'rag', 'embedding'] -> ['learning', 'code', 'friction']
+  projects: [] -> []
+
+FIXED: 2025-07-09_Offline_AI_Helpdesk_Setup_63668913.md
+  homelab -> homelab
+  tags:  -> ['offline', 'helpdesk', 'setup']
+  projects:  -> []
+
+FIXED: 2025-07-09_Offline_Helpdesk_AI_Build_85153767.md
+  ai-tools -> homelab
+  tags:  -> ['storage', 'container', 'offline', 'helpdesk', 'build']
+  projects:  -> ['it-certification']
+
+FIXED: 2025-07-09_Unified_Memory_vs_VRAM_24020631.md
+  ai-tools -> ai-tools
+  tags:  -> ['llm', 'local-llm', 'unified', 'memory', 'vram']
+  projects: [] -> []
+
+FIXED: 2025-07-10_Agent_Workflow_Design_Approval_57175364.md
+  ai-tools -> ai-tools
+  tags:  -> ['ai-agent', 'workflow', 'design', 'approval']
+  projects: [] -> ['second-brain-vault']
+
+FIXED: 2025-07-10_Build_Without_Apology_33182168.md
+  ai-tools -> ai-tools
+  tags:  -> ['llm', 'ai-agent', 'local-llm', 'build', 'without', 'apology']
+  projects:  -> []
+
+FIXED: 2025-07-11_Crypto_AI_Agent_System_50463766.md
+  ai-tools -> ai-tools
+  tags:  -> ['llm', 'ai-agent', 'crypto', 'system']
+  projects:  -> []
+
+FIXED: 2025-07-11_Meta_vs_Vibe_Coding_72843672.md
+  general -> general
+  tags:  -> ['meta', 'vibe', 'coding']
+  projects: [] -> []
+
+FIXED: 2025-07-12_Brutal_Truths_for_Growth_86877646.md
+  ai-tools -> ai-tools
+  tags:  -> ['llm', 'prompt-engineering', 'ai-agent', 'local-llm', 'brutal', 'truths', 'growth']
+  projects:  -> ['second-brain-vault']
+
+FIXED: 2025-07-12_Mac_mini_LLM_Options_72268763.md
+  ai-tools -> ai-tools
+  tags: ['ai-tools', 'ollama', 'docker', 'llm', 'ai', 'gpt', 'model', 'rag'] -> ['llm', 'local-llm', 'mac', 'mini', 'options']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-07-12_Semgrep_MCP_in_Cursor_81473309.md
+  coding -> general
+  tags:  -> ['semgrep', 'mcp', 'cursor']
+  projects:  -> []
+
+FIXED: 2025-07-13_Multi_Agent_Helpdesk_Setup_75644414.md
+  coding -> ai-tools
+  tags:  -> ['llm', 'prompt-engineering', 'rag', 'ai-agent', 'inference', 'local-llm', 'multi', 'helpdesk']
+  projects:  -> ['second-brain-vault']
+
+FIXED: 2025-07-13_Oobabooga_and_CrewAI_Setup_34265288.md
+  general -> general
+  tags:  -> ['oobabooga', 'crewai', 'setup']
+  projects: [] -> []
+
+FIXED: 2025-07-13_WSL2_Model_Location_Scan_64364912.md
+  general -> general
+  tags:  -> ['wsl2', 'model', 'location', 'scan']
+  projects: [] -> []
+
+FIXED: 2025-07-14_Auto_load_Character_Setup_20033236.md
+  homelab -> general
+  tags:  -> ['auto', 'load', 'character', 'setup']
+  projects: [] -> []
+
+FIXED: 2025-07-14_Find_Python_Project_Path_17799776.md
+  coding -> ai-tools
+  tags:  -> ['llm', 'ai-agent', 'local-llm', 'python', 'project', 'path']
+  projects: [] -> []
+
+FIXED: 2025-07-14_LLM_Provider_Configuration_Fix_35917654.md
+  ai-tools -> homelab
+  tags:  -> ['networking', 'vpn', 'llm', 'provider', 'configuration', 'fix']
+  projects: [] -> ['second-brain-vault']
+
+FIXED: 2025-07-14_Load_Character_Solace_84388120.md
+  ai-tools -> homelab
+  tags:  -> ['server', 'networking', 'vpn', 'linux', 'gpu', 'load', 'character', 'solace']
+  projects:  -> ['second-brain-vault']
+
+FIXED: 2025-07-15_Error_log_splitting_86788450.md
+  ai-tools -> homelab
+  tags:  -> ['server', 'networking', 'vpn', 'error', 'log', 'splitting']
+  projects:  -> ['second-brain-vault']
+
+FIXED: 2025-07-15_RTX_3070_Overclock_Guide_31392739.md
+  general -> homelab
+  tags:  -> ['gpu', 'rtx', 'overclock']
+  projects: [] -> []
+
+FIXED: 2025-07-15_Set_Default_Character_Solace_17781998.md
+  coding -> ai-tools
+  tags:  -> ['claude', 'llm', 'prompt-engineering', 'rag', 'ai-agent', 'local-llm', 'set', 'default']
+  projects:  -> ['second-brain-vault']
+
+FIXED: 2025-07-15_Structuring_User_Requests_77787906.md
+  general -> general
+  tags:  -> ['structuring', 'user', 'requests']
+  projects: [] -> []
+
+FIXED: 2025-07-16_Follow_up_email_help_38394605.md
+  career -> career
+  tags:  -> ['interview-prep', 'hr-communication', 'follow', 'email']
+  projects: [] -> []
+
+FIXED: 2025-07-16_Phantom_wallet_token_removal_55343830.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['token', 'wallet', 'phantom', 'removal']
+  projects: [] -> []
+
+FIXED: 2025-07-16_Restarting_multi_agent_framework_15840040.md
+  ai-tools -> homelab
+  tags:  -> ['server', 'vpn', 'linux', 'restarting', 'multi', 'agent', 'framework']
+  projects:  -> ['second-brain-vault']
+
+FIXED: 2025-07-17_GPU_upgrade_for_1440p_82719194.md
+  homelab -> homelab
+  tags: ['homelab', 'ai', 'model', 'rag', 'long', 'go', 'import', 'ide'] -> ['storage', 'gpu', 'upgrade']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-07-17_Meta_Llama_download_link_83666367.md
+  general -> ai-tools
+  tags:  -> ['meta', 'llama', 'download', 'link']
+  projects: [] -> []
+
+FIXED: 2025-07-17_Move_model_to_oobabooga_91638308.md
+  coding -> ai-tools
+  tags:  -> ['llm', 'prompt-engineering', 'inference', 'quantization', 'local-llm', 'move', 'model', 'oobabooga']
+  projects:  -> []
+
+FIXED: 2025-07-17_Sweating_and_anxiety_causes_51408790.md
+  homelab -> general
+  tags:  -> ['sweating', 'anxiety', 'causes']
+  projects:  -> []
+
+FIXED: 2025-07-19_Helium_token_minting_explained_59887944.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['token', 'helium', 'minting', 'explained']
+  projects: [] -> []
+
+FIXED: 2025-07-19_Model_rambling_troubleshooting_14319560.md
+  ai-tools -> ai-tools
+  tags:  -> ['prompt-engineering', 'ai-agent', 'model', 'rambling', 'troubleshooting']
+  projects: [] -> []
+
+FIXED: 2025-07-19_Serperdev_API_key_free_46117169.md
+  coding -> general
+  tags: ['coding', 'ai', 'n8n', 'defi', 'go', 'ide', 'api', 'exam'] -> ['serperdev', 'api', 'key', 'free']
+  projects: [] -> []
+
+FIXED: 2025-07-20_Clarifying_project_vision_18635727.md
+  ai-tools -> homelab
+  tags:  -> ['storage', 'clarifying', 'project', 'vision']
+  projects:  -> []
+
+FIXED: 2025-07-22_Creative_collab_ideas_21352479.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['solana', 'creative', 'collab']
+  projects: [] -> []
+
+FIXED: 2025-07-22_RS11_vs_Zoap_comparison_90476194.md
+  general -> general
+  tags:  -> ['rs11', 'zoap', 'comparison']
+  projects: [] -> []
+
+FIXED: 2025-07-23_Learning_Microsoft_Excel_80524009.md
+  general -> general
+  tags:  -> ['learning', 'microsoft', 'excel']
+  projects: [] -> []
+
+FIXED: 2025-07-24_Apple_Music_VoiceMeeter_setup_57686333.md
+  streaming -> streaming
+  tags:  -> ['obs', 'audio', 'microphone', 'apple', 'music', 'voicemeeter', 'setup']
+  projects: [] -> []
+
+FIXED: 2025-07-25_Driver_update_comparison_36083359.md
+  homelab -> general
+  tags: ['homelab', 'model', 'dex', 'ide', 'node', 'at', 'windows', 'nvidia'] -> ['driver', 'update', 'comparison']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-07-25_Safe_mode_entry_methods_97513247.md
+  general -> general
+  tags:  -> ['safe', 'mode', 'methods']
+  projects: [] -> []
+
+FIXED: 2025-07-25_Windows_10_slow_update_17942089.md
+  homelab -> homelab
+  tags: ['homelab', 'ai', 'rag', 'dex', 'near', 'hype', 'go', 'bash'] -> ['container', 'windows', 'slow', 'update']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-07-26_Bluetooth_audio_choppy_fix_10922334.md
+  general -> homelab
+  tags:  -> ['bluetooth', 'audio', 'choppy', 'fix']
+  projects: [] -> []
+
+FIXED: 2025-07-26_Quest_3_vs_3S_comparison_13236771.md
+  general -> general
+  tags:  -> ['quest', 'comparison', 'general']
+  projects: [] -> []
+
+FIXED: 2025-07-28_Email_follow_up_suggestion_75194749.md
+  career -> career
+  tags:  -> ['interview-prep', 'hr-communication', 'email', 'follow', 'suggestion']
+  projects: [] -> []
+
+FIXED: 2025-07-28_Latest_AI_tools_2025_20999033.md
+  ai-tools -> homelab
+  tags:  -> ['storage', 'latest', 'tools']
+  projects:  -> []
+
+FIXED: 2025-07-28_Model_not_found_in_VS_Code_64557669.md
+  ai-tools -> ai-tools
+  tags:  -> ['model', 'code', 'ai-tools']
+  projects:  -> []
+
+FIXED: 2025-07-28_Offline_verification_steps_42856155.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'offline', 'verification', 'steps']
+  projects:  -> []
+
+FIXED: 2025-07-29_Crypto_outreach_project_86883202.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['crypto', 'outreach', 'project']
+  projects: [] -> []
+
+FIXED: 2025-07-29_Kilocodeai_vs_Continuedev_80478747.md
+  coding -> ai-tools
+  tags:  -> ['llm', 'local-llm', 'kilocodeai', 'continuedev']
+  projects:  -> []
+
+FIXED: 2025-07-30_Cursor_experience_setup_55127762.md
+  ai-tools -> ai-tools
+  tags:  -> ['cursor', 'experience', 'setup']
+  projects:  -> []
+
+FIXED: 2025-07-30_Model_setup_review_33070176.md
+  homelab -> homelab
+  tags:  -> ['storage', 'container', 'model', 'setup', 'review']
+  projects:  -> []
+
+FIXED: 2025-07-30_Project_idea_development_27440465.md
+  homelab -> career
+  tags:  -> ['resume-writing', 'hr-communication', 'project', 'idea', 'development']
+  projects:  -> []
+
+FIXED: 2025-08-01_Identity_breaches_in_apps_27389634.md
+  streaming -> general
+  tags:  -> ['identity', 'breaches', 'apps']
+  projects: [] -> []
+
+FIXED: 2025-08-01_Resume_job_title_suggestions_11937658.md
+  career -> career
+  tags:  -> ['resume-writing', 'warehouse-work', 'job', 'title']
+  projects:  -> []
+
+FIXED: 2025-08-01_Video_format_conversion_for_TikTok_54761326.md
+  streaming -> general
+  tags:  -> ['video', 'format', 'conversion', 'tiktok']
+  projects: [] -> []
+
+FIXED: 2025-08-02_Freepik_features_and_usage_72722123.md
+  ai-tools -> ai-tools
+  tags: ['ai-tools', 'llm', 'ai', 'model', 'openai', 'local model', 'swap', 'go'] -> ['llm', 'local-llm', 'freepik', 'features', 'usage']
+  projects: [] -> []
+
+FIXED: 2025-08-04_FVG_in_cryptocurrency_74635351.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'fvg', 'cryptocurrency']
+  projects: [] -> []
+
+FIXED: 2025-08-05_OpenAI_open_source_models_33117447.md
+  general -> ai-tools
+  tags:  -> ['openai', 'source', 'models']
+  projects: [] -> []
+
+FIXED: 2025-08-07_Honest_feedback_request_33054482.md
+  ai-tools -> ai-tools
+  tags:  -> ['llm', 'ai-agent', 'local-llm', 'honest', 'feedback']
+  projects:  -> []
+
+FIXED: 2025-08-07_Idea_clarification_assistance_68144189.md
+  streaming -> ai-tools
+  tags:  -> ['llm', 'local-llm', 'idea', 'clarification', 'assistance']
+  projects:  -> []
+
+FIXED: 2025-08-07_Open_source_alternatives_61489367.md
+  homelab -> ai-tools
+  tags:  -> ['open', 'source', 'alternatives']
+  projects:  -> []
+
+FIXED: 2025-08-08_Flyer_reference_inspiration_25432713.md
+  streaming -> ai-tools
+  tags:  -> ['flyer', 'reference', 'inspiration']
+  projects: [] -> []
+
+FIXED: 2025-08-09_LLM_deployment_skills_83845935.md
+  ai-tools -> career
+  tags:  -> ['resume-writing', 'hr-communication', 'llm', 'deployment', 'skills']
+  projects:  -> []
+
+FIXED: 2025-08-10_Fast_RTC_meaning_84447967.md
+  streaming -> general
+  tags:  -> ['fast', 'rtc', 'meaning']
+  projects:  -> []
+
+FIXED: 2025-08-10_Set_up_Ollama_GUI_53055247.md
+  ai-tools -> homelab
+  tags:  -> ['storage', 'set', 'ollama', 'gui']
+  projects:  -> []
+
+FIXED: 2025-08-10_SmolVLM2_500M_Instruct_overview_64099150.md
+  general -> ai-tools
+  tags:  -> ['local-llm', 'smolvlm2', 'instruct']
+  projects: [] -> []
+
+FIXED: 2025-08-10_What_is_Recraftai_90885764.md
+  general -> general
+  tags:  -> ['recraftai', 'general', 'gpt-conversation']
+  projects: [] -> []
+
+FIXED: 2025-08-19_Explain_market_cap_crypto_46678399.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['market-analysis', 'explain', 'cap', 'crypto']
+  projects: [] -> []
+
+FIXED: 2025-08-19_Run_idea_by_assistant_56080905.md
+  ai-tools -> ai-tools
+  tags:  -> ['llm', 'rag', 'local-llm', 'run', 'idea', 'assistant']
+  projects:  -> []
+
+FIXED: 2025-08-20_Brutal_growth_advice_31631332.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['market-analysis', 'brutal', 'growth', 'advice']
+  projects: [] -> []
+
+FIXED: 2025-08-20_Discord_embed_setup_27774703.md
+  general -> general
+  tags:  -> ['discord', 'embed', 'setup']
+  projects: [] -> []
+
+FIXED: 2025-08-20_Footer_icon_setup_50731257.md
+  streaming -> general
+  tags:  -> ['footer', 'icon', 'setup']
+  projects: [] -> []
+
+FIXED: 2025-08-20_Image_link_issue_73140564.md
+  general -> general
+  tags:  -> ['image', 'link', 'issue']
+  projects: [] -> []
+
+FIXED: 2025-08-20_Rule_intro_feedback_12438213.md
+  general -> general
+  tags:  -> ['rule', 'intro', 'feedback']
+  projects: [] -> []
+
+FIXED: 2025-08-20_Welcome_message_setup_67377719.md
+  general -> general
+  tags:  -> ['welcome', 'message', 'setup']
+  projects: [] -> []
+
+FIXED: 2025-08-21_Brutal_self_analysis_and_feedback_85485402.md
+  crypto-web3 -> ai-tools
+  tags:  -> ['chatgpt', 'local-llm', 'brutal', 'self', 'analysis', 'feedback']
+  projects: [] -> []
+
+FIXED: 2025-08-21_Crypto_news_channel_setup_94850822.md
+  crypto-web3 -> ai-tools
+  tags:  -> ['llm', 'local-llm', 'crypto', 'news', 'channel', 'setup']
+  projects:  -> []
+
+FIXED: 2025-08-21_Discord_bot_options_34947393.md
+  ai-tools -> ai-tools
+  tags:  -> ['llm', 'local-llm', 'discord', 'bot', 'options']
+  projects:  -> []
+
+FIXED: 2025-08-21_Discord_integration_idea_81130957.md
+  homelab -> streaming
+  tags:  -> ['audio', 'discord', 'integration', 'idea']
+  projects:  -> []
+
+FIXED: 2025-08-21_Flag_post_ideas_10013396.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'flag', 'post']
+  projects: [] -> []
+
+FIXED: 2025-08-23_Discord_project_vision_58332347.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'discord', 'project', 'vision']
+  projects: [] -> []
+
+FIXED: 2025-08-23_Idea_brainstorming_session_66043650.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'defi', 'idea', 'brainstorming', 'session']
+  projects:  -> []
+
+FIXED: 2025-08-23_Message_revision_suggestions_24605389.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['message', 'revision', 'crypto-web3']
+  projects: [] -> []
+
+FIXED: 2025-08-23_Welcome_message_creation_80790831.md
+  homelab -> crypto-web3
+  tags:  -> ['welcome', 'message', 'creation']
+  projects: [] -> []
+
+FIXED: 2025-08-24_Server_name_suggestions_38380332.md
+  homelab -> general
+  tags:  -> ['server', 'name', 'general']
+  projects:  -> []
+
+FIXED: 2025-08-25_Community_structure_advice_15872511.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['wallet', 'community', 'structure', 'advice']
+  projects:  -> []
+
+FIXED: 2025-08-25_LMArena_and_Nano_Banana_45672070.md
+  ai-tools -> ai-tools
+  tags:  -> ['lmarena', 'nano', 'banana']
+  projects: [] -> []
+
+FIXED: 2025-08-26_Chainlink_DeFi_Explanation_39619264.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['defi', 'chainlink', 'explanation']
+  projects: [] -> []
+
+FIXED: 2025-08-26_Hike_idea_note_52790419.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'hike', 'idea', 'note']
+  projects: [] -> []
+
+FIXED: 2025-08-27_News_channel_setup_advice_60157501.md
+  crypto-web3 -> ai-tools
+  tags:  -> ['news', 'channel', 'setup', 'advice']
+  projects:  -> []
+
+FIXED: 2025-08-28_Discord_community_message_54276968.md
+  ai-tools -> ai-tools
+  tags:  -> ['llm', 'local-llm', 'discord', 'community', 'message']
+  projects:  -> []
+
+FIXED: 2025-08-31_Crypto_chat_name_ideas_53793918.md
+  ai-tools -> ai-tools
+  tags: ['ai-tools', 'ollama', 'llm', 'ai', 'gpt', 'model', 'oobabooga', 'rag'] -> ['llm', 'local-llm', 'crypto', 'chat', 'name']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-09-01_Gemini_prompt_for_brainstorming_40200807.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'gemini', 'prompt', 'brainstorming']
+  projects:  -> []
+
+FIXED: 2025-09-01_Project_discussion_next_steps_19260636.md
+  ai-tools -> ai-tools
+  tags: ['ai-tools', 'ollama', 'docker', 'llm', 'ai', 'agent', 'gemini', 'model'] -> ['prompt-engineering', 'local-llm', 'stable-diffusion', 'image-gen', 'project', 'discussion', 'next', 'steps']
+  projects: ['homelab-stack', 'private-ai-consulting'] -> []
+
+FIXED: 2025-09-02_Users_good_news_84672538.md
+  streaming -> streaming
+  tags:  -> ['users', 'good', 'news']
+  projects: [] -> ['streaming-rig']
+
+FIXED: 2025-09-03_Add_Discord_to_overlay_35819143.md
+  streaming -> homelab
+  tags:  -> ['server', 'storage', 'container', 'add', 'discord', 'overlay']
+  projects:  -> []
+
+FIXED: 2025-09-03_Obs_resource_usage_TikTok_76059901.md
+  streaming -> streaming
+  tags: ['streaming', 'go', 'code', 'ide', 'node', 'at', 'homelab', 'gpu'] -> ['obs', 'resource', 'usage', 'tiktok']
+  projects: ['homelab-stack', 'streaming-rig'] -> []
+
+FIXED: 2025-09-04_Cross_chain_swap_guide_55207816.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'cross', 'chain', 'swap']
+  projects: [] -> []
+
+FIXED: 2025-09-05_Brainstorming_developments_update_60674564.md
+  crypto-web3 -> ai-tools
+  tags:  -> ['local-llm', 'brainstorming', 'developments', 'update']
+  projects:  -> []
+
+FIXED: 2025-09-05_Crypto_safety_tips_structure_44892224.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['memecoin', 'token', 'wallet', 'market-analysis', 'dex', 'crypto', 'safety', 'structure']
+  projects:  -> []
+
+FIXED: 2025-09-05_Server_intro_style_tweak_91897891.md
+  crypto-web3 -> ai-tools
+  tags:  -> ['local-llm', 'server', 'intro', 'style', 'tweak']
+  projects:  -> []
+
+FIXED: 2025-09-07_AI_driven_3D_animation_51532904.md
+  homelab -> homelab
+  tags:  -> ['storage', 'driven', 'animation']
+  projects:  -> []
+
+FIXED: 2025-09-07_AI_image_upscaling_tools_14264402.md
+  general -> general
+  tags:  -> ['image', 'upscaling', 'tools']
+  projects: [] -> []
+
+FIXED: 2025-09-07_Blender_AI_workflow_setup_69121750.md
+  ai-tools -> ai-tools
+  tags:  -> ['prompt-engineering', 'ai-workflow', 'blender', 'setup']
+  projects: [] -> []
+
+FIXED: 2025-09-07_Blender_project_TLdr_42853796.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['blender', 'project', 'tldr']
+  projects: [] -> []
+
+FIXED: 2025-09-07_Blender_python_installation_guide_61687244.md
+  coding -> ai-tools
+  tags: ['coding', 'module', 'ai', 'agent', 'python', 'go', 'bash', 'shell'] -> ['ai-agent', 'blender', 'python', 'installation']
+  projects: [] -> []
+
+FIXED: 2025-09-07_Blender_setup_and_coding_91469004.md
+  coding -> coding
+  tags: ['coding', 'llm', 'ai', 'agent', 'model', 'local llm', 'crewai', 'dex'] -> ['python', 'error-fixing', 'blender', 'setup', 'coding']
+  projects: [] -> []
+
+FIXED: 2025-09-07_Director_agent_setup_39687325.md
+  ai-tools -> ai-tools
+  tags:  -> ['prompt-engineering', 'ai-agent', 'director', 'setup']
+  projects: [] -> []
+
+FIXED: 2025-09-07_Download_model_manually_67242793.md
+  coding -> ai-tools
+  tags: ['coding', 'ollama', 'llm', 'ai', 'agent', 'gpt', 'model', 'oobabooga'] -> ['quantization', 'local-llm', 'download', 'model', 'manually']
+  projects: ['homelab-stack'] -> []
+
+FIXED: 2025-09-07_Hugging_Face_download_issues_75022471.md
+  homelab -> ai-tools
+  tags:  -> ['hugging', 'face', 'download', 'issues']
+  projects:  -> []
+
+FIXED: 2025-09-07_Localized_model_options_56971233.md
+  coding -> ai-tools
+  tags:  -> ['local-llm', 'localized', 'model', 'options']
+  projects: [] -> []
+
+FIXED: 2025-09-07_Project_discussion_clarification_83080842.md
+  ai-tools -> homelab
+  tags:  -> ['storage', 'gpu', 'container', 'project', 'discussion', 'clarification']
+  projects:  -> []
+
+FIXED: 2025-09-07_Python_31210_compatibility_44326162.md
+  coding -> ai-tools
+  tags: ['coding', 'ai', 'agent', 'gpt', 'model', 'llama.cpp', 'hermes', 'crewai'] -> ['ai-agent', 'python', 'compatibility']
+  projects: [] -> []
+
+FIXED: 2025-09-07_Review_context_profile_74803296.md
+  ai-tools -> ai-tools
+  tags:  -> ['prompt-engineering', 'ai-agent', 'local-llm', 'review', 'context', 'profile']
+  projects: [] -> []
+
+FIXED: 2025-09-07_Using_models_in_GUI_44195025.md
+  ai-tools -> homelab
+  tags:  -> ['storage', 'gpu', 'using', 'models', 'gui']
+  projects:  -> []
+
+FIXED: 2025-09-08_Available_balance_question_89458170.md
+  streaming -> general
+  tags:  -> ['available', 'balance', 'general']
+  projects: [] -> []
+
+FIXED: 2025-09-08_Coin_profit_calculation_36621658.md
+  crypto-web3 -> general
+  tags:  -> ['coin', 'profit', 'calculation']
+  projects: [] -> []
+
+FIXED: 2025-09-08_Leverage_profit_explanation_19360045.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['wallet', 'leverage-trading', 'profit', 'explanation']
+  projects: [] -> []
+
+FIXED: 2025-09-08_Leverage_trading_explained_29116895.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['trading', 'leverage-trading', 'dex', 'explained']
+  projects:  -> []
+
+FIXED: 2025-09-08_Maxbid_vs_Oxfun_safety_63896660.md
+  crypto-web3 -> general
+  tags:  -> ['maxbid', 'oxfun', 'safety']
+  projects: [] -> []
+
+FIXED: 2025-09-08_Narrowing_down_niche_80305206.md
+  ai-tools -> ai-tools
+  tags: ['ai-tools', 'ai', 'model', 'rag', 'hype', 'long', 'short', 'rust'] -> ['local-llm', 'narrowing', 'down', 'niche']
+  projects: [] -> []
+
+FIXED: 2025-09-08_Shorting_on_Quanto_63814126.md
+  crypto-web3 -> general
+  tags:  -> ['shorting', 'quanto', 'general']
+  projects: [] -> []
+
+FIXED: 2025-09-09_Job_opportunities_timeline_31858493.md
+  ai-tools -> career
+  tags:  -> ['resume-writing', 'warehouse-work', 'logistics', 'supply-chain', 'hr-communication', 'cover-letter', 'comptia', 'job']
+  projects:  -> ['homelab-stack', 'it-certification']
+
+FIXED: 2025-09-10_Continue_previous_work_46764981.md
+  homelab -> ai-tools
+  tags:  -> ['llm', 'prompt-engineering', 'rag', 'ai-agent', 'continue', 'previous', 'work']
+  projects:  -> []
+
+FIXED: 2025-09-10_Leverage_and_margin_explained_36910530.md
+  ai-tools -> crypto-web3
+  tags:  -> ['market-analysis', 'leverage-trading', 'margin', 'explained']
+  projects: [] -> []
+
+FIXED: 2025-09-10_Oobabooga_setup_complete_81921273.md
+  coding -> ai-tools
+  tags:  -> ['claude', 'prompt-engineering', 'ai-agent', 'quantization', 'local-llm', 'oobabooga', 'setup', 'complete']
+  projects:  -> []
+
+FIXED: 2025-09-11_Blender_AI_integration_steps_16793254.md
+  ai-tools -> coding
+  tags:  -> ['python', 'api', 'error-fixing', 'scripting', 'blender', 'integration', 'steps']
+  projects:  -> []
+
+FIXED: 2025-09-11_Leverage_position_calculation_46321115.md
+  ai-tools -> crypto-web3
+  tags:  -> ['market-analysis', 'leverage-trading', 'position', 'calculation']
+  projects: [] -> []
+
+FIXED: 2025-09-11_Project_vision_revision_56000566.md
+  coding -> homelab
+  tags: ['coding', 'ollama', 'module', 'llm', 'ai', 'agent', 'model', 'oobabooga'] -> ['storage', 'project', 'vision']
+  projects: ['homelab-stack', 'it-certification'] -> []
+
+FIXED: 2025-09-15_OpenAI_certification_program_32442367.md
+  general -> ai-tools
+  tags:  -> ['openai', 'certification', 'program']
+  projects:  -> []
+
+FIXED: 2025-09-15_Quantum_mirrors_explained_18323052.md
+  streaming -> general
+  tags:  -> ['quantum', 'mirrors', 'explained']
+  projects: [] -> []
+
+FIXED: 2025-09-15_ROMA_Python_library_details_38073092.md
+  ai-tools -> career
+  tags:  -> ['roma', 'python', 'library', 'details']
+  projects: [] -> []
+
+FIXED: 2025-09-16_AI_workflow_summary_83333538.md
+  general -> ai-tools
+  tags:  -> ['ai-workflow', 'summary', 'ai-tools']
+  projects: [] -> []
+
+FIXED: 2025-09-16_Cover_letter_for_clerk_75490386.md
+  career -> career
+  tags:  -> ['hr-communication', 'cover-letter', 'clerk']
+  projects: [] -> []
+
+FIXED: 2025-09-16_Explaining_AI_Simply_62272844.md
+  general -> general
+  tags:  -> ['explaining', 'simply', 'general']
+  projects: [] -> []
+
+FIXED: 2025-09-16_Thinking_out_loud_65964804.md
+  streaming -> career
+  tags:  -> ['thinking', 'loud', 'career']
+  projects:  -> []
+
+FIXED: 2025-09-18_AI_solutions_project_goal_32355309.md
+  coding -> homelab
+  tags:  -> ['storage', 'solutions', 'project', 'goal']
+  projects: [] -> []
+
+FIXED: 2025-09-18_Anxiety_after_quitting_smoking_46073913.md
+  general -> general
+  tags:  -> ['anxiety', 'quitting', 'smoking']
+  projects: [] -> []
+
+FIXED: 2025-09-19_Brainstorm_project_ideas_17127583.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'brainstorm', 'project']
+  projects:  -> []
+
+FIXED: 2025-09-19_Job_search_matches_26385878.md
+  homelab -> career
+  tags:  -> ['job-search', 'matches', 'career']
+  projects:  -> []
+
+FIXED: 2025-09-19_Liquidation_confirmation_steps_27490454.md
+  general -> general
+  tags:  -> ['liquidation', 'confirmation', 'steps']
+  projects: [] -> []
+
+FIXED: 2025-09-19_Troll_leverage_position_analysis_57765367.md
+  ai-tools -> crypto-web3
+  tags:  -> ['market-analysis', 'leverage-trading', 'troll', 'position']
+  projects: [] -> []
+
+FIXED: 2025-09-20_Perplexity_strengths_and_weaknesses_81770799.md
+  crypto-web3 -> general
+  tags:  -> ['perplexity', 'strengths', 'weaknesses']
+  projects: [] -> []
+
+FIXED: 2025-09-22_Cursor_vs_Windsurf_vs_Code_Assist_39407913.md
+  coding -> general
+  tags: ['coding', 'ai', 'agent', 'gpt', 'gemini', 'model', 'cursor', 'copilot'] -> ['cursor', 'windsurf', 'code', 'assist']
+  projects: [] -> []
+
+FIXED: 2025-09-23_Coin_name_ideas_89334707.md
+  crypto-web3 -> general
+  tags:  -> ['coin', 'name', 'general']
+  projects: [] -> []
+
+FIXED: 2025-09-23_Install_vLLM_in_WSL2_24268562.md
+  coding -> ai-tools
+  tags:  -> ['llm', 'prompt-engineering', 'quantization', 'local-llm', 'install', 'wsl2']
+  projects:  -> []
+
+FIXED: 2025-09-23_Setup_assistance_request_24269616.md
+  homelab -> ai-tools
+  tags:  -> ['llm', 'setup', 'assistance']
+  projects:  -> []
+
+FIXED: 2025-09-23_vLLM_for_local_models_38413785.md
+  ai-tools -> ai-tools
+  tags:  -> ['llm', 'local-llm', 'models']
+  projects:  -> []
+
+FIXED: 2025-09-23_vLLM_necessity_discussion_74424618.md
+  ai-tools -> ai-tools
+  tags: ['ai-tools', 'ollama', 'llm', 'ai', 'model', 'oobabooga', 'openai', 'inference'] -> ['llm', 'necessity', 'discussion']
+  projects: [] -> []
+
+FIXED: 2025-10-01_Overcoming_creators_block_88194387.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['defi', 'wallet', 'overcoming', 'creators', 'block']
+  projects:  -> []
+
+FIXED: 2025-10-03_Streaming_platform_comparison_13880613.md
+  streaming -> streaming
+  tags:  -> ['streaming', 'platform', 'comparison']
+  projects:  -> []
+
+FIXED: 2025-10-06_Stop_loss_strategy_tips_66447856.md
+  crypto-web3 -> general
+  tags:  -> ['stop', 'loss', 'strategy']
+  projects: [] -> []
+
+FIXED: 2025-10-08_Adjust_stop_loss_30090753.md
+  streaming -> general
+  tags:  -> ['adjust', 'stop', 'loss']
+  projects: [] -> []
+
+FIXED: 2025-10-10_Stop_loss_strategy_38724832.md
+  streaming -> general
+  tags:  -> ['stop', 'loss', 'strategy']
+  projects: [] -> []
+
+FIXED: 2025-10-12_Death_counter_for_stream_16734482.md
+  streaming -> homelab
+  tags:  -> ['storage', 'death', 'counter', 'stream']
+  projects:  -> []
+
+FIXED: 2025-10-13_Goal_overlay_persistence_fix_81172348.md
+  streaming -> streaming
+  tags:  -> ['overlay', 'goal', 'persistence', 'fix']
+  projects: [] -> []
+
+FIXED: 2025-10-14_Sora_invite_requirement_77041141.md
+  general -> ai-tools
+  tags:  -> ['sora', 'invite', 'requirement']
+  projects: [] -> []
+
+FIXED: 2025-10-17_Mushroom_safety_check_82107274.md
+  general -> general
+  tags:  -> ['mushroom', 'safety', 'check']
+  projects: [] -> []
+
+FIXED: 2025-10-22_Career_change_advice_16375409.md
+  career -> career
+  tags:  -> ['warehouse-work', 'career-change', 'help-desk', 'advice']
+  projects:  -> []
+
+FIXED: 2025-10-23_Convert_GB_to_MB_27282255.md
+  general -> general
+  tags:  -> ['convert', 'general', 'gpt-conversation']
+  projects: [] -> []
+
+FIXED: 2025-10-23_Repartition_USB_for_BIOS_40951358.md
+  streaming -> homelab
+  tags:  -> ['container', 'repartition', 'usb', 'bios']
+  projects: [] -> []
+
+FIXED: 2025-10-24_Business_idea_discussion_29725846.md
+  career -> homelab
+  tags:  -> ['business', 'idea', 'discussion']
+  projects:  -> []
+
+FIXED: 2025-10-24_Business_name_and_logo_25649981.md
+  general -> general
+  tags:  -> ['business', 'name', 'logo']
+  projects: [] -> []
+
+FIXED: 2025-10-25_Business_name_feedback_25659629.md
+  homelab -> general
+  tags:  -> ['business', 'name', 'feedback']
+  projects:  -> []
+
+FIXED: 2025-10-26_Uplink_solutions_review_61173837.md
+  general -> general
+  tags:  -> ['uplink', 'solutions', 'review']
+  projects: [] -> []
+
+FIXED: 2025-10-31_Greeting_exchange_51257310.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'greeting', 'exchange']
+  projects: [] -> []
+
+FIXED: 2025-11-05_Productized_services_list_81176679.md
+  career -> career
+  tags:  -> ['warehouse-work', 'productized', 'services', 'list']
+  projects:  -> []
+
+FIXED: 2025-11-05_Top_3_project_focus_71227143.md
+  general -> general
+  tags:  -> ['top', 'project', 'focus']
+  projects: [] -> []
+
+FIXED: 2025-11-07_Business_name_ideas_40059898.md
+  general -> homelab
+  tags:  -> ['business', 'name', 'homelab']
+  projects: [] -> []
+
+FIXED: 2025-11-07_Business_name_ideas_53592357.md
+  general -> general
+  tags:  -> ['business', 'name', 'general']
+  projects:  -> []
+
+FIXED: 2025-11-07_PC_repair_business_names_24293468.md
+  general -> streaming
+  tags:  -> ['repair', 'business', 'names']
+  projects: [] -> []
+
+FIXED: 2025-11-11_Business_name_ideas_71544774.md
+  homelab -> homelab
+  tags:  -> ['business', 'name', 'homelab']
+  projects:  -> []
+
+FIXED: 2025-11-11_Music_visualizer_in_Discord_46359649.md
+  homelab -> general
+  tags:  -> ['music', 'visualizer', 'discord']
+  projects:  -> []
+
+FIXED: 2025-11-12_OpenAI_AI_certification_10834264.md
+  general -> ai-tools
+  tags:  -> ['openai', 'certification', 'ai-tools']
+  projects:  -> []
+
+FIXED: 2025-11-13_Brainstorm_business_idea_13329440.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'brainstorm', 'business', 'idea']
+  projects:  -> []
+
+FIXED: 2025-11-13_Business_name_ideas_79420482.md
+  general -> homelab
+  tags:  -> ['business', 'name', 'homelab']
+  projects: [] -> []
+
+FIXED: 2025-11-13_Impulse_Technical_feedback_38071592.md
+  general -> general
+  tags:  -> ['impulse', 'technical', 'feedback']
+  projects: [] -> []
+
+FIXED: 2025-11-23_Brutally_honest_feedback_35314585.md
+  coding -> crypto-web3
+  tags:  -> ['brutally', 'honest', 'feedback']
+  projects: [] -> []
+
+FIXED: 2025-11-23_Meme_generator_feedback_51212497.md
+  crypto-web3 -> crypto-web3
+  tags:  -> ['meme', 'generator', 'feedback']
+  projects: [] -> []
+
+FIXED: 2025-11-24_Brainstorming_IDE_pros_and_cons_69734837.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'brainstorming', 'ide', 'pros', 'cons']
+  projects: [] -> []
+
+FIXED: 2025-11-24_Brutally_honest_advice_50618549.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'nft', 'brutally', 'honest', 'advice']
+  projects: [] -> []
+
+FIXED: 2025-11-24_Cheapest_Claude_coding_route_88753529.md
+  ai-tools -> ai-tools
+  tags: ['ai-tools', 'ai', 'agent', 'claude', 'model', 'cursor', 'mcp', 'anthropic'] -> ['claude', 'cheapest', 'coding', 'route']
+  projects: [] -> []
+
+FIXED: 2025-11-24_Cursor_vs_Windsurf_comparison_12727549.md
+  ai-tools -> general
+  tags: ['ai-tools', 'llm', 'ai', 'agent', 'model', 'cursor', 'rag', 'defi'] -> ['cursor', 'windsurf', 'comparison']
+  projects: [] -> []
+
+FIXED: 2025-11-24_Pricing_model_comparison_17613010.md
+  coding -> ai-tools
+  tags:  -> ['pricing', 'model', 'comparison']
+  projects: [] -> []
+
+FIXED: 2025-11-25_Cheapest_Claude_access_16751123.md
+  ai-tools -> ai-tools
+  tags: ['ai-tools', 'ai', 'agent', 'claude', 'model', 'cursor', 'rag', 'anthropic'] -> ['claude', 'cheapest', 'access']
+  projects: [] -> []
+
+FIXED: 2025-11-25_Claude_Code_for_projects_12477701.md
+  coding -> ai-tools
+  tags: ['coding', 'ai', 'agent', 'claude', 'gpt', 'model', 'cursor', 'anthropic'] -> ['claude', 'code', 'projects']
+  projects: [] -> []
+
+FIXED: 2025-11-25_Claude_code_plan_limits_14580065.md
+  ai-tools -> ai-tools
+  tags: ['ai-tools', 'ai', 'agent', 'claude', 'model', 'cursor', 'rag', 'anthropic'] -> ['claude', 'code', 'plan', 'limits']
+  projects: [] -> []
+
+FIXED: 2025-11-28_AST_grep_overview_28476614.md
+  general -> general
+  tags:  -> ['ast', 'grep', 'general']
+  projects: [] -> []
+
+FIXED: 2025-12-02_Ledger_Nano_X_issue_89091250.md
+  streaming -> crypto-web3
+  tags:  -> ['token', 'wallet', 'ledger', 'nano', 'issue']
+  projects: [] -> []
+
+FIXED: 2025-12-08_Game_name_suggestions_38092416.md
+  general -> general
+  tags:  -> ['game', 'name', 'general']
+  projects:  -> ['flappy-meme-bird']
+
+FIXED: 2025-12-24_ChatGPT_Wrapped_Guide_71151258.md
+  ai-tools -> ai-tools
+  tags:  -> ['chatgpt', 'wrapped', 'ai-tools']
+  projects: [] -> []
+
+FIXED: 2026-01-08_Discord_CTA_in_OBS_30091370.md
+  streaming -> streaming
+  tags:  -> ['obs', 'overlay', 'discord', 'cta']
+  projects:  -> []
+
+FIXED: 2026-02-15_Define_trish_81134368.md
+  streaming -> crypto-web3
+  tags:  -> ['defi', 'token', 'trish']
+  projects: [] -> []
+
+
+
+============================================================  SUMMARY  ============================================================
+Total files:    491
+Fixed:          489
+Skipped:        2
+Errors:         0
+Time:           5.2s
+
+Category changes:
+  ai-tools -> ai-tools: 35
+  ai-tools -> career: 4
+  ai-tools -> coding: 1
+  ai-tools -> crypto-web3: 3
+  ai-tools -> general: 7
+  ai-tools -> homelab: 13
+  career -> ai-tools: 2
+  career -> career: 43
+  career -> general: 1
+  career -> homelab: 3
+  coding -> ai-tools: 15
+  coding -> career: 2
+  coding -> coding: 2
+  coding -> crypto-web3: 8
+  coding -> general: 13
+  coding -> homelab: 5
+  crypto-web3 -> ai-tools: 6
+  crypto-web3 -> career: 2
+  crypto-web3 -> coding: 1
+  crypto-web3 -> crypto-web3: 69
+  crypto-web3 -> general: 10
+  crypto-web3 -> homelab: 1
+  general -> ai-tools: 8
+  general -> career: 7
+  general -> crypto-web3: 7
+  general -> general: 88
+  general -> homelab: 8
+  general -> streaming: 1
+  homelab -> ai-tools: 7
+  homelab -> career: 7
+  homelab -> crypto-web3: 1
+  homelab -> general: 18
+  homelab -> homelab: 13
+  homelab -> streaming: 1
+  streaming -> ai-tools: 2
+  streaming -> career: 3
+  streaming -> crypto-web3: 23
+  streaming -> general: 36
+  streaming -> homelab: 5
+  streaming -> streaming: 8
+
+Completed: 2026-05-18 11:05:41

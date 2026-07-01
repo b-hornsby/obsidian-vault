@@ -1,0 +1,26 @@
+---
+category: ai-tools
+date: 2025-11-18
+id: 145747
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/operation-immortal-agent.md']
+linked_projects:
+- homelab-stack
+resolution: partial
+sentiment: stuck
+source: GEMINI
+summary: Bryan is trying to connect Qwen2.5-Coder running in LM Studio to Cursor using
+  ngrok and is seeking step-by-step guidance to get it working.
+tags:
+- qwen-2.5-coder
+- lmstudio
+- cursor-ide
+- ngrok
+- local-llm-integration
+---
+# currently running Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf through lmstudio and i'm trying to use that model inside of cursor. to connect the two i was trying to use ngrok but i'm having trouble getting the model to work inside of cursor. can you guide me through the steps to get this working? start from the beginning and be sure to ask me what i see in my terminal as i go please 
+
+### USER
+currently running Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf through lmstudio and i'm trying to use that model inside of cursor. to connect the two i was trying to use ngrok but i'm having trouble getting the model to work inside of cursor. can you guide me through the steps to get this working? start from the beginning and be sure to ask me what i see in my terminal as i go please 
+
+### GEMINI
+That's a great setup you're trying to achieve! Connecting a local LLM server like LM Studio to an external application like Cursor via a tunneling service like ngrok is a common workaround. The reason you need ngrok is that Cursor generally doesn't accept localhost or 127.0.0.1 as the API base URL for a custom model. The process involves properly setting up the server in LM Studio, creating the public tunnel with ngrok, and then configuring Cursor to use that public URL. Here are the step-by-step instructions. Please let me know what you see in your terminal after each major step. 🚀 Step 1: Set up the LM Studio Server First, you need to ensure LM Studio is running the Qwen2.5 model and exposing it via its local API server. Open LM Studio and go to the "${\ldots}$ Local Server" tab (usually the second icon from the bottom). In the "Select a model to load" dropdown, choose your Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf model. Load the model and ensure the server is running on the default port, which is typically 1234. Check the "Server Host" and "Port" settings on the right side. The default should be http://localhost:1234. In the "CORS" section (look for "Configure your server for external access"), make sure "Enable CORS" is checked. This is crucial for external services to access it. Check the "OpenAI-compatible Server" box to ensure it exposes the correct API format that Cursor expects. Question: What does the LM Studio log window (the main server window) say after you've loaded the model and clicked Start Server? It should confirm the port and API endpoint, like "HTTP Server listening on port 1234." 🔌 Step 2: Start the ngrok Tunnel Next, you'll use ngrok to create a public URL that tunnels to the local LM Studio server. Open your Terminal or Command Prompt. Run the ngrok command, specifying the port LM Studio is running on (1234). The command should be: ngrok http 1234 Note: If you haven't set up your ngrok authtoken, you'll need to do that first. Run ngrok authtoken <YOUR_AUTH_TOKEN> if needed. Question: After you run the ngrok command, what is the Forwarding URL that ngrok displays in your terminal? It will look something like https://some-random-id.ngrok-free.app. 💻 Step 3: Configure Cursor Now, you'll tell Cursor to use the public ngrok URL as its OpenAI-compatible API endpoint. Open Cursor and go to Settings (usually Cmd+, or Ctrl+,). Search for "Models" or navigate to the AI/Models section. Look for the settings related to Custom OpenAI API. You may need to enable a toggle that says "Override OpenAI API" or similar. API Key: Enter a placeholder API key. Since your local LM Studio server doesn't require a real key, you can use any random string, like lm-studio-key. Base URL: This is the critical step. Take the Forwarding URL from ngrok in Step 2 and append /v1 to it. Example: If your ngrok URL was https://some-random-id.ngrok-free.app, you'll enter: https://some-random-id.ngrok-free.app/v1 In the list of available models, add the model name. Although LM Studio's API is compatible with OpenAI, Cursor sometimes requires a recognizable name. A common workaround is to use a name that Cursor expects to be compatible with its agents. Try the following: Model Name: gpt-4o (This is a common workaround to ensure Cursor treats the model as a powerful agent). Select the model you just added and deselect any official cloud models like GPT-4 or Claude to ensure Cursor defaults to your custom local model. Question: Once you've entered the base URL and a placeholder key, and tried to send a prompt in Cursor, what is the exact error message (if any) that Cursor displays? Sometimes it will say "The model gpt-4o does not work with your current plan or api key", which may still allow you to use the model, but if it's a different error, that will tell us where the connection is failing. You can check out this video for a visual guide on connecting a local LLM to Cursor. How to Use a Local LLM within Cursor (and save money on AI tokens!) Let me know the output of the terminal after Step 2 so we can proceed to troubleshooting if necessary!

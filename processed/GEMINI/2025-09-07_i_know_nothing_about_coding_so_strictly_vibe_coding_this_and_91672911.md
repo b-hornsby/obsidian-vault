@@ -1,0 +1,19 @@
+---
+id: 398969
+source: GEMINI
+date: 2025-09-07
+tags: ['vibe-coding', 'learning-to-code', 'cursor-ide']
+category: coding
+sentiment: exploratory
+resolution: partial
+linked_projects: []
+linked_nodes: ['nodes/people/bryan.md', 'nodes/topics/tech/coding.md']
+summary: Bryan is acknowledging his lack of coding experience and is taking a 'vibe coding' approach to learn while working on a project.
+---
+# i know nothing about coding so strictly vibe coding this and trying to learn later
+
+### USER
+i know nothing about coding so strictly vibe coding this and trying to learn later
+
+### GEMINI
+That's completely fine. Many great developers start by "vibe coding" and learning as they go. I can act as your co-pilot and provide the exact code you need for each step. Let's start with the first piece of the puzzle: the main crew.py file that orchestrates everything. 1. Create crew.py This file is like the main headquarters for your AI team. It will read the blueprint (context_profile.json) and assemble all the agents and their tasks. Copy this code and paste it into a new file named crew.py in your project's root folder. import json from crewai import Agent, Task, Crew # Load the project blueprint with open('context_profile.json', 'r') as f: config = json.load(f) # Define a function to create an agent from the config def create_agent(agent_config): return Agent( role=agent_config['role'], goal=agent_config['goal'], backstory=agent_config['backstory'] ) # Create agents from the JSON data director_agent = create_agent(config['agents'][0]) environment_agent = create_agent(config['agents'][1]) asset_agent = create_agent(config['agents'][2]) animation_agent = create_agent(config['agents'][3]) render_agent = create_agent(config['agents'][4]) # Define the tasks for the crew # Note: For now, these are simple placeholders director_task = Task( description="Interpret the user's prompt and create a detailed plan.", agent=director_agent ) environment_task = Task( description="Generate a high-quality environment for the scene.", agent=environment_agent ) asset_task = Task( description="Prepare all the 3D models and textures for the scene.", agent=asset_agent ) animation_task = Task( description="Animate the 3D assets and camera movements.", agent=animation_agent ) render_task = Task( description="Render the final animation and apply polish.", agent=render_agent ) # Assemble the crew with their tasks # The 'sequential' process means one task is completed before the next one starts. blender_crew = Crew( agents=[ director_agent, environment_agent, asset_agent, animation_agent, render_agent ], tasks=[ director_task, environment_task, asset_task, animation_task, render_task ], verbose=True ) ### This is the entry point to run the crew ### if __name__ == "__main__": # You will provide the prompt here to kick off the crew result = blender_crew.kickoff( inputs={'user_prompt': "Create a futuristic crypto coin animation with glowing effects."} ) print("Crew's final output:", result) <br> <br> What This Code Does Reads Your Blueprint: It opens your context_profile.json file and reads all the details about your agents. Assembles the Team: It creates an Agent for each of your team members (Director, Assets, etc.) and gives them the role, goal, and backstory you defined. Makes a To-Do List: It creates a Task for each agent, which is a specific job they need to complete. Puts it all Together: It assembles a Crew and assigns the agents and their tasks. The verbose=True line means you'll see a lot of output in the terminal, which is helpful for seeing what's happening. Kicks it Off: The if __name__ == "__main__": block is the starting point. When you run this file, it will tell the Director agent to start working on the given prompt. This file is the core of your entire project. After this is done, we can move on to the next piece.

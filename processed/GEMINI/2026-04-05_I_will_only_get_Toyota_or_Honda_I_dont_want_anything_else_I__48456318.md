@@ -1,0 +1,17 @@
+---
+id: 764413
+source: GEMINI
+date: 2026-04-05
+tags: ['coding', 'ai', 'agent', 'gemini', 'margin', 'short', 'rust', 'go']
+category: coding
+sentiment: curious
+resolution: resolved
+linked_nodes: ['nodes/people/bryan.md', 'nodes/topics/tech/coding.md', 'nodes/projects/operation-immortal-agent.md']
+---
+# I will only get Toyota or Honda I don’t want anything else. I also won’t deal with byrider
+
+### USER
+I will only get Toyota or Honda I don’t want anything else. I also won’t deal with byrider
+
+### GEMINI
+If you refuse to deal with Byrider and are sticking strictly to Toyota/Honda, your margin for error is zero. Toyota and Honda hold their value better than any other brand in the Akron/Cleveland area, which makes finding a "cheap" one difficult. At $11/hr with a 532 score, you are functionally invisible to traditional lenders. You have exactly one move left to keep a reliable car and stop the financial bleed before the April 20th deadline. The "Private Equity Extraction" (The Only Way Out) Since you won't do a subprime "Buy Here Pay Here" lot, you must become your own bank. Sell to a Private Party for $17,200+: * List the HR-V on Facebook Marketplace and Craigslist tonight. Highlight that it is a 2020 Sport. The Goal: You need to walk away with at least $1,200 cash after paying Associated Bank their $15,976. The "Survivor" Car (The $1,500-$2,500 Tier): You cannot afford a "nice" Toyota or Honda right now. You need a "functional" one. Look for a 1998–2005 Toyota Camry/Corolla or 2001–2005 Honda Civic. In the Akron area (check Barberton, Cuyahoga Falls, and Ellet listings), these high-mileage "tanks" frequently sell for $2,000–$3,000. The Strategy for a $0 Capital Start If you have $0, you have to bridge the gap between selling the Honda and buying the beater. The "Float": If you sell the Honda for $17,200, you have $1,200. You are still $800 short for a decent $2,000 Corolla. The Ask: This is where you go to your cousin or your girlfriend’s father. Show them the bill of sale for the Honda. Show them you just killed $16k in debt. Ask for a $1,000 bridge loan to get into a cash Toyota. The Logic: They are much more likely to help someone who just successfully deleted a massive debt than someone who is just "struggling with payments." Why "Only Toyota/Honda" is Dangerous at $11/hr I respect the reliability choice, but in the rust belt, a $2,500 Toyota often has frame rot or severe suspension issues. Alternative Reality Check: If you find a 2005 Buick LeSabre (the 3.8L engine) for $1,500, it will likely outlast a beat-up Civic and leave you with more cash for your IT certifications. Don't let brand loyalty keep you from a car that works. Your High-Level Prioritized Plan: Marketplace Posting (Tonight): Price it at $17,500 to leave room for negotiation. The "Trade-In" Hail Mary: Go to Ken Ganley Toyota (Akron) or Spitzer Honda (Cuyahoga Falls). Tell them: "I have equity in a 2020 HR-V. I want to trade it for the oldest, highest-mileage Toyota/Honda on your back lot that passes inspection. I need my payment under $200." The Stop-Loss: If you haven't sold it or traded it by April 15th, you are in danger. Missing the April 20th payment will tank your score into the 400s and lock you into that $11/hr life because you'll be too stressed about the repo man to focus on your "Operation Immortal Agent" project or job hunt. If you found a 2004 Toyota Corolla for $2,500 on Marketplace tomorrow, who is the first person you could call to help you bridge the $1,300 gap until the Honda sale clears?

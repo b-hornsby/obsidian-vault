@@ -1,0 +1,24 @@
+---
+category: ai-tools
+date: 2025-07-05
+id: 18058
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/operation-immortal-agent.md']
+linked_projects: []
+resolution: partial
+sentiment: frustrated
+source: GEMINI
+summary: Bryan is expressing concern about increased response times and dissatisfaction
+  with the voice quality in his oobabooga setup.
+tags:
+- oobabooga
+- response-time
+- tts-quality
+- performance-tuning
+---
+# so depending on the question its taking longer to reply now and i don't like the sound of the voice either
+
+### USER
+so depending on the question its taking longer to reply now and i don't like the sound of the voice either
+
+### GEMINI
+Let's address both of those issues to improve your AI assistant's performance and user experience! Addressing Slower Reply Times The increased reply time is likely due to the added processing for Speech-to-Text (STT) and Text-to-Speech (TTS), as well as the complexity of Retrieval-Augmented Generation (RAG). Each of these steps adds latency. Here's how to optimize for speed: 1. Optimize Whisper STT (Input Speed) Whisper model size significantly impacts transcription speed and resource usage. Go to your Oobabooga UI. Navigate to the Whisper STT section in your settings. Change Whisper Model to a smaller size, specifically base.en or tiny.en. base.en is generally a good balance for speed and decent accuracy. tiny.en is the fastest but least accurate. small.en is your current setting and is a good middle ground, but base.en will be noticeably faster if accuracy isn't paramount for quick helpdesk queries. Ensure Device is still set to cuda. Using your GPU is essential for speed. 2. Optimize LLM Inference (Processing Speed) The speed at which your AI generates a text response depends heavily on the model and hardware. Consider a smaller or more efficient LLM: Your current model, Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M.gguf, is a 7-billion parameter model. While relatively efficient, larger models naturally take longer. If you have other, smaller GGUF models (e.g., 3B, 1.8B parameter models) downloaded, you could experiment with them in the "Model" tab for faster responses, though this might impact answer quality. Ensure GPU Offloading is Optimal: For GGUF models, the more layers offloaded to the GPU, the faster they typically run. If you're not already doing so, consider increasing the number of layers offloaded in the "Model" tab, assuming your GPU VRAM can handle it. 3. Optimize Coqui TTS (Output Speed) Like STT, TTS model size and the complexity of the voice model can affect how quickly the audio is generated. Go to the Coqui TTS (XTTSv2) section in your settings. Choose a less complex Voice wav model from the dropdown. While XTTSv2 can produce high-quality voices, some of its more complex configurations or downloaded voice samples can take longer to synthesize. Sometimes a simpler, non-XTTS specific voice within the Coqui TTS framework might be faster if available. 4. Manage RAG Overload For web_rag: If your AI is frequently using web_rag and the web pages are large or complex, the scraping and embedding process can add significant time. The Maximum characters of retrieved data to keep setting in the "Web Retrieval-Augmented Generation" tab is currently 5000. Reducing this to 2000-3000 might speed up web RAG slightly, but could reduce the amount of context the AI gets from the web page. Improving Voice Quality The "Voice wav" dropdown in Coqui TTS (XTTSv2) is key to finding a voice you prefer. 1. Explore Coqui TTS Voice Options Go to the Coqui TTS (XTTSv2) section in your settings. Click on the dropdown next to Voice wav. Audition Voices: Select different options from this dropdown. After selecting, type a sentence into the Preview text box and click Preview to hear the voice. Look for models that might be named tts_models/en/ljspeech/vits or other specific English voice models (like those from the VCTK dataset, if available and downloaded). These are often higher quality than generic female_01.wav type samples. Download More Models (If Applicable): If you don't see many options in the dropdown, look around the Coqui TTS section (or any related tabs) for an option to "Download Models" or "Browse Models." Coqui has a vast repository of pre-trained voices, and you might need to download them explicitly if they didn't come with the initial install. 2. Adjust TTS Settings for Clarity While the Play TTS automatically checkbox is for convenience, the other settings are generally fine. Ensure Language is set to English for optimal pronunciation. After making any changes to these settings, remember to: Go to the main Extensions & flags tab. Click Save settings to user_data/settings.yaml. Click Apply flags/extensions and restart. Test after each change to see the impact on speed and voice quality!

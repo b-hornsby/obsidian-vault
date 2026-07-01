@@ -1,0 +1,23 @@
+---
+id: 221930
+source: GEMINI
+date: 2025-07-05
+tags: ['coding', 'llm', 'ai', 'gemini', 'model', 'oobabooga', 'rag', 'openai']
+category: coding
+sentiment: executing
+resolution: resolved
+linked_nodes: ['nodes/people/bryan.md', 'nodes/topics/tech/coding.md', 'nodes/projects/operation-immortal-agent.md']
+---
+# can you put that whole python script as one whole thing rather than splitting it up like you did here? 
+
+### USER
+can you put that whole python script as one whole thing rather than splitting it up like you did here? 
+
+### GEMINI
+Got it! Here's the complete rag_chat.py script as one continuous block of code. rag_chat.py Script (Full Code) import os from langchain_community.embeddings import HuggingFaceEmbeddings from langchain_community.vectorstores import Chroma from langchain_community.llms import LlamaCpp from langchain.chains import RetrievalQA from langchain.prompts import PromptTemplate from langchain_community.llms import OpenAI # Used for OpenAI-compatible APIs like Oobabooga # --- Configuration --- # Directory where your ChromaDB vector store is saved CHROMA_DB_PATH = "./chroma_db" # The embedding model used to create the DB (must be the same!) EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2" # Oobabooga API URL OOBABOOGA_API_URL = "http://127.0.0.1:5000/v1" # This is the standard /v1 endpoint for OpenAI-compatible APIs # --- Prompt Template (This guides the LLM's response) --- # The context will be the relevant information retrieved from your knowledge base # The question will be the user's query PROMPT_TEMPLATE = """Use the following pieces of context to answer the user's question. If you don't know the answer, just say that you don't know, don't try to make up an answer. Keep the answer concise and to the point. Context: {context} Question: {question} Answer:""" def main(): print("
+--- Starting RAG Chat System ---
+") # 1. Load the Embedding Model (same one used for creating the DB) print(f"Loading embedding model: {EMBEDDING_MODEL_NAME}...") embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL_NAME) print("Embedding model loaded.") # 2. Load the ChromaDB Vector Store print(f"Loading ChromaDB from {CHROMA_DB_PATH}...") # We don't use .from_documents here, but directly load the existing persistent DB db = Chroma(persist_directory=CHROMA_DB_PATH, embedding_function=embeddings) print("ChromaDB loaded.") # 3. Set up the Retriever # The retriever's job is to search the DB for relevant documents based on a query retriever = db.as_retriever(search_kwargs={"k": 3}) # k=3 means retrieve top 3 most similar documents print("Retriever initialized.") # 4. Set up the Oobabooga LLM connection print(f"Connecting to Oobabooga API at {OOBABOOGA_API_URL}...") # LangChain's OpenAI class can talk to OpenAI-compatible APIs (like Oobabooga's) # We specify base_url and disable API key requirement llm = OpenAI(base_url=OOBABOOGA_API_URL, api_key="sk-no-key-required") print("LLM connection established.") # 5. Create the RAG Chain (combines retriever and LLM) print("Creating RetrievalQA chain...") qa_chain = RetrievalQA.from_chain_type( llm=llm, chain_type="stuff", # "stuff" means it will "stuff" all retrieved documents into one prompt retriever=retriever, return_source_documents=True, # This will show us which documents were used chain_type_kwargs={"prompt": PromptTemplate(template=PROMPT_TEMPLATE, input_variables=["context", "question"])} ) print("RetrievalQA chain ready.") print("\n
+--- Enter your questions (type 'exit' to quit) ---
+") while True: query = input("You: ") if query.lower() == "exit": break print("AI: Thinking...") response = qa_chain({"query": query}) print(f"\nAI Answer:\n{response['result']}") print("\n
+--- Source Documents (used for context) ---
+") for i, doc in enumerate(response['source_documents']): print(f"Document {i+1}:") print(f" Source: {doc.metadata.get('source', 'N/A')}") print(f" Content (first 200 chars): {doc.page_content[:200]}...") print("-" * 20) print("\n" + "=" * 50 + "\n") if __name__ == "__main__": main() Your Next Step: Create and Save the Script 💾 Ensure you are in your ~/helpdesk_ai_rag directory in your WSL2 terminal. If you are still in knowledge_base, type cd .. and press Enter. Your prompt should be: (base) bryan_@DESKTOP-NG2I0P2:~/helpdesk_ai_rag$ Create a new Python file named rag_chat.py using nano: nano rag_chat.py Paste the entire code block above into the nano editor. Save and Exit nano: Press Ctrl + X. Type Y for Yes, then press Enter. Press Enter again to confirm the file name rag_chat.py. Once you confirm you've saved this script, we'll run it and test your RAG system!

@@ -1,0 +1,19 @@
+---
+id: 624199
+source: GEMINI
+date: 2026-02-02
+tags: ['privacy-browser', 'phantom-wallet', 'ledger', 'cachyos', 'web3']
+category: crypto-web3
+sentiment: curious
+resolution: partial
+linked_projects: ['nodes/projects/homelab-stack.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/topics/personal/crypto-web3.md', 'nodes/projects/homelab-stack.md']
+summary: Bryan was looking for a privacy-focused browser without AI features that supports Phantom Wallet and Ledger on CachyOS.
+---
+# What browser can I use that doesn’t have ai baked in, is privacy focused and I can use phantom wallet/ledger as well? On Linux (cachyos) 
+
+### USER
+What browser can I use that doesn’t have ai baked in, is privacy focused and I can use phantom wallet/ledger as well? On Linux (cachyos) 
+
+### GEMINI
+Since you're on CachyOS (an Arch-based powerhouse), you have the best tools at your disposal, but your requirements create a specific technical conflict. Here is the "brutally honest" reality: Phantom + Ledger is notoriously unreliable on Firefox-based browsers due to how they handle USB/HID (WebHID) permissions. If you want a browser that is truly privacy-focused, AI-free, and actually works with your hardware wallet on Linux, you have to stop looking at mainstream options and look at hardened Chromium forks. 1. The Best Fit: Ungoogled-Chromium This is the "purest" option for your specific stack. It is Chromium with every single Google dependency, telemetry ping, and binary blob stripped out. It has zero AI features (no "Gemini in sidebars" or "Help me write" crap). Why it works: Because it's Chromium-based, it has the native WebHID support required for Phantom to talk to your Ledger via USB. Privacy: It is as "dry" as a browser gets. It doesn't even come with a web store; you have to manually enable the extension installer or use an AUR helper. On CachyOS: You can install it directly from the AUR: yay -S ungoogled-chromium 2. The "Hardened" Alternative: LibreWolf If you are a Firefox loyalist and want a browser that treats privacy like a religion, LibreWolf is the choice. It removes all telemetry and ad-ware. The AI Status: Unlike base Firefox (which is experimenting with AI), LibreWolf strips all that out. The Crypto Catch: Firefox's implementation of hardware wallet connections is historically buggy. Phantom often fails to "see" the Ledger on Linux Firefox forks. If you choose this, you may have to use Bridge software or deal with frequent "Device not found" errors. On CachyOS: yay -S librewolf-bin 3. The "Network-Level" Choice: Mullvad Browser Developed by Mullvad VPN and the Tor Project, this is designed to stop fingerprinting. It does not have AI and is built for one thing: making you look like every other Mullvad user. Warning: It is extremely restrictive. Using a crypto wallet extension like Phantom in a browser designed to clear all data on exit is a recipe for a headache. I would not recommend this for active Web3 use, only for private "read-only" browsing. Strategy & Blind Spots You’re looking for a "clean" browser, but the irony is that web3 extensions (like Phantom) are massive privacy leaks. Even if your browser is AI-free and privacy-hardened, Phantom itself pings its own RPC nodes and tracks your wallet interactions. The Action Plan: Don't use one browser for everything. Use LibreWolf for your daily private searching/reading. Use Ungoogled-Chromium specifically for Crypto. Install only Phantom there. This keeps your "financial fingerprint" isolated from your "identity fingerprint." Linux/Ledger Fix: On CachyOS, you must have your udev rules set up, or no browser will see your Ledger. Install the rules: yay -S libu2f-host and ledger-udev. Replug your Ledger after installing. Would you like the specific terminal commands to set up the udev rules for your Ledger on CachyOS?

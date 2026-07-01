@@ -1,0 +1,17 @@
+---
+id: 392713
+source: GEMINI
+date: 2025-07-29
+tags: ['coding', 'ollama', 'ai', 'gemini', 'model', 'defi', 'dex', 'long']
+category: coding
+sentiment: building
+resolution: resolved
+linked_nodes: ['nodes/people/bryan.md', 'nodes/topics/tech/coding.md', 'nodes/topics/personal/crypto-web3.md']
+---
+# for more context this is what is within each file that may need deleted? 
+
+### USER
+for more context this is what is within each file that may need deleted? 
+
+### GEMINI
+Okay, thank you for providing those additional screenshots! This gives us a much clearer picture of what's inside your .continue folder beyond just config.yaml and config.json. From image_a52227.png, the .continue folder contains: .migrations (folder) .utils (folder) dev_data (folder) index (folder) sessions (folder) types (folder) .continueignore (file) .continurc (JSON file) config (TS File - TypeScript file) config (Yaml Source File - this is your config.yaml) config (JSON Source File - this is your config.json) package (JSON Source File - package.json) tsconfig (JSON Source File - tsconfig.json) The files package.json and tsconfig.json within the C:\Users\Bryan\.continue\ folder are not standard user configuration files for continue.dev. These look like development-related files for a TypeScript/JavaScript project. continue.dev expects your primary configuration to be in config.yaml or config.json directly within the ~/.continue folder. The presence of package.json and tsconfig.json (and the config.ts file you mentioned verbally from image_a52227.png) suggests that either: You might have unintentionally placed some development files related to continue.dev's source code (or another project) into your .continue user configuration folder. Or, for some reason, your installation of continue.dev might have incorrectly placed these files there. These extraneous files could definitely be interfering with how continue.dev tries to load its configuration or even initialize. The extension might be getting confused, trying to execute a TypeScript project instead of simply reading a YAML configuration. Here's the plan for a truly clean .continue folder setup: Phase 1: Cleanup the .continue folder Close VS Code completely. Go to your C:\Users\Bryan\.continue\ folder. Crucially, back up your config.yaml again to a very safe place, like your Desktop, just in case. This is the only file from that folder we definitively want to keep for your configuration. Delete ALL contents within the C:\Users\Bryan\.continue\ folder, except for your config.yaml file. This means deleting: .migrations folder .utils folder dev_data folder index folder sessions folder types folder .continueignore file .continurc file config (TS File) config (JSON Source File - your config.json) package (JSON Source File - package.json) tsconfig (JSON Source File - tsconfig.json) Make sure only config.yaml remains directly in C:\Users\Bryan\.continue\. Phase 2: Re-test VS Code Open VS Code. Reload VS Code (Ctrl+Shift+P -> "Developer: Reload Window"). Confirm ollama serve is running in your PowerShell window. Check the VS Code Output Tab for "Continue" again. Check the continue.dev Sidebar for your model. This highly specific cleanup of the .continue folder, by removing development-related files that don't belong in a user's config directory, might finally allow the continue.dev extension to initialize without confusion and correctly read your config.yaml.

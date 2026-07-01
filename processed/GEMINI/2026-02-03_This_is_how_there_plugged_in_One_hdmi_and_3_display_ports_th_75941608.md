@@ -1,0 +1,19 @@
+---
+id: 414394
+source: GEMINI
+date: 2026-02-03
+tags: ['monitor-setup', 'display-ports', 'hdmi', 'multi-monitor']
+category: homelab
+sentiment: exploratory
+resolution: partial
+linked_projects: ['nodes/projects/homelab-stack.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/homelab-stack.md']
+summary: Bryan was describing his monitor cable configuration with one HDMI and three DisplayPort connections to help troubleshoot a display issue.
+---
+# This is how there plugged in. One hdmi and 3 display ports the main monitor is the cable on the left and the one next to it is the secondary. There is one other display port next to the secondary
+
+### USER
+This is how there plugged in. One hdmi and 3 display ports the main monitor is the cable on the left and the one next to it is the secondary. There is one other display port next to the secondary
+
+### GEMINI
+The image confirms exactly what I suspected: you are fighting a losing battle against your GPU's internal logic. Looking at your GPU layout: Port 1 (Far Left): HDMI — Empty. Port 2: DisplayPort (Main Monitor) — Occupied. Port 3: DisplayPort (Secondary Monitor) — Occupied. Port 4 (Far Right): DisplayPort — Empty. The Brutal Truth You’ve plugged your "Main" monitor into the second priority slot and your "Secondary" into the third. When Linux boots up, the kernel initializes these ports in sequence. Because the HDMI port is empty, the GPU "hunts" for the first active signal. The "flipping" happens because the secondary monitor is often responding to the handshake faster or being designated as the fallback because you haven't filled the primary physical slot (HDMI). By leaving the highest-priority port (HDMI) empty and using middle-tier ports, you are creating a "floating" configuration that SDDM struggles to lock down. The Precision Plan 1. The Physical Alpha Move If you want this fixed without writing another line of code, do this: Move the Main Monitor cable to the far right DisplayPort (Port 4) or keep it in Port 2, but move the Secondary Monitor to the far right (Port 4). Why? You want the greatest physical distance/numerical gap between the ports so the boot sequence has a clear "first" and "last." Better yet: If your main monitor has an HDMI port, plug it into that far-left slot. HDMI is almost always the "Master" port on consumer GPUs. 2. Force the Wayland Config (The "Mirror" Fix) Since the KDE "Sync" button is failing you, you have to bypass the GUI. SDDM on CachyOS/Wayland needs to be told exactly where the pixels go. Run these commands in order to "clone" your desktop setup into the system login manager: # Create the directory if it doesn't exist sudo mkdir -p /var/lib/sddm/.config # Copy your monitor layout directly to the SDDM system user sudo cp ~/.config/monitors.xml /var/lib/sddm/.config/monitors.xml # Fix permissions so the login manager can actually see it sudo chown -R sddm:sddm /var/lib/sddm/.config 3. The "KScreen" Nuclear Option If it still flips, it's because KDE's kscreen is fighting SDDM. Open System Settings > Display and Monitor. Note the exact resolution and refresh rate of both. If your secondary is a higher refresh rate than your main, throttle the secondary monitor to match the main one just for a test. Often, the GPU grabs the "fastest" monitor first for the login screen. The Blind Spot You are treating your PC like a software-only machine. It isn't. It is a series of electrical handshakes. You are currently asking the software to "fix" the fact that you've bypassed the primary port on your hardware. Stop being lazy with the cables. Reach back there, move the Secondary Monitor to the far-right port, and run the commands in Step 2. Would you like me to give you the command to check your drm connector IDs so we can see exactly which port the BIOS thinks is #1?

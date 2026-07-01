@@ -1,0 +1,10 @@
+Scanning 3400 files...
+  FIXED: 2025-06-15_VM_LLM_Project_Idea_55071049.md (fixed (2 blocks -> 1))
+  FIXED: 2025-06-18_Project_Brainstorming_Support_62930296.md (fixed (5 blocks -> 1))
+  FIXED: 2025-07-13_Multi_Agent_Helpdesk_Setup_75644414.md (fixed (2 blocks -> 1))
+  FIXED: 2025-07-28_Latest_AI_tools_2025_20999033.md (fixed (3 blocks -> 1))
+  FIXED: 2025-08-10_Set_up_Ollama_GUI_53055247.md (fixed (2 blocks -> 1))
+  SKIP: 2025-09-07_Check_venv_activation_53827338.md (no_body)
+  FIXED: 2025-09-07_Using_models_in_GUI_44195025.md (fixed (2 blocks -> 1))
+
+Done! 6 fixed, 3394 skipped, 0 errors
