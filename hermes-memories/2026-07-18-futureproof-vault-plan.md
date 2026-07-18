@@ -80,3 +80,29 @@ Read this file, then:
 4. After done: Tier-1 gap-fill (step 4) + adds (Qwen3-235B, DeepSeek-V3)
 5. Arm Kimi K3 watcher (step 5)
 6. Verify (step 6)
+
+## EXECUTION LOG (2026-07-18, run for real)
+- Ground truth on disk: 61 dirs present but only 25 had real GGUFs; 3 partial
+  (GLM-colibri 41GB/.cache, Qwen2.5-VL-72B ~29GB stray quants + 1/2 Q5_K_S, Pixtral-Large 0).
+- Subagents reconstructed + HF-VERIFIED all repo_ids. Master built at /tmp/vault_master.json
+  (37 entries, 1427GB; whisper pulled early as the command-path test so 36 remain pending).
+- Downloader hardened + VALIDATED: real 1.7GB whisper pull succeeded (20s). hf download path works.
+- LAUNCHED background pid 59161 (notify_on_complete) — serial, resume-safe, timeout=max(1800,gb*70).
+  Forces the 2 partials (GLM-colibri full-repo 378GB, Qwen2.5-VL-72B 47GB, clean-stray).
+- Kimi K3 watcher armed via cron */30 (excludes fake audnai/penclaw placeholder; pings ntfy on real K3).
+
+### DEVIATIONS forced by live HF verification (plan was partially wrong):
+1. DeepSeek-V3 CANNOT be added. Plan assumed ~150-227GB, but smallest quant on HF
+   (unsloth/DeepSeek-V3-GGUF) is Q3_K_M = 319GB. Over the 248GB linked-Spark ceiling. Excluded.
+2. Pixtral-Large has NO GGUF anywhere on HF (only safetensors). Empty dir dropped.
+3. W-colibri / Y dirs: unresolved cryptic identities (colibri search ambiguous; not GLM/Hy3/MiMo
+   which are cut/stay). Excluded to avoid guessing. Re-add only if you name the real source.
+4. GLM-5.2-colibri resolved to jlnsrk/GLM-5.2-colibri-int4 (352GB full-repo, disk-streams).
+5. Stale 07-15 cron (vault_gapfill_watcher.sh, watched dead PID 59350 + [79/79]) REMOVED —
+   it would have launched a nonexistent download_gapfill_vault.py. Main+gapfill now one job.
+
+### Everything else matches the locked plan:
+- All 79 original intent kept (the 36 pending + 25 already-done + whisper).
+- Qwen3-235B-A22B Q4_K_M (142GB) ADDED. Llama-4-Scout, Janus-Pro, Qwen3-VL, gemma-4 ADDED.
+- Hy3+MiMo colibri stays CUT (over ceiling). GLM-5.2-colibri STAYS (disk-streams).
+- Disk end-state est: ~1.4-1.6T used / ~1.2-1.4T free. Safe under 2.6T.
