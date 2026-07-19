@@ -118,6 +118,19 @@ See: [[nodes/topics/thinking-patterns.md|Thinking Patterns]] for the full analys
 
 ---
 
+## Current State (2026-07-19)
+
+| Area | State |
+|------|-------|
+| **Job search** | Not currently sending applications; focus is portfolio + A+ study. Resume draft exists but needs verified warehouse metrics and a GitHub/portfolio link. |
+| **Skill stack** | CachyOS daily driver, Docker, Syncthing, CUDA/llama.cpp (Qwen 9B / Qwen 3.6 MoE), WSL2, OBS/VoiceMeeter troubleshooting, multi-agent workflows (CrewAI,Ollama,Oobabooga). Still no certs earned. |
+| **Projects in flight** | garage-flipping outreach phase, vault hardening, multi-agent local-LLM script, Kimi K3 watcher via cron. |
+| **Health** | Warehouse work is physically hard; tracking not formalized in the vault. Primary constraint is energy after shifts. |
+| **Relationships** | Multigenerational household with girlfriend and her dad in Akron — stable but tight finances; car/debt cleanup recent win. |
+
+Bottom line: grinding the transition, quietly. Credibility layer = certs + portfolio + live proofs. The next verifiable win should be a shipped portfolio page or A+ pass.
+
+---
 ## Key moments
 
 - **The agent epiphany** (April 2026): I finally understood how agents work — LLM as brain, framework as body, skills as hands. This reframed everything.

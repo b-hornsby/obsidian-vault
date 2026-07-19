@@ -1,5 +1,5 @@
 ---
-tags: [index, goals, q2-2026]
+tags: [index, goals]
 aliases: [Goals Index, Goal Tracking]
 ---
 
@@ -7,22 +7,23 @@ aliases: [Goals Index, Goal Tracking]
 
 _All goal-related files in one place._
 
-|| File | Purpose | Last Updated |
+| File | Purpose | Last Updated |
 |------|---------|-------------|
-|| [[insights/goals/goals-overall.md|Goals Overview]] | Master goals document — the why behind everything | 2026-04-29 |
-|| [[insights/goals/q2-2026-action-tracker.md|Q2 Action Tracker]] | Active sprint tracker — garage flipping P0 | 2026-06-02 |
-|| [[nodes/projects/garage-flipping.md|Garage Flipping]] | Active project: tech-enabled garage clearance | 2026-06-02 |
+| [[insights/goals/goals-overall.md|Goals Overview]] | Master goals document — the why behind everything | 2026-07-19 |
+| [[insights/goals/goals-Q3-2026.md|Q3 2026 Goals]] | Current quarter priorities and success criteria | 2026-07-19 |
+| [[insights/goals/q2-2026-action-tracker.md|Q2 Action Tracker]] | Sprint tracker, archived? | 2026-06-02 |
+| [[insights/goals/goal-alignment-2026-Q2.md|Q2 Alignment Report]] | Alignment review | 2026-06-02 |
 
 ---
-
-**Active focus:** Garage Flipping — outreach, first booking, loot resale.
-Legacy goals from Q2 plan archived. See Q2 tracker for full archive list.
+**Active focus:** Q3 execution — ship one artifact, land A+ exam, weekly cadence restored.
 
 ---
 
 *Review weekly as part of the Sunday review cycle.*
 
-
 ## Related
-- [[goals-index|Goals Index]]
-- [[goals-index|Goals Index]]
+
+- [[insights/goals/goals-overall|Goals Overview]]
+- [[insights/goals/goals-Q3-2026.md|Q3 2026 Goals]]
+- [[nodes/topics/career/career.md|Career]] — role/next-actions hub
+- [[nodes/projects/second-brain-vault.md|Second Brain Vault]] — where goals live

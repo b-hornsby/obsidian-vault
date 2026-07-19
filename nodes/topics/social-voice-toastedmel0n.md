@@ -104,11 +104,25 @@ Replies are short, friendly, bro-ish. No formality.
 
 ---
 
-## Next steps (future project)
-- [ ] Pull a larger sample (xurl API after auth) to confirm patterns hold across time.
-- [ ] Build a few "in-voice" example posts the AI can few-shot from.
-- [ ] Decide which account the AI posts FROM — this handle or a separate bot.
-- [ ] Link to the project node once it exists: [[future-project-social-persona]] (TODO)
+## Asset Inventory
+
+### What Exists
+- Sampled tweet corpus: 14 tweets + profile data, dated Oct 2025 to Apr 2025.
+- Voice spec blocks: DO/DON'T list, tone slider.
+- Evidence table with normalized quotes for pattern validation.
+
+### What's Missing
+- Expanded sample beyond 14 tweets to validate patterns across seasons/contexts.
+- In-voice example posts few-shot set.
+- Posting account decision: this handle vs. separate persona bucket.
+- Chapterized generation prompt tied to actual post cadence.
+
+### Dependencies
+- xurl auth + API access for larger scrape.
+- Decision on project/node: whether to create a dedicated project node or keep as a topic-level spec.
+
+---
+*Status: Draft — patterns extracted but not yet validated at scale.*
 
 
 ## Related
