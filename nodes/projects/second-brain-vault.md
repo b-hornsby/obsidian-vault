@@ -48,9 +48,8 @@ It's the operational memory for every project. The homelab tools, the job search
 
 1. Restore weekly report cron/automation
 2. Add remote backup configuration (Git remote or automated sync)
-3. Audit and repair remaining unresolved wikilinks
-4. Rebuild topic-index verification after any new enrichment writes
-5. Backfill or intentionally skip the 2026-05-27 to 2026-07-18 daily notes gap
+3. Rebuild topic-index verification after any new enrichment writes
+4. Backfill or intentionally skip the 2026-05-27 to 2026-07-18 daily notes gap
 
 ## Linked Conversations
 
