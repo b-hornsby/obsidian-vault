@@ -13,9 +13,7 @@ REPORT="$WEEKLY_DIR/$TODAY-weekly.md"
 
 mkdir -p "$WEEKLY_DIR" "$DAILY_DIR" "$GOALS_DIR"
 
-# Disambiguate current week ending using Friday anchor when possible.
-NOW="$(date +%s)"
-YEAR="$(date +%Y)"
+# Friday-anchored week ending
 WEEKDAY="$(date +%u)"
 if [ "$WEEKDAY" -ge 5 ]; then
   DAYS_TO_FRIDAY=0
@@ -25,19 +23,23 @@ fi
 WEEK_END="$(date -d "+$DAYS_TO_FRIDAY days" +%F 2>/dev/null || date -d "+$DAYS_TO_FRIDAY day" +%F)"
 [ -z "$WEEK_END" ] && WEEK_END="$TODAY"
 
-# Try to discover last weekly report by mtime under weekly-report/.
-LAST_WEEKLY="$(find "$WEEKLY_DIR" -maxdepth 1 -type f -name '*-weekly.md' -printf '%T@ %p\n' 2>/dev/null | sort -nr | head -n1 | awk '{print $2}' || true)"
+# Last weekly report excluding today
+LAST_WEEKLY="$(find "$WEEKLY_DIR" -maxdepth 1 -type f -name '*-weekly.md' ! -name "$TODAY-weekly.md" -printf '%T@ %p\n' 2>/dev/null | sort -nr | head -n1 | awk '{print $2}' || true)"
 LAST_WEEKLY="${LAST_WEEKLY:-none}"
+LAST_WEEKLY_BASENAME="$(basename "$LAST_WEEKLY" .md)"
+[ "$LAST_WEEKLY_BASENAME" = "none" ] && LAST_WEEKLY_BASENAME="none"
 
-# Latest daily note by mtime.
-LAST_DAILY="$(find "$DAILY_DIR" -maxdepth 1 -type f \( -name '*.md' -o -name '[0-9]*' \) -printf '%T@ %p\n' 2>/dev/null | sort -nr | head -n1 | awk '{print $2}' || true)"
+# Latest daily note
+LAST_DAILY="$(find "$DAILY_DIR" -maxdepth 1 -type f -name '*.md' -printf '%T@ %p\n' 2>/dev/null | sort -nr | head -n1 | awk '{print $2}' || true)"
 LAST_DAILY="${LAST_DAILY:-none}"
 LAST_DAILY_DATE="$(basename "$LAST_DAILY" .md)"
 LAST_DAILY_DATE="${LAST_DAILY_DATE:-unknown}"
 
-# Latest goals file by mtime.
+# Latest goals file
 LAST_GOALS="$(find "$GOALS_DIR" -maxdepth 1 -type f -name '*.md' -printf '%T@ %p\n' 2>/dev/null | sort -nr | head -n1 | awk '{print $2}' || true)"
 LAST_GOALS="${LAST_GOALS:-none}"
+LAST_GOALS_BASENAME="$(basename "$LAST_GOALS" .md)"
+[ "$LAST_GOALS_BASENAME" = "none" ] && LAST_GOALS_BASENAME="none"
 
 cat > "$REPORT" <<EOF
 ---
@@ -55,50 +57,39 @@ dashboard: "$DASHBOARD"
 
 # Weekly Report — $TODAY
 
-> Auto-generated weekly summary skeleton. Fill in the sections below during weekly review.
+> Auto-generated weekly review skeleton. Complete each section during Sunday review.
 
-## Goto-Forward
+## Week at a Glance
 
 - Last weekly report: $LAST_WEEKLY
-- Last daily note: $LAST_DAILY_DATE ($LAST_DAILY)
-- Last goals update: $LAST_GOALS
-- Dashboard review: see [[Active-Dashboard.md]]
-
-## Week Ending
-
-- \`$WEEK_END\`
+- Last daily note: $LAST_DAILY_DATE
+- Goals context: $LAST_GOALS
+- Dashboard: [[Active-Dashboard.md]]
 
 ## Top Projects
 
-- [ ] Add project with highest completion This week:
-- [ ] Add project with highest completion This week:
-- [ ] Add project with highest completion This week:
+- [ ] Project / outcome with highest completion this week:
+- [ ] Runner-up project / outcome:
+- [ ] Under-performer that needs attention:
 
 ## Decisions
 
-- [ ] Add decisions made or deferred this week:
-- [ ] Add decisions made or deferred this week:
-- [ ] Add decisions made or deferred this week:
+- [ ] Decisions made this week:
+- [ ] Decisions deferred / parked:
 
 ## Blockers
 
-- [ ] Add blockers or dependencies blocking progress:
-- [ ] Add blockers or dependencies blocking progress:
-- [ ] Add blockers or dependencies blocking progress:
+- [ ] Active blockers / dependencies:
+- [ ] External factors / distractions:
 
 ## Next Week Focus
 
-- [ ] Add priority outcomes or deliverables:
-- [ ] Add priority outcomes or deliverables:
-- [ ] Add priority outcomes or deliverables:
+- [ ] Top priority outcome:
+- [ ] Second priority:
 
-## Links
+## Review Notes
 
-- Last weekly report: \`$LAST_WEEKLY\`
-- Last daily note: \`$LAST_DAILY_DATE\` (\`$LAST_DAILY\`)
-- Last goals update: \`$LAST_GOALS\`
-- Dashboard: \`$DASHBOARD\`
-
+- Anything to carry forward from last weekly:
 EOF
 
 echo "Wrote $REPORT"
