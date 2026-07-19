@@ -1,16 +1,15 @@
-# Active Dashboard — Q2 2026
+# Active Dashboard — Q2/Q3 2026
 
-**Last Review:** 2026-06-02
+**Last Review:** 2026-07-19
 **Current Focus:** Garage Flipping — Tech-Enabled Scavenger
 
 ---
 
 ## Quick Status
 
-- **Sprint Items Complete:** 0 / 6
-- **P0 Items:** 2 in progress (posting + outreach logging)
+- **Sprint Items Complete:** see [[insights/goals/q2-2026-action-tracker|Q2 Action Tracker]]
+- **P0 Items:** latest tracker status is authoritative
 - **Active Project:** garage-flipping
-- **Daemon:** lead-scraper running (PASS)
 - **Infrastructure:** Craigslist daemon + ntfy alerts + vault auto-logging live
 
 ---
@@ -60,9 +59,9 @@ For the latest tracked actions, see:
 - [[MOC.md|Map of Content]] — central navigation hub for the second brain
 - [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — how Bryan thinks, decides, and builds
 - [[insights/goals/goals-overall|Goals Overview]] — master goals document
-- [[weekly-reports-index|Weekly Reports]] — 10 reports, auto-generated Sundays
+- [[weekly-reports-index|Weekly Reports]] — latest reported through May 19, 2026
 - [[insights/blind-spots/2026-04-blind-spots.md|Blind Spots Report]]
-- [[insights/daily-notes/2026-05-26|Today's Daily Note]]
+- [[insights/daily-notes/2026-05-26|Last Daily Note]]
 
 ---
 
@@ -70,17 +69,17 @@ For the latest tracked actions, see:
 
 | Metric | Value |
 |--------|-------|
-| Total enriched conversations | 3,400 |
-| Entity pages with narrative | 20 |
-| Thinking patterns analysis | [[insights/thinking-patterns/2026-05-18-patterns-raw-data.md|May 18 Patterns (raw data)]] |
-| Cross-link coverage | 100% (3,400/3,400 files) |
-| Metadata coverage | 100% (source + id on all files) |
-| Weekly reports | [[weekly-reports-index|10 reports]] (Apr 4 – May 19) |
-| Daily notes | [[insights/daily-notes/2026-05-26|Active]] (started May 20) |
+| Total enriched conversations | `processed/` export bucket size |
+| Entity pages with narrative | 20+ |
+| Thinking patterns analysis | [[insights/thinking-patterns/2026-05-18-patterns-raw-data.md|May 18 Patterns]] |
+| Cross-link coverage | dataview-driven |
+| Metadata coverage | best-effort across processed exports |
+| Weekly reports | [[weekly-reports-index|10 reports]] through 2026-05-19 |
+| Daily notes | [[insights/daily-notes/2026-05-26|Last entry]] |
 | Query system | 6 dataview files in `insights/queries/` |
-| Goals tracking | [[goals-index|4 files]] — all cross-linked |
+| Goals tracking | [[goals-index|4 goal docs]] — cross-linked |
 | Last enrichment run | 2026-05-19 |
-| Vault health | **Alive** — all systems operational |
+| Vault health | Alive — dashboard last Reviewed 2026-07-19 |
 
 ---
 
@@ -114,4 +113,4 @@ The rule: if it doesn't help get Bryan out of warehouse or generate revenue, it'
 
 ---
 
-*Dashboard maintained by Hermes. Last updated 2026-05-26 (Daily check-in).*
+*Dashboard maintained by Hermes. Last reviewed 2026-07-19.*
