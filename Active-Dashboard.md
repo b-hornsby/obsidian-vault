@@ -85,11 +85,26 @@ For the latest tracked actions, see:
 
 ## Cadence Health
 
-| Cadence | Value |
-|---------|-------|
-| daily | 2026-05-20 (backfill 2026-05-27...2026-07-18) |
-| weekly | 2026-05-19 |
-| goals | q2 tracker paused; q3 skeleton created |
+```dataview
+TABLE file.mtime AS "Last Modified"
+FROM "insights/weekly-report"
+SORT file.name DESC
+LIMIT 1
+```
+
+```dataview
+TABLE file.mtime AS "Last Modified"
+FROM "insights/daily-notes"
+SORT file.name DESC
+LIMIT 1
+```
+
+```dataview
+TABLE file.mtime AS "Last Modified"
+FROM "insights/goals"
+SORT file.name DESC
+LIMIT 1
+```
 
 ---
 
