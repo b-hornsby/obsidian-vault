@@ -32,14 +32,10 @@ projects: []
 
 ## Links
 
-- [[nodes/projects/homelab-stack|Homelab Stack]]
-- [[nodes/projects/operation-immortal-agent|OIA]]
-- [[nodes/projects/private-ai-consulting|Consulting]]
-- [[nodes/topics/career/it-certification|IT Cert]]
-- [[nodes/projects/second-brain-vault|Vault Meta]]
-- [[nodes/projects/garage-flipping|Garage Flipping]]
-- [[nodes/projects/job-search|Job Search]]
-- [[../insights/goals/goals-overall|Goals Overview]]
+>- [[active-dashboard|Dashboard]]
+>- [[nodes/projects/homebrain-metadata|Homebrain Metadata]]
+>- [[insights/goals/goals-overall|Goals Overview]]
+>- [[hermes-memories/${YESTERDAY}|Yesterday's Memory]]
 
 ## Backlinks
 

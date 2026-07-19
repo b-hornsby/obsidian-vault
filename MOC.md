@@ -89,10 +89,10 @@ The query system in `insights/queries/` contains dataview-powered views into the
 | Entity pages | 20 |
 | Cross-link coverage | 100% |
 | Metadata coverage | 100% |
-| Weekly reports | [[weekly-reports-index\\|10 reports]] |
+| Weekly reports | [[weekly-reports-index|10 reports]] |
 | Daily notes | [[insights/daily-notes/2026-05-26|Active]] (started May 20) |
 | Query files | 6 |
-| Goals tracking | [[goals-index\\|4 files]] |
+| Goals tracking | [[goals-index|4 files]] |
 | Status | **Alive** |
 
 ---

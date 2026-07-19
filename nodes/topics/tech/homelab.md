@@ -1,7 +1,21 @@
 ---
 type: topic
-tags: [topic, moc, q2-2026]
-aliases: [homelab, infrastructure, self-hosted]
+tags: [topic, moc, q2-2026, homelab, infrastructure, linux]
+aliases: [homelab, infrastructure, self-hosted, cachyos, wsl2]
+description: 793 conversations worth of breaking things, fixing things, and learning how infrastructure actually works. The values and habits that show up every time hardware or OS gets touched.
+primary_projects:
+  - nodes/projects/homelab-stack.md
+last_node_review: 2026-07-19
+related_nodes:
+  - nodes/people/bryan.md
+  - nodes/projects/homelab-stack.md
+  - nodes/topics/tech/ai-tools.md
+  - nodes/topics/tech/coding.md
+  - nodes/topics/career/career.md
+  - nodes/topics/thinking-patterns.md
+  - nodes/topics/personal/streaming.md
+  - nodes/projects/streaming-rig.md
+  - nodes/projects/model-vault.md
 ---
 
 # Homelab
@@ -10,75 +24,93 @@ aliases: [homelab, infrastructure, self-hosted]
 
 ---
 
-## I think about homelab
+## How Bryan thinks about homelab
 
-- **Learning style:** break it first, then rebuild it. The best lessons came from stopping WSL2 from substantializing or rescuing an overwritten boot entry. I learn by reading the exact error string, not from architecture docs.
-- **Decision rules:** if it’s installable on CachyOS without sacrificing my Windows boot option, I’ll try it. Otherwise I keep WSL2 as a compromise OS. I also standardize on whatever removes manual GUI steps — hence NVIM, TMUX, and CUDA CLI workflows.
-- **Current obsessions:** DGX Spark specs vs 3070 reality, model vault download automation, cron/model-switcher reliability, Wazuh alert tuning.
-- **Recurring loops:** I re-ask whether the RTX 3070 can handle a model size, then boot it anyway. I keep coming back to the answer 7B–13B quantized, but the next new repo always makes me ask again.
-
----
-
-## What it is
-
-My homelab is my proudest achievement. It's not a project with a finish line — it's an environment I live in. Every fix, upgrade, or new tool is a small win that compounds over time.
-
-I run CachyOS (Arch-based) as my daily driver on an i7-12700K with an RTX 3070. I've got a Steam Deck that doubles as a Linux testbed. I've set up WSL2 instances, fought with bootloader entries, debugged BSODs after installing new drives, and spent hours getting Ubuntu to cooperate before deciding CachyOS was the move.
+- **Learning style:** break it first, then rebuild it. The best lessons came from rescuing an overwritten boot entry or stopping WSL2 from substantializing. I learn by reading the exact error string, not from architecture docs.
+- **Decision rules:** if it's installable on CachyOS without sacrificing my Windows boot option, I'll try it. Otherwise I keep WSL2 as a compromise OS. I also standardize on whatever removes manual GUI steps — NVIM, TMUX, CUDA CLI workflows.
+- **Current obsessions:** DGX Spark specs vs 3070 reality, model vault download automation, cron/model-switcher reliability, Wazuh alert tuning, and Mac Mini as a local inference host.
+- **Recurring loops:** I re-ask whether the RTX 3070 can handle a model size, then boot it anyway. I keep coming back to 7B–13B quantized, but every new repo makes me ask again.
 
 ---
 
-## The journey
+## Why this lane matters
+
+The homelab isn't a project with a finish line. It's the environment I live inside while everything else happens. Every fix, upgrade, or new tool is a small win that compounds over time, and every avoided GUI path is a vote for long-term maintainability.
+
+---
+
+## The major arcs
 
 ### Getting started
-I made a bootable Ubuntu drive once and got stuck — I wanted to go back to Windows 11 and didn't know how. That was the beginning. I've since learned about dual-boot configurations, bootloader entries, and why you should never install a model before running the Oobabooga installation.
+I made a bootable Ubuntu drive once and got stuck — I wanted to go back to Windows 11 and didn't know how. That was the beginning. I learned about dual-boot configurations, bootloader entries, and why you should never install a model before running the Oobabooga installation.
 
 ### The WSL2 era
-I set up WSL2 instances, fought with permissions on `/boot/loader/entries/`, and learned that "Permission denied (os error 13)" means you need sudo. I've restored WSL2 to a stock state more than once because I broke something and wanted a fresh slate.
+I set up WSL2 instances, fought with permissions on `/boot/loader/entries/`, and learned that "Permission denied (os error 13)" means you need sudo. I've restored WSL2 to stock state more than once because I broke something and wanted a clean slate.
 
 ### The CachyOS migration
-I committed to CachyOS as my daily driver. It's Arch-based, it's fast, and it doesn't hold my hand. When OBS stopped appearing in the KDE Plasma application launcher, I worked through the desktop database refresh process methodically. When I needed to get rid of OBS Tuna, I figured out how to uninstall it properly.
+I made CachyOS my daily driver because it's Arch-based, fast, and doesn't hold my hand. When OBS stopped appearing in the KDE Plasma launcher, I worked through desktop database refresh methodically. When I needed to get rid of OBS Tuna, I uninstalled it properly instead of living with it.
 
 ### The Steam Deck
-I'm setting up Citron (a Nintendo Switch emulator) on my Steam Deck. I have the AppImage in `~/Applications`, ROMs in `~/internal_games`, and I'm working through the configuration. I've also dealt with NordVPN connection issues on the Deck — "Unknown reason" with a verified plugin almost always means a cipher/encryption mismatch.
+Citron setup on Deck. ROMs in `~/internal_games`. AppImage in `~/Applications`. Save sync between PC and Deck. NordVPN connection issues — "Unknown reason" with a verified plugin almost always resolves to a cipher/encryption mismatch.
 
 ### The Mac Mini consideration
-I've been looking at Mac Mini products for local LLM inference. The unified memory architecture is appealing, and I've heard it's the most efficient with running these models. I'm specifically looking for the most cost-effective option that can handle models like gpt-oss-20b.
+Unified memory architecture is appealing for local LLM inference, specifically `gpt-oss-20b` class models. The question is cost per effective token per hour, not list price.
+
+---
+
+## Honest gaps
+
+- WSL2 audio and CUDA pass-through still aren't clean.
+- The 3070 "good enough" answer is technically true and emotionally unresolved.
+- Docker, Syncthing, and Windows coexistence is workable but never fully explained in one place in the vault.
 
 ---
 
 ## What I've learned
 
-**Isolation is everything.** Docker containers, WSL2 instances, virtual environments — I've learned to keep things separated. When something breaks, I want to know exactly what broke and why.
+**Isolation is leverage.** Docker, WSL2, virtual environments. When something breaks, I want to know exactly what broke and why. That's only possible if things don't share a surface.
 
-**Document everything.** When I fix something, I write it down. Not just the solution, but the problem, the debugging process, and the reasoning. This vault is part of that documentation.
+**Document the error string, not just the fix.** The lesson is less "how to" and more "what to search for."
 
-**Break things on purpose.** The best way to learn infrastructure is to break it and fix it. I've debugged CUDA driver issues, audio routing nightmares, and dual-boot configurations. Each one taught me something I couldn't have learned from a tutorial.
+**Good enough is an operating mode, not a surrender.** I've asked dozens of times whether the 3070 can handle local LLMs. The answer is always 7B–13B quantized. The skill is deciding when that's acceptable and when it isn't.
 
-**The 3070 is good enough.** I've asked dozens of times whether my RTX 3070 can handle local LLMs. The answer is always the same: yes, run a 7B-13B quantized model, stop worrying. I'm still working on believing "good enough" is good enough.
+**Linux-native beats Windows GUI, but Linux-native breakage is still breakage.** The cleaner surface is worth it. The fragility is the cost.
 
 ---
 
 ## Current setup
 
 - **CachyOS** — daily driver, Arch-based, KDE Plasma
-- **WSL2** — for Windows-specific tools and testing
-- **Steam Deck** — emulation on the go (Citron, PCSX2, Dolphin, Cemu, Duckstation)
-- **OBS Studio** — scene composition, audio mixing, virtual camera
+- **WSL2** — Windows-specific tools, testing, and occasional escape hatch
+- **Steam Deck** — Citron, PCSX2, Dolphin, Cemu, Duckstation; also a Linux testbed
+- **OBS Studio** — scene composition, audio mixing, virtual camera support
 - **VoiceMeeter Banana** — audio routing hub
 - **Docker** — service isolation
-- **Syncthing** — file syncing across devices
-- **Local LLM inference** — Ollama, Oobabooga, various models
-- **Model vault downloader** — background-serial, `timeout=max(1800, est_gb*70)`, resume-safe into `/mnt/d/models`; currently rebuilding after HF repo verification
-- **Kimi K3 watcher** — cron */30 pings ntfy when a real K3 repo exists; fake placeholder excluded
+- **Syncthing** — cross-device file sync
+- **Local LLM inference** — Ollama, Oobabooga, various quantized models
+- **Model vault downloader** — background-serial, `timeout=max(1800, est_gb*70)`, resume-safe into `/mnt/d/models`
+- **Kimi K3 watcher** — cron `*/30` pings ntfy when a real K3 repo exists; fake placeholder excluded
 
 ---
 
 ## What I'm working on
 
-- **Steam Deck emulation** — getting Citron configured, syncing save data between PC and Deck
-- **Audio routing** — getting OBS audio to properly reach TikTok Live Studio through a virtual camera pipeline
-- **Local LLM optimization** — finding the right model size for my 3070's 8GB VRAM
-- **NordVPN on Steam Deck** — troubleshooting the cipher/encryption mismatch
+- Steam Deck emulation + save-sync between Deck and CachyOS
+- Model vault downloader reliability after HF repo verification changes
+- Kimi K3 watcher reliability and cron repair
+- Model-switcher automation around the 3070's 8GB VRAM ceiling
+
+---
+
+## Current setup snapshot
+
+```dataview
+TABLE provider, summary, file.ctime
+FROM "processed"
+WHERE contains(file.outlinks, "[[nodes/topics/tech/homelab.md]]") OR contains(file.tags, "homelab")
+SORT file.ctime DESC
+LIMIT 20
+```
 
 ---
 
@@ -93,10 +125,19 @@ I've been looking at Mac Mini products for local LLM inference. The unified memo
 ---
 
 ## Related
+
 - [[nodes/people/bryan.md|Bryan]] — the person who built this
 - [[nodes/projects/homelab-stack.md|Homelab Stack]] — the project behind the topic
 - [[nodes/topics/tech/ai-tools.md|AI Tools]] — the tools running on this infrastructure
 - [[nodes/topics/tech/coding.md|Coding]] — the skills being practiced
 - [[nodes/topics/personal/streaming.md|Streaming]] — the creative outlet this infrastructure supports
 - [[nodes/projects/streaming-rig.md|Streaming Rig]] — the streaming setup
-- [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — the 72-hour build window in action
+- [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — the break-then-rebuild learning loop
+- [[nodes/topics/career/career.md|Career]] — the professional demand this stack is meant to fund
+- [[nodes/topics/general.md|General]] — the curiosity lane that occasionally becomes a new tool to host
+
+---
+
+## Backlinks
+
+_This page is referenced from WSL2 debugging sessions, OBS troubleshooting notes, model-switcher documentation, and Deck emulation write-ups._

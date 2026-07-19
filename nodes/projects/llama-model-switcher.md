@@ -121,5 +121,5 @@ Both launch `llama-server` and must background via `nohup` + `disown` so the pro
 
 
 ## Related
-- [[nodes/topics/tech/homelab|Homelab]]
+- [[nodes/topics/tech/homelab.md|Homelab]]
 - [[goals-index|Goals Index]]

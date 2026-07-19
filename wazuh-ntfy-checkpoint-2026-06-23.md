@@ -277,4 +277,4 @@ Windows (DESKTOP-5NE9JEA)
 
 ## Related
 - [[MOC.md|Map of Content]]
-- [[nodes/topics/tech/pc-security|PC Security]]
+- [[nodes/topics/tech/pc-security.md|PC Security]]

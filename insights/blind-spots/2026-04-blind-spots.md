@@ -162,5 +162,5 @@ The one project that should be revived: the Helpdesk AI Assistant. It had produc
 
 
 ## Related
-- [[insights/blind-spots/2026-04-blind-spots|Blind Spots Report]]
-- [[insights/blind-spots/2026-04-blind-spots|Blind Spots Report]]
+- [[insights/blind-spots/2026-04-blind-spots.md|Blind Spots Report]]
+- [[insights/blind-spots/2026-04-blind-spots.md|Blind Spots Report]]

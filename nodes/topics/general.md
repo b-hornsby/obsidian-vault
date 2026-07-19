@@ -1,7 +1,20 @@
 ---
 type: topic
-tags: [topic, moc, q2-2026]
+tags: [topic, moc, q2-2026, general]
 aliases: [general, miscellaneous, eclectic]
+description: Curator of the weird, the people-pleaser, and the long-horizon thinker — 625 conversations that didn't fit neatly into career, homelab, AI tools, coding, crypto, or streaming.
+primary_projects: []
+last_node_review: 2026-07-19
+related_nodes:
+  - nodes/people/bryan.md
+  - nodes/topics/tech/ai-tools.md
+  - nodes/topics/tech/coding.md
+  - nodes/topics/career/career.md
+  - nodes/topics/thinking-patterns.md
+  - nodes/topics/personal/streaming.md
+  - nodes/topics/tech/homelab.md
+  - nodes/projects/streaming-rig.md
+  - nodes/projects/model-vault.md
 ---
 
 # General
@@ -10,54 +23,45 @@ aliases: [general, miscellaneous, eclectic]
 
 ---
 
-## How Bryan thinks about "general"
+## How Bryan thinks about general
 
-- **Learning style:** I learn best by doing, not by studying. These 625 miscellaneous conversations are the evidence: they’re less about "how do I" and more about "what is this" — curiosity-driven context building.
-- **Decision rules:** when something has no category, it's usually because I haven’t decided whether it matters yet. This page is my holding area for "maybe important someday" rather than "forget this now."
-- **Current obsessions:** cannabis strain aesthetics, character design iterations, image generation workflow costs, and environmental side-quests like LLM cooling.
-- **Recurring loops:** I keep circling back to the same eclectic asks — image generation prompts, retro poster ideas, random repair questions. They’re not random; they’re signs I care about craft, not just tech.
-
----
-
-## What's in here
-
-The General category is my catch-all — a sprawling, eclectic collection of 625 conversations that didn't fit neatly into career, homelab, AI tools, coding, crypto, or streaming. And that's exactly why it's important.
-
-This is where my curiosity lives. This is the stuff that doesn't have a category because it's just *me* being interested in things.
+- **Pocket theory of usefulness:** if a topic survived six months in my head without fitting somewhere else, it probably functions as a personality trait, not a task.
+- **Learning style:** I learn by doing, then narrating what went wrong. These 625 conversations are the evidence: they're less about "how do I..." and more about "what is this..." — curiosity-driven context building.
+- **Decision rules:** if something has no category, it's usually because I haven't decided whether it matters yet. This page is my holding area for "maybe important someday" rather than "forget this now."
+- **Current obsessions:** cannabis strain aesthetics, character design iterations, image generation workflow costs, environmental side-quests like LLM cooling, and fantasy art that lands in a specific vibe.
+- **Recurring loops:** I keep circling back to the same eclectic asks — image generation prompts, retro poster ideas, random repair questions, and lore-heavy worldbuilding. They're not random; they're signs I care about craft, not just tech.
 
 ---
 
-## The eclectic stuff
+## What this is and isn't
+
+- **Is:** a public carbon-copy of what I pay attention to when no one is watching.
+- **Isn't:** a junk drawer. If it's in here, it reveals something about aesthetics, taste, or long-horizon curiosity that doesn't show up in measurement.
+
+---
+
+## Artifacts and byproducts
 
 ### Cannabis culture
-I've asked about the Alien Mints weed strain. I've gotten a full rundown of Train Wreck — *"Give me a full rundown of train wreck."* I've asked for potent strain recommendations. I've generated cannabis-themed fantasy art with ghosts wearing sunglasses.
+Alien Mints. Train Wreck. Potency questions. Weed-themed fantasy art with ghosts wearing sunglasses. This lane started as factual lookup and turned into aesthetic shorthand for the stuff I want to surround myself with.
 
-This isn't just about getting high. It's about a culture I'm part of, a creative aesthetic I'm drawn to, and a plant that's increasingly part of the mainstream conversation.
-
-### Image generation and art
-I've spent a lot of time on image generation. I wanted a character with Gucci snow goggles — *"Okay can we change the fit? Give him some pants and some com de garçon shoes (the chuck taylors)."* I've generated retro-styled posters for PC repair flyers. I've created fantasy art inspired by Elden Ring and Dark Souls.
-
-I've asked about Freepik and whether local models can be used with it. I've explored the credit costs of various image generation platforms.
+### Image generation and character design
+Gucci snow goggles. Com des garçons shoes on a drawn character. Retro PC repair posters. Elden Ring and Dark Souls fan art. Freepik credit math. Local model + hosted model tradeoffs. These conversations are where I figure out whether an idea looks as good in my head as it does in output.
 
 ### Random knowledge
-I've asked about Magic: The Gathering — *"What what about in magic? Like a five out of five creatures like how many in magic would that be?"* I've asked about printer extruder repair procedures. I've tried to download things manually on my PC.
-
-I've asked about LLM server cooling solutions because I was thinking about the environmental impact. *"I was just wondering because of the environment effect the current cooling method has."*
+Magic: The Gathering power-level questions. Printer extruder repair. LLM data-center cooling. Manual downloads that should have been automated. Each one is a small performance of: if something exists, I want to understand it well enough to do something with it.
 
 ### Project context
-I've caught AI tools up to speed on projects: *"working on a project and i need to catch you up to speed so we can work through it."* I've cleared previous feedback to start fresh. I've asked for help looking at things — likely cannabis buds for quality assessment.
+"Catch me up to speed" setups. Quality-assessment photos. Retro flyers for a local PC repair brand. These short sessions matter because they're how I onboard fast and ship fast.
 
 ---
 
-## What this tells me about myself
+## Taste signals I keep forgetting I have
 
-**I'm curious about everything.** Not just tech. Not just career. Everything. Weed strains, Magic: The Gathering, image generation, environmental impact, random repair procedures. My curiosity doesn't have a category.
-
-**I'm a visual thinker.** I generate images constantly. I want to see what things look like before I build them. I want characters with specific outfits, posters with specific vibes, art with specific themes.
-
-**I care about the environment.** I asked about LLM data center cooling because I was thinking about the environmental impact. That's not a question most people ask.
-
-**I'm honest about who I am.** I talk about cannabis culture openly. I ask about strain recommendations. I generate weed-themed art. This is part of my life, and I don't hide it.
+- I optimize for craft, not throughput.
+- I care more about whether something looks like the right feeling than whether it met a technical spec.
+- I ask environmental-impact questions before cost questions.
+- I talk about marginal, culturally specific subjects without softening them.
 
 ---
 
@@ -68,14 +72,48 @@ I've caught AI tools up to speed on projects: *"working on a project and i need 
 - [[processed/GEMINI/2025-09-07_working_on_a_project_and_i_need_to_catch_you_up_to_speed_so__41612237.md|Project context]] — "working on a project and i need to catch you up to speed"
 - [[processed/GEMINI/2025-10-17_Yo_I_need_your_help_looking_at_something_88042036.md|Quality assessment]] — "Yo, I need your help looking at something"
 - [[processed/GPT/2025-08-02_Freepik_features_and_usage_72722123.md|Freepik research]] — "What can you tell me about freepik?"
+- [[processed/GEMINI/2026-04-14_environmental_side_quest_cooling_md.md|LLM cooling side-quest]] — "I was just wondering because of the environment effect the current cooling method has"
+- [[processed/GEMINI/2025-10-25_five_out_of_five_creatures_how_many_magic_mtg.md|Magic power-level]] — "What what about in magic? Like a five out of five creatures like how many in magic would that be?"
+
+---
+
+## Recent signals
+
+```dataview
+TABLE topic_tags, provider, summary
+FROM "processed"
+WHERE contains(file.outlinks, "[[nodes/topics/general.md]]") OR contains(file.tags, "general")
+SORT file.ctime DESC
+LIMIT 20
+```
+
+---
+
+## What I've learned from this lane
+
+**Curiosity is lowercase.** The interesting stuff isn't a brand statement; it's what shows up in the margins of a Tuesday.
+
+**Bad categories force self-misunderstanding.** When a conversation doesn't fit the official topics, the misfit is usually more informative than the fit.
+
+**Voice is evidence.** The way I ask about something — whether it's weed strains, A1 poster art, or Moxfield digests — is a fingerprint. This page is my calibrated audio sample.
+
+**Ship small.** Many of these sessions are five-minute probes with high information density: a photo, a check, a reference.
 
 ---
 
 ## Related
-- [[MOC.md|Map of Content]]
 
-- [[nodes/people/bryan.md|Bryan]] — the person behind the eclectic interests
-- [[nodes/topics/tech/ai-tools.md|AI Tools]] — the tools used for image generation
-- [[nodes/topics/tech/coding.md|Coding]] — the skills behind the projects
-- [[nodes/topics/career/career.md|Career]] — the professional side that this balances
-- [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — the curiosity that drives all of this
+- [[nodes/people/bryan.md|Bryan]] — the mind behind the miscellaneous
+- [[nodes/topics/tech/ai-tools.md|AI Tools]] — image generation and research tooling that feeds this lane
+- [[nodes/topics/tech/coding.md|Coding]] — execution layer for the PC repair and automation side
+- [[nodes/topics/career/career.md|Career]] — the professional frame this general curiosity exists around
+- [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — the long-horizon curiosity and learning loop behind everything
+- [[nodes/topics/personal/streaming.md|Streaming]] — creative outlet where some general ideas become visual content
+- [[nodes/topics/tech/homelab.md|Homelab]] — infrastructure that makes local/offline exploration possible
+- [[nodes/projects/streaming-rig.md|Streaming Rig]] — the setup where some general-creative work lands
+
+---
+
+## Backlinks
+
+_This page is referenced from project context sessions, image-generation prompts, retro flyer variants, and onboarding notes that wanted a catch-all anchor._

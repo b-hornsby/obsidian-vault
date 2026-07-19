@@ -12,7 +12,7 @@ Hub page for all things security monitoring on the Windows PC.
 
 | Component | Role | Status |
 |-----------|------|--------|
-| [[wazuh-ntfy-checkpoint-2026-06-15|Wazuh Manager]] | Event analysis, rules, alerting | ✅ Active |
+| [[wazuh-ntfy-checkpoint-2026-06-23|Wazuh Manager]] | Event analysis, rules, alerting | ✅ Active |
 | Wazuh Agent (ID 013) | Windows endpoint monitoring | ✅ Active |
 | Sysmon64 | Process/file/network telemetry | ✅ Active |
 | ntfy relay | Phone alerts for level 5+ events | ✅ Active |
@@ -29,7 +29,7 @@ Windows PC → Wazuh Agent → WSL Manager (172.28.184.10:1514)
 ```
 
 ## Key Documents
-- [[wazuh-ntfy-checkpoint-2026-06-15|Wazuh + ntfy Project Checkpoint]] — full technical reference
+- [[wazuh-ntfy-checkpoint-2026-06-23|Wazuh + ntfy Project Checkpoint]] — full technical reference
 - [[hermes-memories/2026-06-15|Session notes — June 15, 2026]]
 
 ## Access Methods

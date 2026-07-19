@@ -1,7 +1,21 @@
 ---
 type: topic
-tags: [topic, moc, q2-2026]
-aliases: [streaming, content creation, obs]
+tags: [topic, moc, q2-2026, streaming, content-creation]
+aliases: [streaming, content creation, obs, tiktok, twitch, vertical streaming]
+description: 262 conversations about OBS, audio routing, vertical streaming, and building a visible creative outlet.
+primary_projects:
+  - nodes/projects/streaming-rig.md
+last_node_review: 2026-07-19
+related_nodes:
+  - nodes/people/bryan.md
+  - nodes/projects/streaming-rig.md
+  - nodes/projects/flappy-meme-bird.md
+  - nodes/topics/tech/homelab.md
+  - nodes/topics/tech/coding.md
+  - nodes/topics/tech/ai-tools.md
+  - nodes/topics/career/career.md
+  - nodes/topics/thinking-patterns.md
+  - nodes/topics/general.md
 ---
 
 # Streaming
@@ -10,27 +24,26 @@ aliases: [streaming, content creation, obs]
 
 ---
 
-## How I think about streaming
+## How Bryan thinks about streaming
 
 - **Learning style:** I learn audio routing best by breaking the chain on purpose and tracing which link dies. That means lots of partial conversations and a lot of voice-chat frustration, but it also means the fixes stick longer than anything from a tutorial.
-- **Decision rules:** if a workflow forces me to touch Windows GUI tools, I treat that as a blocker until there’s a CLI or Linux-native alternative. CachyOS-first, Discord/second-brain-backed troubleshooting.
-- **Current obsessions:** multistream TikTok + Twitch from one scene, music-on-stream without shipping into VODs, vertical overlays that don’t look broken on mobile.
+- **Decision rules:** if a workflow forces me to touch Windows GUI tools, I treat that as a blocker until there's a CLI or Linux-native alternative. CachyOS-first, Discord/second-brain-backed troubleshooting.
+- **Current obsessions:** multistream TikTok + Twitch from one scene, music-on-stream without shipping into VODs, vertical overlays that don't look broken on mobile, and shipping intentional content instead of technical montage.
 - **Recurring loops:** I restart the audio-routing design from scratch every few months. Same problem, new cable, same conclusion: VoiceMeeter + Aitum Vertical + VB-Cable, with B1/B2 buses tested separately before touching TikTok Live Studio.
 
 ---
 
-## What it is
+## Why this lane matters
 
-Streaming is my creative outlet — the one area where I actually ship things and put them in front of people. It's also where I've fought with some of the most frustrating technical challenges in my setup.
-
-I stream to TikTok using TikTok Live Studio with a vertical virtual camera setup via Aitum Vertical. I want to add Twitter/X streaming when I get a premium subscription. The core challenge has been audio routing — getting OBS audio to properly reach TikTok Live Studio through the virtual camera pipeline without messing up my desktop audio.
+Streaming is my creative outlet — the one area where I actually ship things and put them in front of people. It's also where I've fought with some of the most frustrating technical challenges in my setup. For a long time, "content" was implied and off-page; the real record was audio buses, browser sources that didn't appear, and a virtual camera that refused to carry sound.
 
 ---
 
-## The technical battle
+## The technical battle I keep refighting
 
 ### Audio routing saga
-The signal flow is complex:
+The signal flow is precise and fragile:
+
 1. Yeti mic → VoiceMeeter hardware input strip
 2. VoiceMeeter mixes mic + desktop audio
 3. Mixed signal → B1 (Cable A) → OBS audio input capture
@@ -38,64 +51,63 @@ The signal flow is complex:
 5. OBS applies mic filters and encodes
 6. TikTok Live Studio captures video from Aitum Vertical + audio from Cable B
 
-When any link in this chain breaks — a muted B2 bus, a wrong device selected in OBS, a kernel driver issue with the Yeti — the whole setup fails. I've debugged each link systematically.
+When any link breaks — muted B2 bus, wrong OBS device, kernel driver issue with the Yeti — the whole setup fails. I've debugged each link methodically and repeatedly. The real insight is that the architecture kept drifting with plugins, cables, and platform updates; the durable part is the bus discipline.
 
-I've asked: *"damn yeah i need that cable setup. its just mad confusing especially because I want to be able to play music on stream but not include it in vods for tiktok live."*
+I've said it directly: *"damn yeah i need that cable setup. its just mad confusing especially because I want to be able to play music on stream but not include it in vods for tiktok live."*
 
-### OBS configuration
-I've fought with OBS on CachyOS — getting browser sources to work, installing plugins, and dealing with the fact that OBS Virtual Camera doesn't carry audio. I've asked: *"how do I get rid of tuna obs cachyos?"* and *"i still dont see browser surce"* after installing plugins.
+### OBS on CachyOS
+Browser sources invisible immediately after install. Tuna packaging showing up when I didn't ask for it. Desktop database refreshes. The work is less about a single broken thing and more about package provenance, plugin state, and virtual-camera limitations. I've also explored DistroAV as an NDI-based alternative to the VB-Cable approach, but always keep returning to the simpler cable topology that I can explain to myself in thirty seconds.
 
-I've explored DistroAV (an NDI-based audio/video routing tool) as an alternative to the VB-Cable approach.
+### Vertical camera and streaming platforms
+Aitum Vertical is the current choice because TikTok Live Studio expects a vertical webcam source and OBS Virtual Camera doesn't reliably carry audio from this Linux build. Twitter/X streaming is waiting on premium subscription. The platform-selection conversation deserves more space than "waiting on a subscription" — soon.
 
-### Content creation
-I built a Flappy Bird clone as a YouTube series — "Can I Prompt a Flappy Bird Clone in 30 Mins?" That's the kind of content I want to create: showing the process, not just the result. Documenting the tech journey.
+---
 
-I've created retro-styled posters of people fixing computers for Facebook flyers. I've generated character images with specific styling — ghost with sunglasses, weed-themed fantasy art, Gucci snow goggles on characters.
+## What I've actually shipped
+
+- **Flappy Bird clone series:** "Can I Prompt a Flappy Bird Clone in 30 Mins?" — a YouTube-style rollout showing process instead of polish.
+- **Retro PC repair flyers:** poster work in a specific tone for Facebook outreach.
+- **Vertical streaming experiments:** TikTok sessions built from gameplay clips, FFmpeg normalization, and a crop pipeline.
 
 ---
 
 ## What I've learned
 
-**Audio routing is genuinely complex.** It's not just plug-and-play. Every link in the chain has to be configured correctly, and when something breaks, you have to debug each link systematically.
+**Troubleshooting is cheaper than documentation, but only in the short run.** The bus mapping is in my head. It needs to be externalized.
 
-**Content strategy matters less than I think.** My conversations are almost entirely technical. There's little discussion of what I actually stream, my content goals, audience growth, or monetization strategy. The focus is on making the technology work.
+**Craving improvement isn't the same as shipping content.** The conversation record is overwhelmingly technical: audio cables, OBS plugins, encoder settings. There's almost nothing here about retention, titles, scheduling, or growth. That's the missing lane, not the tooling lane.
 
-**The creative outlet is important.** Streaming is where I actually ship things. It's where I put content in front of people. It's the one area where the work is visible.
+**Creative outlet matters because visibility matters.** The drive to stream is partly curiosity, and partly a refusal to keep every project private. That conflict is itself worth watching.
 
 ---
 
 ## Current setup
 
-- **OBS Studio** — scenes + transitions defined; profile-backed on CachyOS + NVIDIA
-- **VoiceMeeter Banana** — audio routing hub with virtual cables
-- **Aitum** — Aitum Vertical for vertical camera feed on TikTok; Aitum integrations for stream management still planned
-- **Blue Yeti** — microphone
-- **VB-Cable** — audio bridge to TikTok Live Studio
-- **Yeti → VoiceMeeter → B1 into OBS, B2 into TikTok Live Studio** — that’s the target state; music playback should route to desktop audio only, not B2
+- **OBS Studio** — scenes + transitions; profile-backed on CachyOS with NVIDIA
+- **VoiceMeeter Banana** — audio routing hub
+- **Aitum Vertical** — vertical virtual camera feed for TikTok Live Studio
+- **Blue Yeti** — main microphone
+- **VB-Cable** — audio bridge into TikTok Live Studio
+- **Target state:** Yeti → VoiceMeeter → B1 into OBS, B2 into TikTok Live Studio; music routes to desktop audio only, not B2
 - **Capture pipeline draft:** gameplay/source clips → FFmpeg batch normalize → vertical crop → backfill queue
+
+---
 
 ## Goals right now
 
 - Lock one audio chain and stop re-architecting it
 - Ship a TikTok vertical edit using the FFmpeg batch pipeline
-- One double-stream test where both viewers hear mic, neither hears music in VOD
+- Run one double-stream test where both viewers hear the mic and neither hears music in VOD
 - Stop replacing OBS/UAD plugins instead of debugging config drift
-
-## Blockers
-
-- OBS Virtual Camera doesn’t carry audio on this Linux build; requires workaround
-- Distributor-side compliance still blocks one platform from accepting the vertical stream
-- Windows-side GUI tools still leak in when troubleshooting; CachyOS-first audio routing is still fragile
-- TikTok VOD music filtering path is undocumented in the vault; next session needs exact OBS + Aitum steps, not theory
 
 ---
 
-## What I'm working on
+## Blockers
 
-- **Audio routing final configuration** — getting the OBS + VoiceMeeter + VB-Cable setup working reliably
-- **Music on stream but not in VODs** — the technical challenge of selective audio routing
-- **Twitter/X streaming** — waiting on premium subscription
-- **Content strategy** — figuring out what to stream, not just how to stream
+- OBS Virtual Camera doesn't carry audio on this Linux build; requires workaround
+- Distributor-side compliance still blocks one platform from accepting the vertical stream
+- Windows-side GUI tools still leak into troubleshooting; CachyOS-first audio routing is still fragile
+- TikTok VOD music filtering path is undocumented in the vault; next session needs exact OBS + Aitum steps, not theory
 
 ---
 
@@ -105,6 +117,19 @@ I've created retro-styled posters of people fixing computers for Facebook flyers
 - [[processed/GEMINI/2025-10-13_how_do_i_make_a_hot_key_in_tikfinity_that_allows_me_to_incre_10466068.md|Hotkey setup]] — creating hotkeys for streaming
 - [[processed/GEMINI/2026-02-03_i_still_dont_see_browser_surce_71577189.md|OBS browser source]] — "i still dont see browser surce"
 - [[processed/GEMINI/2026-02-04_how_do_i_get_rid_of_tuna_obs_cachyos_67999937.md|OBS Tuna]] — "how do i get rid of tuna obs cachyos"
+- [[processed/GEMINI/2026-01-20_best_setup_for_streaming_to_tiktok_and_twitch_simultaneously.md|Multistream setup]] — "best setup for streaming to tiktok and twitch simultaneously"
+
+---
+
+## Recent signals
+
+```dataview
+TABLE topic_tags, provider, summary
+FROM "processed"
+WHERE contains(file.outlinks, "[[nodes/topics/personal/streaming.md]]") OR contains(file.tags, "streaming")
+SORT file.ctime DESC
+LIMIT 20
+```
 
 ---
 
@@ -113,7 +138,15 @@ I've created retro-styled posters of people fixing computers for Facebook flyers
 - [[nodes/people/bryan.md|Bryan]] — the person behind the streams
 - [[nodes/projects/streaming-rig.md|Streaming Rig]] — the technical setup
 - [[nodes/projects/flappy-meme-bird.md|Flappy Meme Bird]] — content created through streaming
-- [[nodes/topics/tech/homelab.md|Homelab]] — the infrastructure it runs on
-- [[nodes/topics/tech/coding.md|Coding]] — the skills behind the content
+- [[nodes/topics/tech/homelab.md|Homelab]] — the infrastructure behind the rig
+- [[nodes/topics/tech/coding.md|Coding]] — the build skills that show up in tooling
+- [[nodes/topics/tech/ai-tools.md|AI Tools]] — workflow and image-generation support
 - [[nodes/topics/career/career.md|Career]] — the financial pressure that makes content creation appealing
-- [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — the frustration-to-breakthrough pipeline
+- [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — frustration-to-breakthrough pipeline + voice
+- [[nodes/topics/general.md|General]] — retro poster art, character imagery, and flyer work feeding the creative identity
+
+---
+
+## Backlinks
+
+_This page is referenced from project setup notes, audio-routing debugging sessions, OBS troubleshooting notes, and content-ship retrospectives._
