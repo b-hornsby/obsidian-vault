@@ -12,6 +12,8 @@ projects: []
 
 > What would make today a win?
 
+> Keep the log lean: deep work wins belong in [[nodes/projects/second-brain-vault|Second Brain Vault]] project notes.
+
 ---
 
 ## Date

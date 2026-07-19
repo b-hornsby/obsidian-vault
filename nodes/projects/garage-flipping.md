@@ -9,6 +9,8 @@ aliases: [Garage Flipping, Tech Scavenger, Asset Recovery]
 
 # Tech-Enabled Scavenger / Garage Asset Recovery
 
+> See also: [[nodes/projects/leads-log|Leads Log]], [[insights/goals/concrete-action-plan-Q2-2026|Concrete Action Plan]], and [[nodes/topics/tech/ai-tools|AI tooling]] for the research moat.
+
 ## The Concept
 A hybrid service combining manual labor with tech-driven asset recovery.
 *   **Service:** Charge **$500–$600** to clear out a client's garage, basement, or cluttered room. You handle the labor and hauling.
@@ -17,7 +19,7 @@ A hybrid service combining manual labor with tech-driven asset recovery.
 
 ## The Tech Moat
 Most cleaners don't know value. Most flippers don't want to clean trash. You do both.
-*   **On-Site Research:** No guessing. Use scripts/AI to look up "sold" listings while standing in the garage.
+*   **On-Site Research:** No guessing. Use scripts/AI to look up "sold" listings while standing in the garage. This is documented in the [[nodes/projects/second-brain-vault|Second Brain Vault]] workflow layer.
 *   **Inventory Pipeline:** Track everything in Obsidian (Source, Item, Estimated Value, Sold Status).
 *   **Automated Listings:** Use Python/AI to write the *perfect* eBay titles/descriptions, maximizing sell price.
 

@@ -39,6 +39,8 @@ LIMIT 20
 
 ## Recent by Source
 
+> Related: [[insights/goals/q2-2026-action-tracker|Q2 Action Tracker]], [[insights/weekly-report/2026-07-19-weekly|Weekly Report — 2026-07-19]]
+
 > Breakdown of the 20 most recent files by their source (AI platform).
 
 ```dataview

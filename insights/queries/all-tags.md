@@ -4,7 +4,7 @@ tags: [query, dashboard, tags]
 
 # All Tags — Frequency Dashboard
 
-> Tag frequency across all 3,080 conversation files. Sorted by count descending.
+> Tag frequency across all 3,080 conversation files. Sorted by count descending. Used by [[nodes/topics/thinking-patterns|Thinking Patterns]] for trend checks.
 
 ```dataview
 TABLE length(rows) AS "Count"

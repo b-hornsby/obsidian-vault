@@ -6,7 +6,7 @@
 
 ## Summary
 
-All 18 entity pages (7 projects, 8 topics, 3 people) have been enriched with narrative sections derived from actual conversation analysis. Each page now includes human-written narrative content above the existing Dataview tables, providing context and insight that the tables alone cannot convey.
+All 18 entity pages (7 projects, 8 topics, 3 people) have been enriched — source pages retained in [[nodes/projects/second-brain-vault|Second Brain Vault]] with narrative sections derived from actual conversation analysis. Each page now includes human-written narrative content above the existing Dataview tables, providing context and insight that the tables alone cannot convey.
 
 ## Entities Enriched
 

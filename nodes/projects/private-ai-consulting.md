@@ -8,7 +8,7 @@ aliases: [Private AI Consulting, Local LLM Deployments, AI Solutions]
 ---
 # Private AI Consulting
 
-> Most ambitious, least executed project in the vault. 85+ conversations, zero client conversations, no revenue. The business exists in planning documents and not in the world.
+> Most ambitious, least executed project in the vault. 85+ conversations, zero client conversations, no revenue. Closest validated output is the [[nodes/projects/homelab-stack|Homelab Stack]] — the rest lives in planning only.
 
 ## Original Premise
 

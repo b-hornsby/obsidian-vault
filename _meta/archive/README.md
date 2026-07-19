@@ -1,6 +1,6 @@
 # _meta/archive
 
-This folder stores portability snapshots and historical audit material for the vault.
+This folder stores portability snapshots and historical audit material for the [[nodes/projects/second-brain-vault|Second Brain Vault]].
 
 - **obsidian-app-config.json** — snapshot of `.obsidian/app.json` so the Obsidian behavior directory can survive a reinstall without depending on the live `.obsidian/` folder itself.
 - **2026-05-debug-scripts-cleanup.md** — historical record of a prior script audit/cleanup.

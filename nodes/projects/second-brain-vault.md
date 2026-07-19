@@ -9,18 +9,18 @@ aliases: [Second Brain, The Vault, Knowledge Base]
 
 # Second Brain Vault
 
-> The infrastructure behind every other project — entity layer, processed conversations, topic index, thinking patterns, daily/weekly cadence. Currently in maintenance mode with real gaps.
+> The infrastructure behind every other project — entity layer, processed conversations, topic index, thinking patterns, daily/weekly cadence. Driven per [[_meta/hermes-instructions|Hermes Instructions]] against [[insights/goals/goals-overall|Goals Overview]].
 
 ## What This Is
 
-It's the operational memory for every project. The homelab tools, the job search, the OIA research, the consulting notes — they land here first. Without it, I would be relitigating old decisions with nothing to point at.
+It's the operational memory for every project. The homelab tools, the [[nodes/projects/job-search|Job Search]], the OIA research, the consulting notes — they land here first. Without it, I would be relitigating old decisions with nothing to point at.
 
 ## What's Currently Working
 
 - Entity pages (people, projects, topics) — ~20 pages cross-linked
 - Processed export bucket — large repository of conversations with frontmatter, tags, linked_projects
 - Topic index — navigable view by real tags and categories
-- Thinking patterns analysis — data-driven portrait of decision-making
+- [[nodes/topics/thinking-patterns|Thinking Patterns]] analysis — data-driven portrait of decision-making
 - Weekly report generation artifacts / reports index
 - Daily note template and start of cadence
 

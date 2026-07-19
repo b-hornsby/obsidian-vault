@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-18
 **Scope:** All 3,335 enriched conversation files across 4 providers
-**Method:** Statistical analysis of all files + manual review of 20 stratified samples
+**Method:** Statistical analysis of all files + manual review of 20 stratified samples; tied to [[_meta/enrichment-log|Enrichment Log]] delivery chain.
 
 ---
 

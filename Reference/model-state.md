@@ -1,6 +1,6 @@
 # Model State
 
-_Canonical reference for local model config and model library state. Supersedes `Reference/local-qwen-models.md` and `hermes-memories/2026-07-18-futureproof-vault-plan.md` model sections._
+_Canonical reference for local model config and model library state. Supersedes [[Reference/local-qwen-models|local-qwen-models]] and `hermes-memories/2026-07-18-futureproof-vault-plan.md` model sections._
 
 ## Provenance
 
@@ -18,7 +18,7 @@ Only one model runs at a time; both listen on port 8081. Start the desired model
 
 - Path: `~/models/Qwen3.5-9B/Qwen3.5-9B-Q4_K_M.gguf`
 - Context: 65536
-- Use case: simple tool calls, 1-2 step tasks
+- Use case: simple tool calls, 1-2 step tasks; logged against [[nodes/topics/tech/ai-tools|AI tooling]].
 - Limitation: weak at multi-step search→synthesize loops
 
 Launch:
@@ -47,7 +47,7 @@ cd ~/llama.cpp/build/bin
 
 - Path: `~/models/Qwen3.6-35B-A3B/Qwen3.6-35B-A3B-UD-IQ3_XXS.gguf`
 - Context: 102400 server, 131072 in Hermes config
-- Use case: complex tool work, summarization, research loops
+- Use case: complex tool work, summarization, research loops; baseline is [[nodes/projects/homelab-stack|Homelab Stack]].
 - Better at: multi-step retrieval → read structured output → synthesize
 
 Launch:

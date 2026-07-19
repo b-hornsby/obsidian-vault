@@ -4,7 +4,7 @@ tags: [query, dashboard, projects]
 
 # All Projects — Query View
 
-> All project entity pages with status, first/last seen dates, and linked conversation counts.
+> All project entity pages with status, first/last seen dates, and linked conversation counts. [[insights/goals/goals-overall|Goals Overview]] maps these to quarterly targets.
 
 ## Project Pages
 

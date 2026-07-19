@@ -10,7 +10,9 @@ status: checked-in
 
 ---
 
-## 1. Wazuh Manager — ✅ RUNNING
+## 1. Wazuh Manager
+
+Topic context: [[nodes/topics/tech/pc-security|PC Security]]. Host/infra frame of reference: [[nodes/projects/homelab-stack|Homelab Stack]]. — ✅ RUNNING
 
 All 10 core processes active on port 55000:
 - `wazuh-apid` (x5) — API daemon

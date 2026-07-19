@@ -8,7 +8,7 @@ aliases: [Flappy Bird Clone, Flappy Meme Bird, Game Project]
 ---
 # Flappy Meme Bird
 
-> Game dev + YouTube content experiment. Built a Flappy Bird clone with a meme twist — promoted as "Can I Prompt a Flappy Bird Clone in 30 Mins?" The physics got right: frame-rate independent, proper delta time, impulse-to-gravity ratio that feels authentic.
+> Game dev + YouTube content experiment. Built a Flappy Bird clone with a meme twist — promoted as "Can I Prompt a Flappy Bird Clone in 30 Mins?" The physics got right: frame-rate independent, proper delta time, impulse-to-gravity ratio that feels authentic — a solid demo of [[nodes/topics/tech/coding|Coding workflows]] wrapped in content format.
 
 ## What Shiped
 
@@ -24,7 +24,7 @@ I shipped this. It's one of the few projects that hit "done" status. The pattern
 2. Showing the process, not the product, kept momentum
 3. AI-assisted coding let me ship faster than I could learn
 
-This is the model the other projects should follow: time-boxed, public-facing, process-documented.
+The lessons here connect directly to [[nodes/projects/second-brain-vault|Second Brain Vault]]'s maintenance model: time-boxed, public-facing, process-documented. This is the model the other projects should follow: time-boxed, public-facing, process-documented.
 
 ## Why It's Archived
 

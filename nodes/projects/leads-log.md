@@ -6,6 +6,8 @@ tags: [leads, garage-flipping, akron, canton]
 
 # Leads Log
 
+> Feeds directly into [[nodes/projects/garage-flipping|Garage Flipping]]. Progress is reflected in [[insights/goals/q2-2026-action-tracker|Q2 Action Tracker]].
+
 Chronological lead entries from Craigslist daemon.
 Format: `timestamp — source — title | price | location | keywords | url`
 

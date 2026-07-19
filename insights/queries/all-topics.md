@@ -4,7 +4,7 @@ tags: [query, dashboard, topics]
 
 # All Topics — Query View
 
-> All topic entity pages with conversation counts and linked files.
+> All topic entity pages with conversation counts and linked files. [[insights/goals/goals-overall|Goals Overview]] and [[nodes/projects/second-brain-vault|Second Brain Vault]] consume the same underlying data.
 
 ## Topic Pages
 

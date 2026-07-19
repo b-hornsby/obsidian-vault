@@ -9,7 +9,9 @@ aliases: [Streaming Rig, Streaming Setup, Content Production]
 
 # Streaming Rig
 
-> Content production infrastructure. OBS, audio routing, multistream experiments, FFmpeg/Blender pipelines, and content ideas. 262 conversations across streaming topics.
+> Overlaps with [[nodes/projects/homelab-stack|Homelab Stack]] on the host/infra layer, aligned to [[insights/goals/goals-Q3-2026|Q3 2026 Goals]], and tracked under [[nodes/projects/second-brain-vault|Second Brain Vault]].
+
+> Content production infrastructure. [[nodes/topics/personal/streaming|Streaming research]] covers the broader topic area; the [[nodes/projects/homelab-stack|Homelab Stack]] provides the host OS and hardware baseline. 262 conversations across streaming topics.
 
 ## Asset Ledger
 

@@ -219,7 +219,7 @@ Conversations where Bryan asked the same question to multiple LLMs. This signals
 
 ## Task 4 — Goal Alignment Check (Run When goals/ is Updated)
 
-When Bryan adds or updates a file in `goals/`, run a pass against all processed conversations and generate a file in `insights/` named `goal-alignment-[goal-name].md`.
+When Bryan adds or updates a file in `goals/`, run a pass against all processed conversations and generate a file in `insights/` named `goal-alignment-[goal-name].md`, following the alignment docs in [[insights/goals/goal-alignment-2026-Q2|Goal Alignment Report Q2 2026]] and the master goals in [[insights/goals/goals-overall|Goals Overview]].
 
 Structure:
 ```markdown
