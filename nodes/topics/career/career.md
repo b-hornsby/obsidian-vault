@@ -1,12 +1,14 @@
 ---
 type: topic
-tags: [topic, moc, q2-2026]
+status: reference
+priority: P3
+tags: [topic, career, job-search, it-support, resume, certification, archived]
 aliases: [career, job search, professional]
 ---
 
 # Career
 
-*The reason I built this vault. The thing that keeps me up at night. The gap between where I am and where I'm going.*
+*Pre-employment career hub, kept as reference now that the workforce transition is complete.*
 
 ---
 

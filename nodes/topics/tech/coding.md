@@ -92,5 +92,5 @@ I've used Cursor as my IDE and fought with the Continue.dev extension. I've aske
 - [[nodes/topics/tech/homelab.md|Homelab]] — the infrastructure I code on
 - [[nodes/projects/flappy-meme-bird.md|Flappy Meme Bird]] — the vibe-coding experiment
 - [[nodes/projects/operation-immortal-agent.md|Operation Immortal Agent]] — the most ambitious coding project
-- [[nodes/topics/career/career.md|Career]] — where coding skills are taking me
+- [[nodes/topics/career.md|Career]] — where coding skills are taking me
 - [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — why coding is hard for me

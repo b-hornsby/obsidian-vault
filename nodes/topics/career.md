@@ -1,49 +1,57 @@
 ---
 type: topic
-tags: [topic, career, job-search, it-support, resume, certification]
-aliases: [career, job search, professional]
+status: active
+priority: P1
+tags: [topic, career, it-work, job-active]
+aliases: [career, professional]
 ---
+
 # Career
 
-*The reason I built this vault. The gap between where I am and where I'm going, mapped into actual roles, gaps, and next actions.*
+*This vault was built to support the tech career transition. Transition completed 2026-07-06. Now used to support growth within IT, not escape from warehouse work.*
 
----
-## Target Roles
-- **IT Support Specialist**
-- **Help Desk Technician**
-- **Technical Support Engineer / Tier 1**
-- **IT Operations** (mid-term)
-- **AI Automation / IT** (stretch)
+## Current Role
 
-## Resume State
-- Rough draft complete; warehouse bullets framed in systems language.
-- Missing: verified metrics from warehouse efficiency work, GitHub/portfolio link, certs section after A+ is earned.
-- One LinkedIn iteration in place; headline reads: *IT Operations | Linux (Arch/CachyOS) · Win · Mac | AI Automation | Web3 Ops.*
+**IT Equipment Technician** — employed 2026-07-06. Provisioning iPads/laptops for sales field users and executives, daily tooling: Freshservice, Microsoft Entra ID, IT Glue, NinjaOne.
 
-## Skill Gaps (honest)
-- No formal IT experience; rely on homelab + certs as proof.
-- A+ still in progress — exam not yet scheduled.
-- Public portfolio exists as projects; not yet a single review-ready page.
-- Interview storytelling: need to translate 8 years of logistics into support scenarios.
+## Where Next
+
+| Path | Rationale |
+|------|-----------|
+| Senior IT Equipment Technician | Prove endpoint mastery in current role first |
+| Systems Administrator | Homelab infrastructure translates well |
+| Cybersecurity / IAM | Entra ID exposure, Jira/IT Glue documentation discipline |
+| IT Operations | Natural progression from endpoint management |
+
+## Skill Development
+
+- Hands-on IT operations daily — builds practical credibility faster than certs alone
+- CompTIA A+/Network+ still useful for structured knowledge, but not urgent with current employment
+- IT Glue documentation discipline = marketable skill
+- Freshservice + NinjaOne workflow = production ITSM/RMM experience
 
 ## Training Queue
-- CompTIA A+ (current focus, practice tests + spaced review).
-- Network+ acronym drills.
-- SecAI and AI cert shortlist.
+
+- job-relevant tool mastery: Freshservice admin, Entra ID device management, NinjaOne automation scripting
+- CompTIA A+/Network+ if aiming for structured cert path after 6 months in role
+- ITIL Foundation if team cares about process maturity
+- Cybersecurity awareness / IAM if moving toward identity or security roles
 
 ## Current Next Actions
-1. Schedule A+ exam date (hard deadline, not vague study).
-2. Ship a 1-page portfolio: homelab screenshots, brief explainers, GitHub link.
-3. Send 3 tailored IT-support applications this week.
-4. Get live resume review from someone in IT — not an AI.
-5. Pick 1 homelab project and podcast/youtube it as portfolio proof.
+
+1. Build a runbook for standard iPad/laptop provisioning in IT Glue
+2. Document common NinjaOne scripts and deploy patterns
+3. Track ticket volume and resolution time weekly via Freshservice reports
+4. Get introduced to IT team roadmap / project backlog
+5. Add work-specific craft notes to vault as daily-weekly notes
 
 ## Assets Mapping
-- [[nodes/projects/resume.md|Resume]] — primary deliverable
-- [[nodes/topics/career/it-certification.md|IT Certification]] — A+/Network+/SecAI roadmap
-- [[nodes/projects/job-search.md|Job Search]] — outreach tracker
-- [[nodes/projects/homelab-stack.md|Homelab]] — portfolio artifact
-- [[nodes/projects/private-ai-consulting.md|Private AI Consulting]] — business idea
+
+- [[nodes/projects/resume.md|Resume]] — pre-employment iteration history, now reference
+- [[nodes/projects/job-search.md|Job Search]] — archived transition record
+- [[nodes/topics/tech/it-tooling.md|IT Tooling]] — daily Freshservice / Entra / IT Glue / NinjaOne notes
+- [[nodes/projects/homelab-stack|Homelab Stack]] — job-relevant infrastructure practice
 
 ---
-*This hub should always point to the latest action. When the A+ date is set, the next action becomes the prep schedule.*
+
+*This hub now points to current work and forward growth paths. When aiming for the next internal promotion or external role, this is where the goal state transitions happen.*

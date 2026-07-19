@@ -1,16 +1,17 @@
 ---
 type: project
-status: active
-priority: P0
+status: reference
+priority: P3
 first_seen: 2025-05-01
-tags: [resume, career, job-search, ats, linkedin, professional-branding]
+ended: 2026-07-06
+tags: [resume, career, reference, archived]
 aliases: [Resume, CV, Professional Brand]
 ---
 # Resume
 
-> The single highest-ROI document in the vault. Dozens of iterations across multiple AIs. Current version is converged but not locked.
+> Pre-employment resume iteration history, kept as reference. Real professional proof now lives in on-the-job performance as an IT equipment technician since 2026-07-06.
 
-## Iteration History (What Failed)
+## Reference: Iteration History (What Failed)
 
 | Phase | What Changed | Outcome |
 |-------|-------------|---------|
@@ -21,35 +22,28 @@ aliases: [Resume, CV, Professional Brand]
 
 Key mistake early on: listing warehouse experience first instead of IT skills. The document was technically accurate but strategically wrong.
 
-## The Converged Narrative
+## What This Proved
 
-**Headline:** *IT Operations | Linux (Arch/CachyOS) · Win · Mac | AI Automation | Web3 Ops*
-This leads with where I'm going, not where I've been. Changed after dozens of iterations across multiple LLMs.
+- ATS keyword folding works but hollow without real proof behind it
+- Narrative beats credentials when the credential is homelab/tinkering
+- The converged headline was right: *IT Operations | Linux (Arch/CachyOS) · Win · Mac | AI Automation | Web3 Ops*
+- Girlfriend's keyholder resume = one successful iteration that proves I can do this for others
 
-**Core message:** Hands-on builder without the CS degree. The homelab is the credential the resume can't show.
+## Current Professional Proof
 
-## What's Missing (Real Gaps)
+Employed 2026-07-06 as **IT Equipment Technician**. Daily work is the resume now:
 
-1. **No metrics on warehouse efficiency projects** — if I improved anything in fulfillment, it's not quantified here.
-2. **No GitHub/portfolio link** — the resume references skills but can't point to code.
-3. **Certifications section is aspirational** — A+ not yet complete, listed as "in progress".
-4. **Girlfriend's keyholder resume** — one successful iteration that proves I can do this for others.
+- Provisioning 20–40+ iPads/laptops per week for sales field users and executives
+- Microsoft Entra ID: user lifecycle, group membership, device enrollment
+- IT Glue: documenting procedures, onboarding/offboarding runbooks, configuration baselines
+- Freshservice: ticket intake, SLA tracking, asset lifecycle requests
+- NinjaOne: RMM sweeps, patch status, endpoint health monitoring, remote assist sessions
 
-## The Uncomfortable Truth
+## When to Reopen This Page
 
-I've rewritten this resume more than most people write their entire resume over 10 years. The iterations themselves are evidence of the pattern: research > decide > ship. I'm now shipping this as the lock.
-
-## Linked Conversations
-
-Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic index]] — filter by `resume`, `career`, `ats`, `linkedin` tags. See `insights/conversation-topic-index.md`.
-
-## Current Version
-
-- ATS-optimized keywords: IT Support, Linux Administration, Help Desk, Remote Support, Windows, macOS
-- Action-first bullet structure: built, configured, deployed, optimized
-- Lead with IT direction, warehouse as supporting context
-
+When aiming for the next role — senior technician, systems admin, cybersecurity — not while current employment is active.
 
 ## Related
-- [[goals-index|Goals Index]]
-- [[nodes/topics/career/career.md|Career]]
+
+- [[nodes/projects/job-search.md|Job Search (archived)]]
+- [[nodes/topics/tech/it-tooling.md|IT Tooling]]

@@ -93,5 +93,5 @@ I was just wondering about the environmental effect of LLM data centers. *"I was
 - [[nodes/projects/private-ai-consulting.md|Private AI Consulting]] — the business built on this knowledge
 - [[nodes/topics/tech/homelab.md|Homelab]] — the infrastructure these tools run on
 - [[nodes/topics/tech/coding.md|Coding]] — the skills AI helps with
-- [[nodes/topics/career/career.md|Career]] — where this knowledge is taking me
+- [[nodes/topics/career.md|Career]] — where this knowledge is taking me
 - [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — how I approach learning new tools

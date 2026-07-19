@@ -70,7 +70,7 @@ She's also the person who keeps me grounded. When I'm spiraling about which AI t
 
 - [[nodes/people/bryan.md|Bryan]] — her partner
 - [[nodes/people/dad.md|Dad]] — lives in the same household
-- [[nodes/topics/career/career.md|Career]] — the financial pressure we're both navigating
-- [[nodes/projects/resume.md|Resume]] — I helped optimize hers
-- [[nodes/projects/job-search.md|Job Search]] — the active escape plan
+- [[nodes/topics/career.md|Career]] — the financial pressure we're both navigating
+- [[nodes/projects/resume.md|Resume]] — I helped optimize hers before she got her role
+- [[nodes/projects/job-search.md|Job Search]] — the warehouse escape plan, now archived
 - [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — the planning-vs-shipping pattern she helps me see

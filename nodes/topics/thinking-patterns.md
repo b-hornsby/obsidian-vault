@@ -175,8 +175,8 @@ Projects that sustain past Day 3 are the ones where frustration leads to breakth
 - [[nodes/projects/operation-immortal-agent.md|Operation Immortal Agent]] — the most thoroughly planned, least running
 - [[nodes/topics/career/it-certification.md|IT Certification]] — the career escape plan in progress
 - [[nodes/projects/streaming-rig.md|Streaming Rig]] — the creative outlet that actually ships
-- [[nodes/projects/job-search.md|Job Search]] — the active escape plan
-- [[nodes/projects/resume.md|Resume]] — the document that has to do 80% of the work
+- [[nodes/projects/job-search.md|Job Search]] — warehouse exit plan, archived 2026-07-06
+- [[nodes/projects/resume.md|Resume]] — pre-employment iteration history
 
 ---
 

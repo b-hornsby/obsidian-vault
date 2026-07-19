@@ -1,15 +1,16 @@
 ---
 type: project
-status: active
+status: archived
 priority: P1
 first_seen: 2025-06-01
-tags: [job-search, career, it-support, linkedin, outreach, akron, canton]
+ended: 2026-07-06
+tags: [job-search, career, it-support, linkedin, outreach, akron, canton, archived]
 aliases: [Job Search, Employment Search, IT Job Search]
 ---
 
 # Job Search
 
-> Active escape plan from warehouse work. Target roles: IT Support Specialist, Help Desk Technician, IT Operations. Based on 250+ career-tagged conversations.
+> Active escape plan from warehouse work archived on 2026-07-06 after securing employment as an IT equipment technician. Target roles: IT Support Specialist, Help Desk Technician, IT Operations. Based on 250+ career-tagged conversations.
 
 ## Target Roles
 
@@ -29,7 +30,7 @@ aliases: [Job Search, Employment Search, IT Job Search]
 
 ## Locked Narrative
 
-The warehouse exit isn't just about a different job. It's about reclaiming agency. 8 years in fulfillment gave me systems knowledge I didn't value until I started building homelab infrastructure. The gap between "I know this" and "I can prove I know this" is the resume + certification + actual job applications.
+The warehouse exit wasn't just about a different job. It was about reclaiming agency. 8 years in fulfillment gave me systems knowledge I didn't value until I started building homelab infrastructure. The gap between "I know this" and "I can prove I know this" was the resume + certification + actual job applications.
 
 ## Target Companies
 
@@ -80,7 +81,7 @@ The warehouse exit isn't just about a different job. It's about reclaiming agenc
 
 ## Status & next actions
 
-These sections above describe the goal state. The live bookkeeping still needs work:
+These sections describe the goal state. The live bookkeeping still needs work:
 
 | What | Next step |
 |------|-----------|
@@ -94,11 +95,23 @@ These sections above describe the goal state. The live bookkeeping still needs w
 |------|---------|------|--------|-------|
 |  |  |  |  |  |
 
-## Related
+## Outcome
 
-- [[goals-index|Goals Index]]
-- [[nodes/projects/resume.md|Resume]]
+Secured employment as an IT equipment technician on 2026-07-06. This role marked the successful transition out of warehouse work into hands-on IT. The job search process yielded the milestone despite broader outreach still pending across tracked companies.
 
+## What this experience gave you
+
+- Proof that 8 years of warehouse systems knowledge can translate into a credible IT career story
+- A completed resume narrative grounded in real operational experience and homelab proof points
+- Confidence to pursue further certifications (CompTIA A+ into Net+ / Sec+) with a concrete employer baseline
+- A validated local-search approach for Akron / Canton IT roles
+
+## Where next
+
+- Treat IT equipment technician as the field base, then advance toward IT Support Specialist / Help Desk / IT Operations targets
+- Activate the A+ → Net+ → Sec+ certification pipeline with a set exam date
+- Convert tracked target companies into active outreach once the current role is stable
+- Revisit open threads below without re-running the full job-search project
 
 ## Open Threads
 
@@ -107,12 +120,13 @@ These sections above describe the goal state. The live bookkeeping still needs w
 - Portfolio pieces (GitHub, documented projects) not yet assembled
 - No customer-facing roles considered despite strong soft skills
 
-## Current Status
+## Archive Notes
 
 - Resume iterations: dozens of versions, linked in vault
-- Certifications: A+ in progress
+- Certifications: A+ in progress at time of archive
 - Applications: tracked in q2-2026-action-tracker via garage-flipping sprint (G1-G6)
 
-
 ## Related
+
 - [[goals-index|Goals Index]]
+- [[nodes/projects/resume.md|Resume]]

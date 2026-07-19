@@ -25,5 +25,5 @@ _All goal-related files in one place._
 
 - [[insights/goals/goals-overall|Goals Overview]]
 - [[insights/goals/goals-Q3-2026.md|Q3 2026 Goals]]
-- [[nodes/topics/career/career.md|Career]] — role/next-actions hub
+- [[nodes/topics/career.md|Career]] — role/next-actions hub
 - [[nodes/projects/second-brain-vault.md|Second Brain Vault]] — where goals live

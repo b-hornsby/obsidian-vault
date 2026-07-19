@@ -133,7 +133,7 @@ LIMIT 20
 - [[nodes/topics/personal/streaming.md|Streaming]] — the creative outlet this infrastructure supports
 - [[nodes/projects/streaming-rig.md|Streaming Rig]] — the streaming setup
 - [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — the break-then-rebuild learning loop
-- [[nodes/topics/career/career.md|Career]] — the professional demand this stack is meant to fund
+- [[nodes/topics/career.md|Career]] — the professional demand this stack is meant to fund
 - [[nodes/topics/general.md|General]] — the curiosity lane that occasionally becomes a new tool to host
 
 ---

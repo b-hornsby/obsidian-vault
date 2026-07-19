@@ -68,7 +68,7 @@ I find myself catching myself now. When I'm cycling through 20 options for which
 
 - [[nodes/people/bryan.md|Bryan]] — his son (by choice, not by blood)
 - [[nodes/people/girlfriend.md|Girlfriend]] — his daughter
-- [[nodes/topics/career/career.md|Career]] — the financial pressure that makes the household arrangement necessary
+- [[nodes/topics/career.md|Career]] — the financial pressure that makes the household arrangement necessary
 - [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — the lateral thinking I learned from him
-- [[nodes/projects/job-search.md|Job Search]] — the job push that makes all of this worth it
+- [[nodes/projects/job-search.md|Job Search]] — the warehouse exit, completed 2026-07-06
 - [[MOC.md|Map of Content]] — vault hub

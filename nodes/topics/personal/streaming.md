@@ -141,7 +141,7 @@ LIMIT 20
 - [[nodes/topics/tech/homelab.md|Homelab]] — the infrastructure behind the rig
 - [[nodes/topics/tech/coding.md|Coding]] — the build skills that show up in tooling
 - [[nodes/topics/tech/ai-tools.md|AI Tools]] — workflow and image-generation support
-- [[nodes/topics/career/career.md|Career]] — the financial pressure that makes content creation appealing
+- [[nodes/topics/career.md|Career]] — the financial pressure that makes content creation appealing
 - [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — frustration-to-breakthrough pipeline + voice
 - [[nodes/topics/general.md|General]] — retro poster art, character imagery, and flyer work feeding the creative identity
 

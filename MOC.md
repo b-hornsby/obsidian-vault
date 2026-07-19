@@ -26,8 +26,8 @@ aliases: [Map of Content, Vault Home, Second Brain Dashboard]
 |---------|--------|----------|-------|
 | [[nodes/projects/second-brain-vault.md|Second Brain Vault]] | Active | P0 | Knowledge infrastructure |
 | [[nodes/projects/garage-flipping.md|Garage Flipping]] | Active | P0 | Tech-enabled clearance service |
-| [[nodes/projects/job-search.md|Job Search]] | Active | P0 | Escape warehouse work |
-| [[nodes/projects/resume.md|Resume]] | Active | P0 | Core job-search asset |
+| [[nodes/projects/job-search.md|Job Search]] | Archived | P3 | Completed — now an IT equipment technician |
+| [[nodes/projects/resume.md|Resume]] | Reference | P3 | Pre-employment iteration history |
 | [[nodes/projects/homelab-stack.md|Homelab]] | Active | P1 | Longest-running project |
 | [[nodes/projects/private-ai-consulting.md|Private AI Consulting]] | Planning | P1 | Most ambitious, least executed |
 | [[nodes/projects/streaming-rig.md|Streaming Rig]] | Planning | P2 | Content production |
@@ -38,8 +38,10 @@ aliases: [Map of Content, Vault Home, Second Brain Dashboard]
 ## Topics
 
 ### Career & Professional
-- [[nodes/topics/career/career.md|Career]] — job search strategy, personal branding, interview prep
-- [[nodes/topics/career/it-certification.md|IT Certification]] — CompTIA A+, Network+ path
+- [[nodes/topics/career.md|Career]] — current IT role and forward growth paths
+- [[nodes/topics/career/career.md|Career history]] — pre-employment records, archived 2026-07-06
+- [[nodes/topics/tech/it-tooling.md|IT Tooling]] — Freshservice / Entra / IT Glue / NinjaOne daily notes
+- [[nodes/topics/career/it-certification.md|IT Certification]] — CompTIA / Network+ / future certs
 
 ### Technical
 - [[nodes/topics/tech/ai-tools.md|AI Tools]] — LLMs, agents, local inference, tooling landscape
@@ -132,7 +134,7 @@ The query system in `insights/queries/` contains dataview-powered views into the
 - [[Active-Dashboard.md|Active Dashboard]] — for goal tracking
 - [[goals-index|Goals Index]] — all goal files in one place
 - [[nodes/people/bryan.md|Bryan]] — the person behind the vault
-- [[nodes/topics/career/career.md|Career]] — roles, gaps, next actions
+- [[nodes/topics/career.md|Career]] — roles, gaps, next actions
 
 ---
 

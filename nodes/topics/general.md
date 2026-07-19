@@ -106,7 +106,7 @@ LIMIT 20
 - [[nodes/people/bryan.md|Bryan]] — the mind behind the miscellaneous
 - [[nodes/topics/tech/ai-tools.md|AI Tools]] — image generation and research tooling that feeds this lane
 - [[nodes/topics/tech/coding.md|Coding]] — execution layer for the PC repair and automation side
-- [[nodes/topics/career/career.md|Career]] — the professional frame this general curiosity exists around
+- [[nodes/topics/career.md|Career]] — the professional frame this general curiosity exists around
 - [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — the long-horizon curiosity and learning loop behind everything
 - [[nodes/topics/personal/streaming.md|Streaming]] — creative outlet where some general ideas become visual content
 - [[nodes/topics/tech/homelab.md|Homelab]] — infrastructure that makes local/offline exploration possible

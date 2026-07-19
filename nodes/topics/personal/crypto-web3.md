@@ -86,5 +86,5 @@ I've received detailed reviews of my AI agent strategy covering success metrics,
 - [[nodes/projects/operation-immortal-agent.md|Operation Immortal Agent]] — the self-sustaining agent concept
 - [[nodes/topics/tech/ai-tools.md|AI Tools]] — the tools the agent would use
 - [[nodes/topics/tech/homelab.md|Homelab]] — the infrastructure it would run on
-- [[nodes/topics/career/career.md|Career]] — the financial pressure that makes this appealing
+- [[nodes/topics/career.md|Career]] — the financial pressure that makes this appealing
 - [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — why the funding problem is hard

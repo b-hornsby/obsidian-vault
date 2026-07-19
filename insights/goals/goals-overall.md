@@ -16,29 +16,31 @@ The future is uncertain and I know that. But I'd rather be someone who understan
 ---
 ## Current Priorities
 
-**Private AI Stack — build the actual thing.**
-Local models, custom agents, real pipelines. Consulting or productized tools, whichever I can ship first. The knowledge is here; the package, the pitch, and the first client conversation are the missing pieces.
+**IT equipment technician — master the daily workflow.**
+iPads, laptops, Entra ID, Freshservice, IT Glue, NinjaOne. This is the paid work now. Prove out as the reliable endpoint person first.
 
-**Search/context layer — make the vault genuinely useful.**
-Enrichment is in place. The gap is durable access: reliable search, synthesis hooks, retrieval I can trust in a conversation. If I'm going to build AI solutions for real people, I need the same layer for myself.
+**Homelab as job-relevant practice.**
+What used to be hobby tinkering now directly applies — scripting, deployment, documentation, monitoring. Keep the lab parallel to daily work.
 
-**Content extends the work.**
-What I build, I publish. Not a separate brand. Twitch/YouTube streams, GitHub repos, documented builds — use the stream as proof AND portfolio. Ship first-person content about what's actually happening.
+**Vault as working memory.**
+The second brain should grow from real work: runbooks, troubleshooting notes, on-call playbooks. Not just a resume backup.
 
-**IT as credibility, not destination.**
-The cert and job search matter as timeline pressure: income, schedule, proof I can finish hard things. But IT isn't the end state. It buys margin while the AI work matures.
+**Long-term growth targets.**
+Parallel tracks without pressure: senior technician → systems admin, or IT → cybersecurity / IAM. Cert path reactivated only when it directly advances a chosen lane.
+
+**Garage flipping.**
+Real side-income stream. Continue outreach and execution without depending on the AI consulting fantasy.
 
 ---
+
 ## Active Threads
 
-- Resume iterations linked from [[nodes/projects/resume|Resume Project]]
-- Private AI Stack package scoping in [[nodes/projects/private-ai-consulting.md|Private AI Consulting]]
-- Vault backup/future-proofing: [[nodes/projects/second-brain-vault.md|Second Brain Vault]]
-- Streaming/capture pipeline: [[nodes/projects/streaming-rig.md|Streaming Rig]]
-- Garage flipping outreach: [[nodes/projects/garage-flipping.md|Garage Flipping]]
-- Job search execution: [[nodes/projects/job-search.md|Job Search]]
-- IT certification: [[nodes/topics/career/it-certification.md|IT Certification]]
-
+|- Runbooks / onboarding docs: [[nodes/topics/tech/it-tooling.md|IT Tooling]]
+|- Vault quality: [[nodes/projects/second-brain-vault.md|Second Brain Vault]]
+|- Garage flipping outreach: [[nodes/projects/garage-flipping.md|Garage Flipping]]
+|- Streaming/capture pipeline: [[nodes/projects/streaming-rig.md|Streaming Rig]]
+|- IT certification planning: [[nodes/topics/career/it-certification.md|IT Certification]]
+|- Career history: [[nodes/projects/job-search.md|Job Search (archived)]] and [[nodes/projects/resume.md|Resume (reference)]]
 ---
 ## What This Tracker Should Catch
 

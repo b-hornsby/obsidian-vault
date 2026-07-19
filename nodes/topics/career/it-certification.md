@@ -68,7 +68,7 @@ Despite the exam struggles, the certification conversations reveal genuine knowl
 ## Related
 
 - [[nodes/people/bryan.md|Bryan]] — the person pursuing the certs
-- [[nodes/topics/career/career.md|Career]] — the broader career strategy
+- [[nodes/topics/career.md|Career]] — the broader career strategy
 - [[nodes/projects/job-search.md|Job Search]] — the active escape plan
 - [[nodes/projects/resume.md|Resume]] — the document that has to do the work
 - [[nodes/projects/homelab-stack.md|Homelab]] — the portfolio piece
