@@ -1,0 +1,12 @@
+{
+  "attachmentFolderPath": "Attachments",
+  "userIgnoreFilters": [
+    "raw/",
+    "processed/"
+  ],
+  "templateFolderPath": ".obsidian/templates",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "insights/daily-notes",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
+}
