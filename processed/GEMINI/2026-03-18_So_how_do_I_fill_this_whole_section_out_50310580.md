@@ -6,7 +6,7 @@ tags: ['career', 'ai', 'gemini', 'go', 'import', 'ide', 'job', 'cert']
 category: career
 sentiment: curious
 resolution: resolved
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md', 'nodes/people/dad.md', 'nodes/people/girlfriend.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md', 'nodes/people/dad.md', 'nodes/people/girlfriend.md']
 ---
 # So how do I fill this whole section out?
 

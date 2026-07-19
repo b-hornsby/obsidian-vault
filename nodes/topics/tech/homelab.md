@@ -11,7 +11,7 @@ related_nodes:
   - nodes/projects/homelab-stack.md
   - nodes/topics/tech/ai-tools.md
   - nodes/topics/tech/coding.md
-  - nodes/topics/career/career.md
+  - nodes/topics/career.md
   - nodes/topics/thinking-patterns.md
   - nodes/topics/personal/streaming.md
   - nodes/projects/streaming-rig.md

@@ -13,7 +13,7 @@ related_nodes:
   - nodes/topics/tech/homelab.md
   - nodes/topics/tech/coding.md
   - nodes/topics/tech/ai-tools.md
-  - nodes/topics/career/career.md
+  - nodes/topics/career.md
   - nodes/topics/thinking-patterns.md
   - nodes/topics/general.md
 ---

@@ -7,7 +7,7 @@ category: career
 sentiment: exploratory
 resolution: partial
 linked_projects: ['nodes/projects/operation-immortal-agent.md']
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/projects/operation-immortal-agent.md', 'nodes/topics/career/career.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/projects/operation-immortal-agent.md', 'nodes/topics/career.md']
 summary: Bryan was exploring whether his AI agent could automate job applications and client outreach.
 ---
 # Could it technically send job applications on my behalf or seek out potential clients for tools I’m building that businesses might want to hire me for?

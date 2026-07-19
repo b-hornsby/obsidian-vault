@@ -1,12 +1,14 @@
 ---
 type: topic
-tags: [topic, career, certification]
+status: reference
+priority: P3
+tags: [topic, career, certification, archived]
 aliases: [IT Certification, CompTIA, Certs]
 ---
 
 # IT Certification
 
-*61 conversations about the tension between credential-chasing and building real proof of ability.*
+*Decision record and knowledge baseline. Certifications paused while real IT experience is built on the job.*
 
 My certification journey is a story of strategic pivots and honest self-assessment. I went from building an entry-level help desk resume, through intensive CompTIA A+ and Network+ study, to a pivotal moment where I questioned whether the certs were even worth pursuing — and ultimately shifted focus to a project-based strategy for breaking into tech.
 
@@ -43,17 +45,17 @@ Despite the exam struggles, the certification conversations reveal genuine knowl
 
 ## The gaps
 
-- **No certifications completed.** Despite the Tiffin University training, I don't hold any CompTIA certifications as of early 2026.
-- **Exam-specific knowledge.** The practice tests revealed gaps in memorized details (port numbers, specific protocol behaviors) that don't reflect my actual troubleshooting ability.
-- **No professional IT experience.** My experience is entirely self-directed.
+- **No certifications completed.** Despite Tiffin University training, no CompTIA certs awarded as of early 2026.
+- **Exam-specific knowledge gaps remain** in rote memorization details.
+- **Professional experience now on the job.** Endpoint provisioning, Entra ID, Freshservice, IT Glue, NinjaOne — these are now daily practice, not gaps.
 
 ---
 
 ## What I need to do
 
-1. **Schedule the A+ exam.** Pick a date. Commit. Stop studying and start testing.
-2. **Build the portfolio page.** Showcase homelab projects with screenshots and explanations.
-3. **Get a brutally honest review.** Find someone in IT — not an AI — and ask them to tear apart my resume.
+1. **Pause formal exam commitment** until a target path is specific.
+2. **Convert study time into daily IT task notes** — provisioning, user management, ticketing, monitoring.
+3. **Keep homelab practice targeted to job domains** — deployment, scripting, documentation.
 
 ---
 
@@ -67,12 +69,13 @@ Despite the exam struggles, the certification conversations reveal genuine knowl
 
 ## Related
 
-- [[nodes/people/bryan.md|Bryan]] — the person pursuing the certs
-- [[nodes/topics/career.md|Career]] — the broader career strategy
-- [[nodes/projects/job-search.md|Job Search]] — the active escape plan
-- [[nodes/projects/resume.md|Resume]] — the document that has to do the work
-- [[nodes/projects/homelab-stack.md|Homelab]] — the portfolio piece
+- [[nodes/people/bryan.md|Bryan]] — the person using this as decision record
+- [[nodes/topics/career.md|Career]] — current IT role and forward growth paths
+- [[nodes/projects/job-search.md|Job Search]] — archived transition record
+- [[nodes/projects/resume.md|Resume]] — pre-employment iteration history
+- [[nodes/projects/homelab-stack.md|Homelab]] — job-relevant infrastructure practice
 - [[nodes/topics/thinking-patterns.md|Thinking Patterns]] — the planning-vs-shipping tension
+- [[nodes/topics/tech/it-tooling.md|IT Tooling]] — daily Freshservice / Entra / IT Glue / NinjaOne notes
 
 ---
 

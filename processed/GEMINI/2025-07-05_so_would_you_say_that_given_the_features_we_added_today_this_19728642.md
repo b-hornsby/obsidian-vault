@@ -2,7 +2,7 @@
 category: career
 date: 2025-07-05
 id: 200355
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md']
 linked_projects:
 - private-ai-consulting
 resolution: partial

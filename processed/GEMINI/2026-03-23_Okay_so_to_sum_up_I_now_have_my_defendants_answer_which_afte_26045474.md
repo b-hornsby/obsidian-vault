@@ -2,7 +2,7 @@
 category: career
 date: 2026-03-23
 id: 526719
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md']
 linked_projects: []
 resolution: resolved
 sentiment: frustrated

@@ -6,7 +6,7 @@ tags: ['career', 'ai', 'gemini', 'go', 'script', 'at']
 category: career
 sentiment: executing
 resolution: partial
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md']
 ---
 # My full legal name or just first and last?
 

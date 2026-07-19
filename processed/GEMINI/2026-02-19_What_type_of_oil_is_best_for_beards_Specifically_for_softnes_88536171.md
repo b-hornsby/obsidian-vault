@@ -2,7 +2,7 @@
 category: career
 date: 2026-02-19
 id: 932164
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md', 'nodes/topics/personal/crypto-web3.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md', 'nodes/topics/personal/crypto-web3.md']
 linked_projects: []
 resolution: abandoned
 sentiment: exploratory

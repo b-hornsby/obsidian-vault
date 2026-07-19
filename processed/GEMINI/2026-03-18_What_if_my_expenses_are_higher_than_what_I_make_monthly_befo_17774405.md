@@ -6,7 +6,7 @@ tags: ['career', 'ai', 'gemini', 'defi', 'go', 'code', 'ide', 'at']
 category: career
 sentiment: curious
 resolution: resolved
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/personal/crypto-web3.md', 'nodes/topics/career/career.md', 'nodes/people/dad.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/personal/crypto-web3.md', 'nodes/topics/career.md', 'nodes/people/dad.md']
 ---
 # What if my expenses are higher than what I make monthly before taxes?
 

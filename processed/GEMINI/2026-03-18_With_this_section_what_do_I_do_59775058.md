@@ -6,7 +6,7 @@ tags: ['career', 'gemini', 'wallet', 'go', 'import', 'cert', 'at', 'income']
 category: career
 sentiment: curious
 resolution: resolved
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md', 'nodes/people/dad.md', 'nodes/people/girlfriend.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md', 'nodes/people/dad.md', 'nodes/people/girlfriend.md']
 ---
 # With this section what do I do?
 

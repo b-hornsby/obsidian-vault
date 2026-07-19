@@ -6,7 +6,7 @@ tags: ['career', 'ai', 'gemini', 'rag', 'solana', 'leverage', 'near', 'long']
 category: career
 sentiment: curious
 resolution: abandoned
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md', 'nodes/topics/personal/crypto-web3.md', 'nodes/people/girlfriend.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md', 'nodes/topics/personal/crypto-web3.md', 'nodes/people/girlfriend.md']
 ---
 # I already had the repo on my record from when my girls car got repoed
 

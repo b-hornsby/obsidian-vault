@@ -7,7 +7,7 @@ category: career
 sentiment: exploratory
 resolution: resolved
 linked_projects: []
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md']
 ---
 # Warehouse Experience in IT
 

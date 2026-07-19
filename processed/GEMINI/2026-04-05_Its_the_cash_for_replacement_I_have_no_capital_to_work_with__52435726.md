@@ -6,7 +6,7 @@ tags: ['career', 'ai', 'gemini', 'solana', 'trading', 'api', 'a+', 'exam']
 category: career
 sentiment: frustrated
 resolution: abandoned
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/personal/crypto-web3.md', 'nodes/topics/career/career.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/personal/crypto-web3.md', 'nodes/topics/career.md']
 ---
 # It’s the cash for replacement. I have no capital to work with here
 

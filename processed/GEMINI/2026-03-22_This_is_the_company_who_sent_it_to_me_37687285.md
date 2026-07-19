@@ -6,7 +6,7 @@ tags: ['career', 'ai', 'gemini', 'near', 'go', 'ide', 'api', 'cert']
 category: career
 sentiment: curious
 resolution: resolved
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md']
 ---
 # This is the company who sent it to me
 

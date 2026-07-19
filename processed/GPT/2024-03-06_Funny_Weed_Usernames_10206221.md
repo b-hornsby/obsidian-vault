@@ -6,7 +6,7 @@ tags: ['career', 'ai', 'cert', 'course', 'at']
 category: career
 sentiment: exploratory
 resolution: partial
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md']
 ---
 # Funny Weed Usernames
 

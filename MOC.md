@@ -39,7 +39,7 @@ aliases: [Map of Content, Vault Home, Second Brain Dashboard]
 
 ### Career & Professional
 - [[nodes/topics/career.md|Career]] — current IT role and forward growth paths
-- [[nodes/topics/career/career.md|Career history]] — pre-employment records, archived 2026-07-06
+- [[nodes/topics/career.md|Career history]] — pre-employment records, archived 2026-07-06
 - [[nodes/topics/tech/it-tooling.md|IT Tooling]] — Freshservice / Entra / IT Glue / NinjaOne daily notes
 - [[nodes/topics/career/it-certification.md|IT Certification]] — CompTIA / Network+ / future certs
 

@@ -2,7 +2,7 @@
 category: career
 date: 2025-06-24
 id: 822870
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md']
 resolution: partial
 sentiment: exploratory
 source: GEMINI

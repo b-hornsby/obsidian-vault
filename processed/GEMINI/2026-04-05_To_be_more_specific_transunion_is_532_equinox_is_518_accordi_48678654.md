@@ -2,7 +2,7 @@
 category: career
 date: 2026-04-05
 id: 748003
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md', 'nodes/projects/operation-immortal-agent.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md', 'nodes/projects/operation-immortal-agent.md']
 linked_projects:
 - it-certification
 - operation-immortal-agent

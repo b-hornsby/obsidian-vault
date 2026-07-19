@@ -7,7 +7,7 @@ category: career
 sentiment: exploratory
 resolution: resolved
 linked_projects: []
-linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career/career.md']
+linked_nodes: ['nodes/people/bryan.md', 'nodes/projects/it-certification.md', 'nodes/topics/career.md']
 summary: Bryan was crafting a follow-up email after an in-person interview for a Material Handler position at Audio Technica.
 ---
 # Email follow-up suggestion
