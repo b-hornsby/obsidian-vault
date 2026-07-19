@@ -22,14 +22,10 @@ I'm honest about my limitations: I can't write code without AI help, I have no p
 
 ## What I care about
 
-### Getting out of the warehouse
-This is the big one. Every project, every skill, every late-night troubleshooting session serves one goal: building a sustainable career in tech. I'm targeting IT Support Specialist, Help Desk Technician, and IT Operations roles.
+### IT work at scale
+I build and maintain endpoint equipment for a sales-heavy environment — iPads and laptops provisioned for field users, execs, and higher-ups. It’s hands-on, fast-moving, and user-facing IT on a schedule. I use Freshservice for ticketing, Microsoft Entra for identity, IT Glue for documentation, and NinjaOne for RMM/endpoint management. This isn’t a stepping-stone fantasy; it’s my job now.
 
-I've rewritten my resume dozens of times. I've iterated on my LinkedIn headline until it finally says what I want it to say: *"IT Operations | Linux (Arch/CachyOS) · Win · Mac | AI Automation | Web3 Ops."* I lead with where I'm going, not where I've been.
-
-I asked an AI to be my "brutally honest, high-level advisor" and told it: *"I don't want comfort. I don't want sugarcoating."* That's how I approach everything. Tell me the truth, even if it's hard to hear.
-
-See: [[nodes/projects/job-search.md|Job Search]] | [[nodes/projects/resume.md|Resume]] | [[nodes/topics/career/it-certification.md|IT Certification]] | [[nodes/topics/career/career.md|Career]]
+See: [[nodes/topics/tech/it-tooling.md|IT Tooling]] | [[nodes/projects/homelab-stack|Homelab Stack]] | [[nodes/topics/tech/ai-tools|AI Tools]]
 
 ### Building things that actually work
 My homelab is my proudest achievement. 793+ conversations worth of tinkering — CachyOS, Docker, Syncthing, OBS, CUDA, dual-boot setups, Steam Deck Linux. I've debugged BSODs after installing new drives, fought with WSL2 bootloader entries, and spent hours getting Ubuntu to cooperate before deciding CachyOS was the move.
@@ -93,20 +89,20 @@ See: [[nodes/topics/thinking-patterns.md|Thinking Patterns]] for the full analys
 
 ## What I'm working on right now
 
-- **Job search** — actively targeting IT support roles, building portfolio, preparing for interviews
-- **CompTIA A+ and beyond** — studying operational procedures, working through practice tests, planning for SecAI and AI certs
-- **Vault enrichment** — making this second brain truly useful, not just searchable
-- **Python** — still learning, still asking beginner questions, still trying to build real things with it
-- **Homelab** — always tinkering, always upgrading, always breaking things and fixing them
-- **Solana trading bot** — testing quoting stages, integrating with Jupiter Perps
+- **IT equipment technician** — started 2026-07-06; provisioning iPads/laptops for sales and execs, Freshservice/Entra/IT Glue/NinjaOne daily
+- **Certs** — self-studying toward CompTIA Skills + IT-Focused certifications using hands-on lab work instead of classroom training; not chasing A+ anymore
+- **Vault upkeep** — keeping the second brain operational as my real resume/reference, not a separate project
+- **Python** — still learning, still using AI as a copilot, still trying to build real things with it
+- **Homelab** — always tinkering; now partly job-relevant infrastructure practice
+- **Solana trading bot** — paused while settling into the new role
 
 ## 2026-07 recent snapshot
 
-- **Living situation:** same multigenerational household — me, my girlfriend, and her dad in Akron. Finances are still tight, but the wrecked-Honda-to-cash-car play is behind us.
-- **Job search status:** not currently sending apps; portfolio and A+ study are the focus. Got a rough draft resume; need metrics from warehouse efficiency work plus a GitHub/portfolio link.
-- **Health:** haven’t been tracking this in the vault, but warehouse work is physically hard; still building toward an exit.
-- **Current projects:** garage flipping outreach phase, vault hardening, local LLM download script background job running, Kimi K3 watcher armed on cron.
-- **AI tool stack today:** Hermes/Claude Code + Obsidian + CachyOS daily driver; RTX 3070 running `llama.cpp` with Qwen 9B / Qwen 3.6 MoE; Wazuh + ntfy for PC alerts; model vault downloading on `/mnt/d/models`; still no DGX Spark yet, but it’s the eventual target.
+- **Living situation:** same multigenerational household — me, my girlfriend, and her dad in Akron. Finances still tight, but car/debt cleanup is recent win; new job changes the cashflow picture.
+- **Job status:** employed as IT equipment technician since 2026-07-06, provisioning endpoints for sales and execs using Freshservice, Entra, IT Glue, NinjaOne. No longer searching.
+- **Health:** warehouse work is physically hard; new role is less brutal on the body. Energy after work is improving.
+- **Current projects:** job-role skill deepening, vault upkeep, homelab as job-relevant practice, Kimi K3 watcher on cron.
+- **AI tool stack today:** Hermes/Claude Code + Obsidian + CachyOS daily driver; RTX 3070 running `llama.cpp` with Qwen 9B / Qwen 3.6 MoE; Wazuh + ntfy for PC alerts; model vault downloading on `/mnt/d/models`; job is now part of the stack, not just the homelab.
 
 ---
 
@@ -122,7 +118,7 @@ See: [[nodes/topics/thinking-patterns.md|Thinking Patterns]] for the full analys
 
 | Area | State |
 |------|-------|
-| **Job search** | Not currently sending applications; focus is portfolio + A+ study. Resume draft exists but needs verified warehouse metrics and a GitHub/portfolio link. |
+| **Job search** | Employed as IT equipment technician since 2026-07-06; no longer searching |
 | **Skill stack** | CachyOS daily driver, Docker, Syncthing, CUDA/llama.cpp (Qwen 9B / Qwen 3.6 MoE), WSL2, OBS/VoiceMeeter troubleshooting, multi-agent workflows (CrewAI,Ollama,Oobabooga). Still no certs earned. |
 | **Projects in flight** | garage-flipping outreach phase, vault hardening, multi-agent local-LLM script, Kimi K3 watcher via cron. |
 | **Health** | Warehouse work is physically hard; tracking not formalized in the vault. Primary constraint is energy after shifts. |
