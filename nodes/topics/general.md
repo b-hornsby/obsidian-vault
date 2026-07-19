@@ -6,7 +6,16 @@ aliases: [general, miscellaneous, eclectic]
 
 # General
 
-*625 conversations that didn't fit anywhere else — and that's exactly why they matter. This is the stuff that makes me who I am, not just what I do.*
+*625 conversations that didn't fit anywhere else — and that's exactly why they matter. This is the stuff that makes me who I am, not just what I do. I think of this page as my externally owned entity: the curator of the weird, the people-pleaser, and the long-horizon thinker behind everything in the vault.*
+
+---
+
+## How Bryan thinks about "general"
+
+- **Learning style:** I learn best by doing, not by studying. These 625 miscellaneous conversations are the evidence: they’re less about "how do I" and more about "what is this" — curiosity-driven context building.
+- **Decision rules:** when something has no category, it's usually because I haven’t decided whether it matters yet. This page is my holding area for "maybe important someday" rather than "forget this now."
+- **Current obsessions:** cannabis strain aesthetics, character design iterations, image generation workflow costs, and environmental side-quests like LLM cooling.
+- **Recurring loops:** I keep circling back to the same eclectic asks — image generation prompts, retro poster ideas, random repair questions. They’re not random; they’re signs I care about craft, not just tech.
 
 ---
 

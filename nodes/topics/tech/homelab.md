@@ -6,7 +6,16 @@ aliases: [homelab, infrastructure, self-hosted]
 
 # Homelab
 
-*793 conversations worth of breaking things, fixing things, and learning how infrastructure actually works.*
+*793 conversations worth of breaking things, fixing things, and learning how infrastructure actually works. I think of this as the topic behind the work, not the project itself — the values and bad habits that keep showing up whenever I touch hardware.*
+
+---
+
+## I think about homelab
+
+- **Learning style:** break it first, then rebuild it. The best lessons came from stopping WSL2 from substantializing or rescuing an overwritten boot entry. I learn by reading the exact error string, not from architecture docs.
+- **Decision rules:** if it’s installable on CachyOS without sacrificing my Windows boot option, I’ll try it. Otherwise I keep WSL2 as a compromise OS. I also standardize on whatever removes manual GUI steps — hence NVIM, TMUX, and CUDA CLI workflows.
+- **Current obsessions:** DGX Spark specs vs 3070 reality, model vault download automation, cron/model-switcher reliability, Wazuh alert tuning.
+- **Recurring loops:** I re-ask whether the RTX 3070 can handle a model size, then boot it anyway. I keep coming back to the answer 7B–13B quantized, but the next new repo always makes me ask again.
 
 ---
 
@@ -59,6 +68,8 @@ I've been looking at Mac Mini products for local LLM inference. The unified memo
 - **Docker** — service isolation
 - **Syncthing** — file syncing across devices
 - **Local LLM inference** — Ollama, Oobabooga, various models
+- **Model vault downloader** — background-serial, `timeout=max(1800, est_gb*70)`, resume-safe into `/mnt/d/models`; currently rebuilding after HF repo verification
+- **Kimi K3 watcher** — cron */30 pings ntfy when a real K3 repo exists; fake placeholder excluded
 
 ---
 
@@ -82,8 +93,6 @@ I've been looking at Mac Mini products for local LLM inference. The unified memo
 ---
 
 ## Related
-- [[nodes/people/bryan|Bryan]]
-
 - [[nodes/people/bryan.md|Bryan]] — the person who built this
 - [[nodes/projects/homelab-stack.md|Homelab Stack]] — the project behind the topic
 - [[nodes/topics/tech/ai-tools.md|AI Tools]] — the tools running on this infrastructure

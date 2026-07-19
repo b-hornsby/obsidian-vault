@@ -35,3 +35,8 @@ If restarting:
 1. Locate or regenerate the execution folder.
 2. Run paper trade on devnet/testnet within 7 days or archive again.
 3. Do not restate this as "in progress" without either a live trade or a clean archive write.
+
+## Related
+- [[nodes/projects/garage-flipping.md|Garage Flipping]] — the funded path that took priority
+- [[nodes/projects/private-ai-consulting.md|Private AI Consulting]] — the related business idea that has also not shipped
+- [[nodes/topics/tech/homelab.md|Homelab]] — where the original research happened

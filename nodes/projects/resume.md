@@ -52,3 +52,4 @@ Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic
 
 ## Related
 - [[goals-index|Goals Index]]
+- [[nodes/topics/career/career.md|Career]]

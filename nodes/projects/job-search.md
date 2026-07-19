@@ -78,15 +78,27 @@ The warehouse exit isn't just about a different job. It's about reclaiming agenc
 | KeyBank | https://www.key.com/careers | ⬜ Not applied |
 | Huntington Bank | https://www.huntington.com/careers | ⬜ Not applied |
 
+## Status & next actions
+
+These sections above describe the goal state. The live bookkeeping still needs work:
+
+| What | Next step |
+|------|-----------|
+| A+ cert | Pick exam date, then study backwards from it |
+| Resume rough draft | Add quantified warehouse metrics + GitHub/portfolio link |
+| Applications | Switch from "tracked" to actually sent; open tracker rows below |
+
 ## Application Log
 
 | Date | Company | Role | Status | Notes |
 |------|---------|------|--------|-------|
 |  |  |  |  |  |
 
-## Linked Conversations
+## Related
 
-Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic index]] — filter by `career`, `resume`, `linkedin`, `job-search` tags.
+- [[goals-index|Goals Index]]
+- [[nodes/projects/resume.md|Resume]]
+
 
 ## Open Threads
 

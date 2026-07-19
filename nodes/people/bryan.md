@@ -100,6 +100,14 @@ See: [[nodes/topics/thinking-patterns.md|Thinking Patterns]] for the full analys
 - **Homelab** — always tinkering, always upgrading, always breaking things and fixing them
 - **Solana trading bot** — testing quoting stages, integrating with Jupiter Perps
 
+## 2026-07 recent snapshot
+
+- **Living situation:** same multigenerational household — me, my girlfriend, and her dad in Akron. Finances are still tight, but the wrecked-Honda-to-cash-car play is behind us.
+- **Job search status:** not currently sending apps; portfolio and A+ study are the focus. Got a rough draft resume; need metrics from warehouse efficiency work plus a GitHub/portfolio link.
+- **Health:** haven’t been tracking this in the vault, but warehouse work is physically hard; still building toward an exit.
+- **Current projects:** garage flipping outreach phase, vault hardening, local LLM download script background job running, Kimi K3 watcher armed on cron.
+- **AI tool stack today:** Hermes/Claude Code + Obsidian + CachyOS daily driver; RTX 3070 running `llama.cpp` with Qwen 9B / Qwen 3.6 MoE; Wazuh + ntfy for PC alerts; model vault downloading on `/mnt/d/models`; still no DGX Spark yet, but it’s the eventual target.
+
 ---
 
 ## People in my life

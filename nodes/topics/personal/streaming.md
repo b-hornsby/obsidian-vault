@@ -10,6 +10,15 @@ aliases: [streaming, content creation, obs]
 
 ---
 
+## How I think about streaming
+
+- **Learning style:** I learn audio routing best by breaking the chain on purpose and tracing which link dies. That means lots of partial conversations and a lot of voice-chat frustration, but it also means the fixes stick longer than anything from a tutorial.
+- **Decision rules:** if a workflow forces me to touch Windows GUI tools, I treat that as a blocker until there’s a CLI or Linux-native alternative. CachyOS-first, Discord/second-brain-backed troubleshooting.
+- **Current obsessions:** multistream TikTok + Twitch from one scene, music-on-stream without shipping into VODs, vertical overlays that don’t look broken on mobile.
+- **Recurring loops:** I restart the audio-routing design from scratch every few months. Same problem, new cable, same conclusion: VoiceMeeter + Aitum Vertical + VB-Cable, with B1/B2 buses tested separately before touching TikTok Live Studio.
+
+---
+
 ## What it is
 
 Streaming is my creative outlet — the one area where I actually ship things and put them in front of people. It's also where I've fought with some of the most frustrating technical challenges in my setup.
@@ -57,12 +66,27 @@ I've created retro-styled posters of people fixing computers for Facebook flyers
 
 ## Current setup
 
-- **OBS Studio** — scene composition, audio mixing, virtual camera
+- **OBS Studio** — scenes + transitions defined; profile-backed on CachyOS + NVIDIA
 - **VoiceMeeter Banana** — audio routing hub with virtual cables
-- **Aitum Multistream** — multi-platform distribution
-- **Aitum Vertical** — vertical camera feed for TikTok
+- **Aitum** — Aitum Vertical for vertical camera feed on TikTok; Aitum integrations for stream management still planned
 - **Blue Yeti** — microphone
 - **VB-Cable** — audio bridge to TikTok Live Studio
+- **Yeti → VoiceMeeter → B1 into OBS, B2 into TikTok Live Studio** — that’s the target state; music playback should route to desktop audio only, not B2
+- **Capture pipeline draft:** gameplay/source clips → FFmpeg batch normalize → vertical crop → backfill queue
+
+## Goals right now
+
+- Lock one audio chain and stop re-architecting it
+- Ship a TikTok vertical edit using the FFmpeg batch pipeline
+- One double-stream test where both viewers hear mic, neither hears music in VOD
+- Stop replacing OBS/UAD plugins instead of debugging config drift
+
+## Blockers
+
+- OBS Virtual Camera doesn’t carry audio on this Linux build; requires workaround
+- Distributor-side compliance still blocks one platform from accepting the vertical stream
+- Windows-side GUI tools still leak in when troubleshooting; CachyOS-first audio routing is still fragile
+- TikTok VOD music filtering path is undocumented in the vault; next session needs exact OBS + Aitum steps, not theory
 
 ---
 
