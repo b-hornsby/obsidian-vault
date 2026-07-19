@@ -53,7 +53,7 @@ It's the operational memory for every project. The homelab tools, the job search
 
 ## Linked Conversations
 
-Browse via: [[insights/conversation-topic-index.md|Conversation Topic Index]]
+Browse via: [[insights/conversation-topic-index.md|Conversation Topic Index]] — maintained at `insights/conversation-topic-index.md`.
 
 ---
 *This is a working document, not a marketing page. Update when state changes, especially when weeks stall.*

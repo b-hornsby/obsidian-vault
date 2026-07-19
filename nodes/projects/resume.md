@@ -41,7 +41,7 @@ I've rewritten this resume more than most people write their entire resume over 
 
 ## Linked Conversations
 
-Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic index]] — filter by `resume`, `career`, `ats`, `linkedin` tags.
+Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic index]] — filter by `resume`, `career`, `ats`, `linkedin` tags. See `insights/conversation-topic-index.md`.
 
 ## Current Version
 

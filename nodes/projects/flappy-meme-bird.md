@@ -36,4 +36,4 @@ The format here is reusable: apply it to garage-flipping documentation or stream
 
 ## Linked Conversations
 
-Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic index]] — filter by `game`, `p5`, `pixel-art`, `character-design` tags.
+Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic index]] — filter by `game`, `p5`, `pixel-art`, `character-design` tags. Canonical: `insights/conversation-topic-index.md`.

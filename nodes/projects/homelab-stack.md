@@ -29,7 +29,7 @@ This is why it's the highest-conviction project in the vault: 793 conversations,
 
 ## Linked Conversations
 
-Depth first, breadth second: [[insights/conversation-topic-index.md|Browse topic index]] for homelab-tagged conversations (linux, wsl2, cachyos, docker, syncthing, obs-studio).
+Depth first, breadth second: [[insights/conversation-topic-index.md|Browse topic index]] for homelab-tagged conversations (linux, wsl2, cachyos, docker, syncthing, obs-studio). Canonical file is `insights/conversation-topic-index.md`.
 
 ## Current State
 

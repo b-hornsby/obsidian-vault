@@ -70,4 +70,4 @@ All content ideas tie back to visible build artifacts. Pick one ledger row as th
 
 ## Linked Conversations
 
-Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic index]] — filter by `streaming`, `obs-studio`, `audio-routing`, `obs-studio` tags.
+Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic index]] — filter by `streaming`, `obs-studio`, `audio-routing`, `obs-studio` tags. Use `insights/conversation-topic-index.md` for the maintained topic index.

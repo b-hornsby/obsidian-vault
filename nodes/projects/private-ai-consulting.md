@@ -48,4 +48,4 @@ Until then, this is a skills showcase, not a business.
 
 ## Linked Conversations
 
-Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic index]] — filter by `ai-tools`, `local-llm`, `ollama`, `rag`, `agent` tags.
+Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic index]] — filter by `ai-tools`, `local-llm`, `ollama`, `rag`, `agent` tags. Maintained under `insights/conversation-topic-index.md`.
