@@ -23,3 +23,8 @@
 
 - 56 write errors
 - 0 files skipped due to LLM failures
+
+
+## Related
+- [[_meta/hermes-instructions|Hermes Instructions]]
+- [[nodes/projects/second-brain-vault|Second Brain Vault]]

@@ -48,3 +48,7 @@ Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic
 - ATS-optimized keywords: IT Support, Linux Administration, Help Desk, Remote Support, Windows, macOS
 - Action-first bullet structure: built, configured, deployed, optimized
 - Lead with IT direction, warehouse as supporting context
+
+
+## Related
+- [[goals-index|Goals Index]]

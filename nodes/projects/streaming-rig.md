@@ -3,36 +3,70 @@ type: project
 status: planning
 priority: P2
 first_seen: 2025-08-01
-tags: [streaming, obs, obs-studio, audio-routing, multistream, content-creation]
+tags: [streaming, obs, obs-studio, audio-routing, multistream, content-creation, ffmpeg, blender]
 aliases: [Streaming Rig, Streaming Setup, Content Production]
 ---
+
 # Streaming Rig
 
-> Content production infrastructure. OBS, audio routing, multistream experiments, and content ideas. 262 conversations across streaming topics.
+> Content production infrastructure. OBS, audio routing, multistream experiments, FFmpeg/Blender pipelines, and content ideas. 262 conversations across streaming topics.
 
-## What I've Built
+## Asset Ledger
+
+Use this as the ownership record. Add rows when gear moves in or out.
+
+| Item | Type | Source / Cost | Status | Notes |
+|------|------|---------------|--------|-------|
+| OBS Studio | Software | Free / GitHub | Installed | Scenes + transitions defined; profile-backed |
+| VoiceMeeter | Audio mixer | Free | Installed | Platform-specific audio separation |
+| Aitum | Audio plugin | Free | Installed | Used with VoiceMeeter for stream audio routing |
+| Deck / Aitum integration | Stream management | — | Planned | Deck/Aitum control surface for stream events |
+| FFmpeg | Video/audio CLI | Free | Installed | Clips, zoompan text, transitions, vertical crop, batch |
+| Blender VSE | Compositor | Free | Installed | Headless Python scripting for advanced cuts/compositing |
+| Counter-Strike clips | Source footage | Game | Available | Test material for TikTok-style edits |
+| Cannabis character art | Asset | Commission/draft | N/A | Niche but fun concept art candidates |
+| PC repair flyer design | Asset | Draft | Archived | Retro poster aesthetic; surfaced in general.md |
+
+## Current Build State
 
 - OBS Studio with custom scenes and transitions
 - Audio routing: VoiceMeeter + Aitum for platform-specific audio separation
 - Multistream experiments: pushing to Twitter and TikTok simultaneously
-- Deck/Aitum integration for stream management
 
-## The Hard Problem
+## Audio Routing
 
-Audio routing is the hardest thing I've consistently failed to solve cleanly. I want to stream music but not include it in TikTok VODs. I want separate audio layers for desktop, game, mic, and media. Every solution breaks something — either the stream, the recording, or the VOD.
+Audio layers: desktop, game, mic, media.  
+Target: stream music without TikTok VOD inclusion.  
+Status: not solved cleanly. Retrospective conclusion: audio routing breaks something on every attempt — stream quality, recording integrity, or VOD output.
 
-This is the pattern: I solve infrastructure that matters (homelab works), but I stall on creative tools that don't have a finish line (OBS configuration is never "done").
+## Edit Pipeline
 
-## Content Ideas That Never Shipped
+Live content pipeline goals:
+- TikTok-style CS gameplay edits
+- Meme edits from short-form clips
+- Batch processing for concept/meme content
+
+Tool selection:
+- Start with FFmpeg for speed of iteration
+- Escalate to Blender VSE when compositing/headless automation is required
+- DaVinci Resolve considered but excluded from this workflow because GUI-only and inaccessible from WSL
+
+## Content Ideas
+
+All content ideas tie back to visible build artifacts. Pick one ledger row as the deliverable and ship it.
 
 - "Can I Prompt a Flappy Bird Clone in 30 Mins?" — actually built
-- PC repair flyer design — retro poster aesthetic
+- CS gameplay TikTok-style edit — test footage available; use FFmpeg pivot
 - Cannabis-themed character art — Niche but fun
-- Business name research for garage-flipping — surfaced in general.md
+- PC repair flyer design — retro poster aesthetic
 
-## The Gap Between This and Garage Flipping
+## Capture Workflow
 
-Streaming is creative expression. Garage flipping is cash flow. Same ADHD pattern: I research streaming harder than I stream, and I research garage flipping harder than I post listings. The difference is garage flipping has defined first revenue; streaming does not.
+1. Capture gameplay/source clips.
+2. Batch normalize with FFmpeg.
+3. Color/audio treatment as needed.
+4. Vertical crop for TikTok.
+5. Export to backfill queue.
 
 ## Linked Conversations
 

@@ -273,3 +273,8 @@ Windows (DESKTOP-5NE9JEA)
 5. **Wazuh Dashboard** — optional visual interface, not needed for single PC
 6. **Multi-host support** — currently monitors only this single Windows host
 7. **Agent IP reporting** — cosmetic (172.28.176.1 vs actual host IP)
+
+
+## Related
+- [[MOC.md|Map of Content]]
+- [[nodes/topics/tech/pc-security|PC Security]]

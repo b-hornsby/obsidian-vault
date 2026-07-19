@@ -191,3 +191,7 @@ Projects that sustain past Day 3 are the ones where frustration leads to breakth
 ---
 
 *Last updated: 2026-05-19. Based on analysis of 3,400 enriched conversations. For the full data report, see [[insights/thinking-patterns/2026-05-18-patterns-raw-data.md|May 18 Patterns (raw data)]].*
+
+
+## Related
+- [[nodes/people/bryan|Bryan]]

@@ -124,3 +124,8 @@ Random sample of 10 enriched files for quality check:
 
 - 1299 write errors
 - 730 files skipped due to LLM failures
+
+
+## Related
+- [[_meta/hermes-instructions|Hermes Instructions]]
+- [[nodes/projects/second-brain-vault|Second Brain Vault]]

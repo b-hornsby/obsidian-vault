@@ -357,3 +357,7 @@ Format: `timestamp — source — title | price | location | keywords | url`
 - 2026-06-22 06:36 — **[AKRON] Estate Sales** — Montabella Estates Neighborhood Garage Sales | $— | Canton |  | https://akroncanton.craigslist.org/gms/d/canton-montabella-estates-neighborhood/7937908262.html
 - 2026-06-22 06:36 — **[CLE] Estate Sales** — ESTATE SALE- RAIN OR SHINE! | $— | Barberton | estate sale | https://cleveland.craigslist.org/gms/d/barberton-estate-sale-rain-or-shine/7936182178.html
 - 2026-06-22 07:07 — **[AKRON] Estate Sales** — BUYING: Antique Estates, Garage Clean-outs, Collections | $— | Medina |  | https://akroncanton.craigslist.org/for/d/akron-buying-antique-estates-garage/7942383223.html
+
+
+## Related
+- [[goals-index|Goals Index]]

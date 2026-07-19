@@ -6,6 +6,7 @@ first_seen: 2025-06-01
 tags: [job-search, career, it-support, linkedin, outreach, akron, canton]
 aliases: [Job Search, Employment Search, IT Job Search]
 ---
+
 # Job Search
 
 > Active escape plan from warehouse work. Target roles: IT Support Specialist, Help Desk Technician, IT Operations. Based on 250+ career-tagged conversations.
@@ -30,6 +31,59 @@ aliases: [Job Search, Employment Search, IT Job Search]
 
 The warehouse exit isn't just about a different job. It's about reclaiming agency. 8 years in fulfillment gave me systems knowledge I didn't value until I started building homelab infrastructure. The gap between "I know this" and "I can prove I know this" is the resume + certification + actual job applications.
 
+## Target Companies
+
+### Healthcare (Large IT Departments)
+
+| Company | Career Page | Status |
+|---------|-------------|--------|
+| Cleveland Clinic | https://jobs.clevelandclinic.org | ⬜ Not applied |
+| Summa Health | https://www.summahealth.org/careers | ⬜ Not applied |
+| Akron Children's Hospital | https://www.akronchildrens.org/careers | ⬜ Not applied |
+| Western Reserve Hospital | https://www.westernreservehospital.org/careers | ⬜ Not applied |
+
+### Manufacturing / Corporate
+
+| Company | Career Page | Status |
+|---------|-------------|--------|
+| Goodyear Tire & Rubber | https://careers.goodyear.com | ⬜ Not applied |
+| FirstEnergy | https://www.firstenergycorp.com/careers | ⬜ Not applied |
+| Diebold Nixdorf | https://www.dieboldnixdorf.com/en-us/careers | ⬜ Not applied |
+| Parker Hannifin | https://www.parker.com/careers | ⬜ Not applied |
+| Gojo Industries | https://www.gojo.com/en/careers | ⬜ Not applied |
+| Babcock & Wilcox | https://www.babcock.com/careers | ⬜ Not applied |
+
+### Education
+
+| Company | Career Page | Status |
+|---------|-------------|--------|
+| University of Akron | https://www.uakron.edu/hr/careers | ⬜ Not applied |
+| Kent State University | https://jobs.kent.edu | ⬜ Not applied |
+| Cuyahoga Community College | https://www.tri-c.edu/human-resources/careers | ⬜ Not applied |
+
+### Government
+
+| Company | Career Page | Status |
+|---------|-------------|--------|
+| City of Akron | https://www.akronohio.gov/jobs | ⬜ Not applied |
+| Summit County | https://www.summitcountyoh.gov/jobs | ⬜ Not applied |
+| State of Ohio | https://careers.ohio.gov | ⬜ Not applied |
+
+### Tech / Services
+
+| Company | Career Page | Status |
+|---------|-------------|--------|
+| Hyland Software | https://www.hyland.com/en/careers | ⬜ Not applied |
+| Progressive Insurance | https://www.progressive.com/careers | ⬜ Not applied |
+| KeyBank | https://www.key.com/careers | ⬜ Not applied |
+| Huntington Bank | https://www.huntington.com/careers | ⬜ Not applied |
+
+## Application Log
+
+| Date | Company | Role | Status | Notes |
+|------|---------|------|--------|-------|
+|  |  |  |  |  |
+
 ## Linked Conversations
 
 Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic index]] — filter by `career`, `resume`, `linkedin`, `job-search` tags.
@@ -46,3 +100,7 @@ Depth first via topic index: [[insights/conversation-topic-index.md|Browse topic
 - Resume iterations: dozens of versions, linked in vault
 - Certifications: A+ in progress
 - Applications: tracked in q2-2026-action-tracker via garage-flipping sprint (G1-G6)
+
+
+## Related
+- [[goals-index|Goals Index]]

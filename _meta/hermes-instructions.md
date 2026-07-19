@@ -283,3 +283,7 @@ Use consistent slugs for entity names (lowercase, hyphens, no spaces).
 - If a conversation file has no clear topic (very short, single exchange), tag it `category: general` and `resolution: partial` — don't skip it
 - When uncertain about a tag or category, bias toward the USER's intent, not the AI's response
 - Cross-reference GEMINI's 2,774 files by date clusters — patterns within the same week or month are especially meaningful
+
+## Related
+- [[nodes/projects/second-brain-vault|Second Brain Vault]]
+- [[MOC.md|Map of Content]]

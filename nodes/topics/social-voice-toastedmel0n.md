@@ -109,3 +109,7 @@ Replies are short, friendly, bro-ish. No formality.
 - [ ] Build a few "in-voice" example posts the AI can few-shot from.
 - [ ] Decide which account the AI posts FROM — this handle or a separate bot.
 - [ ] Link to the project node once it exists: [[future-project-social-persona]] (TODO)
+
+
+## Related
+- [[nodes/people/bryan|Bryan]]

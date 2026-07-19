@@ -1,18 +1,19 @@
 ---
 type: project
-status: active
+status: current
 priority: P0
 first_seen: 2025-01-01
 tags: [vault, second-brain, obsidian, pkm, obsidian-tools, knowledge-management]
 aliases: [Second Brain, The Vault, Knowledge Base]
 ---
+
 # Second Brain Vault
 
-> This project is the vault itself. 3,400+ conversations, full entity layer, topic index, thinking patterns report, weekly reviews. The infrastructure that makes every other project legible.
+> This IS the vault itself. 3,400+ conversations, full entity layer, topic index, thinking patterns report, weekly reviews. The infrastructure that makes every other project legible.
 
-## What This Actually Is
+## What This Is
 
-It's not a project with a finish line either — but unlike the homelab, it has a clear functional purpose: make 3,400 isolated conversations searchable, navigable, and connected. Parts work. Parts don't.
+It's the operational memory for every project. The homelab tools, the job search, the OIA research, the consulting notes — they land here first. Without it, I'm relying on recall for things that have already cost real effort to figure out.
 
 ## What's Working
 
@@ -21,23 +22,24 @@ It's not a project with a finish line either — but unlike the homelab, it has 
 - Topic index — navigable view by real tags and categories
 - Thinking patterns analysis — data-driven portrait of decision-making
 - Weekly reports — 10+ reports capturing vault evolution
+- Enrichment quality verified at 93%
 
-## What's Not Working
+## What's Not Working / Risks
 
-- 40 broken wikilinks from deleted project stubs (now being repaired)
-- Project layer incomplete before deletion incident
-- No backup strategy beyond current filesystem
-- Conversation-topic-index was lost in a failed write; now confirmed on disk
+- No backup strategy beyond the current filesystem
+- Git-remote backup still missing; recovery depends on this single machine
+- Some legacy wikilinks remain unresolved after deletions
+- Conversation-topic-index was lost in a failed write; now on disk but should be re-verified
 
 ## Why It Exists
 
 I asked an AI to be my brutally honest advisor. That request produced 3,400+ conversations with nowhere to go. Building this vault was the answer: a place where the questions and answers have context, where patterns emerge, where I can see what I actually think instead of forgetting and re-asking.
 
-## Next Layer
+## Next Actions
 
-- Git-backed vault with remote backup (critical: no source control = no recovery)
-- Auto-refresh topic index when new processed/ files land
-- Project capsules that fuse processed/ metadata with real narrative summaries
+- Add remote backup strategy to current task list
+- Audit and repair any remaining broken wikilinks after maintenance passes
+- Re-verify conversation-topic-index integrity after writes
 
 ## Linked Conversations
 

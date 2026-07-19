@@ -74,12 +74,22 @@ For the latest tracked actions, see:
 | Thinking patterns analysis | [[insights/thinking-patterns/2026-05-18-patterns-raw-data.md|May 18 Patterns]] |
 | Cross-link coverage | dataview-driven |
 | Metadata coverage | best-effort across processed exports |
-| Weekly reports | [[weekly-reports-index|10 reports]] through 2026-05-19 |
-| Daily notes | [[insights/daily-notes/2026-05-26|Last entry]] |
-| Query system | 6 dataview files in `insights/queries/` |
+| Weekly reports | <span style="color: red">**Stalled:** weekly-reports pipeline dead since 2026-05-19 — pending cron restoration</span> |
+| Daily notes | Backfill: no live entries 2026-05-27 through 2026-07-18 |
 | Goals tracking | [[goals-index|4 goal docs]] — cross-linked |
+| Query system | 6 dataview files in `insights/queries/` |
 | Last enrichment run | 2026-05-19 |
 | Vault health | Alive — dashboard last Reviewed 2026-07-19 |
+
+---
+
+## Cadence Health
+
+| Cadence | Value |
+|---------|-------|
+| daily | 2026-05-20 (backfill 2026-05-27...2026-07-18) |
+| weekly | 2026-05-19 |
+| goals | q2 tracker paused; q3 skeleton created |
 
 ---
 

@@ -32,11 +32,11 @@ projects: []
 
 ## Links
 
-- [[../nodes/projects/homelab-stack|Homelab Stack]]
-- [[../nodes/projects/operation-immortal-agent|OIA]]
-- [[../nodes/projects/private-ai-consulting|Consulting]]
-- [[../nodes/topics/career/it-certification|IT Cert]]
-- [[../nodes/projects/second-brain-vault|Vault Meta]]
+- [[nodes/projects/homelab-stack|Homelab Stack]]
+- [[nodes/projects/operation-immortal-agent|OIA]]
+- [[nodes/projects/private-ai-consulting|Consulting]]
+- [[nodes/topics/career/it-certification|IT Cert]]
+- [[nodes/projects/second-brain-vault|Vault Meta]]
 - [[../insights/q2-2026-action-tracker|Q2 Tracker]]
 
 ---

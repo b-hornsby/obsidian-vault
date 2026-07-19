@@ -5,7 +5,7 @@ tags: [goals, meta, second-brain]
 
 # Goals
 
-_Master goals document. For the Q2 execution plan, see [[insights/goals/concrete-action-plan-Q2-2026|Concrete Action Plan]]. For progress tracking, see [[insights/goals/q2-2026-action-tracker|Q2 Action Tracker]]._
+_For Q2 execution, see [[insights/goals/concrete-action-plan-Q2-2026|Concrete Action Plan]]. For progress tracking, see [[insights/goals/q2-2026-action-tracker|Q2 Action Tracker]]. For Q3 planning, see [[insights/goals/goals-Q3-2026|Q3 2026 Goals]]._
 
 ## The Core Drive
 
@@ -15,42 +15,40 @@ The future is uncertain and I know that. But I'd rather be someone who understan
 
 ---
 
-## Near Term — Making It Real
+## Current Priorities
 
-**Privatized AI solutions for people and businesses.**
-Most people and small businesses have no real access to what AI can actually do for them. They're either using consumer tools at face value or getting oversold on enterprise garbage. I want to be the person who actually implements this stuff for them in a way that works — local models, custom agents, real pipelines. Whether that becomes consulting, productized tools, or both, I haven't fully locked in yet. But the direction is clear.
+**Private AI Stack — build the actual thing.**
+Local models, custom agents, real pipelines. Consulting or productized tools, whichever I can ship first. The knowledge is here; the package, the pitch, and the first client conversation are the missing pieces.
 
-**Keep going deeper on the tooling.**
-Local LLMs, agentic systems, RAG, multimodal — I want working knowledge, not tutorial knowledge. The homelab is the lab. Every project is a rep.
+**Search/context layer — make the vault genuinely useful.**
+Enrichment is done. The vault has the data. The gap is durable access: reliable search, synthesis hooks, retrieval I can trust in a conversation. If I'm going to build AI solutions for real people, I need the same layer for myself.
 
-**IT as a bridge, not a destination.**
-The Tiffin cert and job applications are real and practical. But the end goal isn't a helpdesk job — it's building credibility and income while the bigger thing develops.
+**Content extends the work.**
+What I build, I publish. Not a separate brand. Twitch/youtube streams, GitHub repos, documented builds — use the stream as proof AND portfolio. Ship first-person content about what's actually happening.
 
----
-
-## Medium Term — Building Something
-
-**Operation Immortal Agent.**
-An autonomous Solana fund manager using Meteora DLMM liquidity positions. This is the most serious thing I've built. Whether it becomes a product, a portfolio piece, or something I keep developing for myself — it needs to keep moving.
-
-**Content/streaming as an extension of the work.**
-Not a separate thing. Document what I'm building, share what I'm learning, build an audience around the actual work. The streaming rig and multistream setup is infrastructure for this.
-
-**AI + security knowledge.**
-The SecAI cert direction is right. Security and AI are converging fast and I want to be ahead of that curve, not catching up to it.
+**IT as credibility, not destination.**
+The cert and job search matter as timeline pressure: income, schedule, proof I can finish hard things. But IT isn't the end state. It buys margin while the AI work matures.
 
 ---
 
-## Long Term — Where This Could Go
+## Active Threads
 
-Blockchain data analysis with AI at a major exchange or serious institution. That's the dream version — where the deep AI knowledge and the Web3 experience meet at scale. People who can actually do both are rare. That's the position worth building toward.
+- Resume iterations linked from [[nodes/projects/resume|Resume Project]]
+- Private AI Stack package scoping in [[nodes/projects/private-ai-consulting.md|Private AI Consulting]]
+- Vault future-proof model library plan: [[Reference/model-state.md|Model State]]
+- Streaming/capture pipeline: [[nodes/projects/streaming-rig.md|Streaming Rig]]
 
 ---
 
 ## What Hermes Should Watch For
 
-- Am I spending time on things that actually move these goals forward, or just tinkering without direction?
-- Where am I circling the same problems without resolving them?
-- What am I avoiding that I should be facing?
-- Is the IT job search getting attention or getting pushed aside?
-- Is Operation Immortal Agent still alive or has it stalled?
+- Am I shipping AI work, or only planning it?
+- Is the vault being used as a thinking tool or a procrastination surface?
+- Is the IT search moving, or stalled?
+- Am I letting the stream/content side die because it's harder than building in private?
+- What's the one client-ready artifact I can point to this month?
+
+
+## Related
+- [[insights/goals/goals-overall|Goals Overview]]
+- [[insights/goals/goals-overall|Goals Overview]]

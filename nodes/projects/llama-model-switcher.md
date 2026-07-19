@@ -118,3 +118,8 @@ Both launch `llama-server` and must background via `nohup` + `disown` so the pro
 - Port `8081` is shared; both models can’t run at the same time.
 - 35B model is effectively unusable on RTX 3070 8GB for fast interactive use; this setup is not meant for 35B, even though the script supports it.
 - Hermes `/tool terminal` has its own `pkill` quirks; use real bash/term/tmux for lifecycle management.
+
+
+## Related
+- [[nodes/topics/tech/homelab|Homelab]]
+- [[goals-index|Goals Index]]

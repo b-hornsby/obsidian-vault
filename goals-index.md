@@ -21,3 +21,8 @@ Legacy goals from Q2 plan archived. See Q2 tracker for full archive list.
 ---
 
 *Review weekly as part of the Sunday review cycle.*
+
+
+## Related
+- [[goals-index|Goals Index]]
+- [[goals-index|Goals Index]]

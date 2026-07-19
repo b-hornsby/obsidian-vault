@@ -82,6 +82,7 @@ I've been looking at Mac Mini products for local LLM inference. The unified memo
 ---
 
 ## Related
+- [[nodes/people/bryan|Bryan]]
 
 - [[nodes/people/bryan.md|Bryan]] — the person who built this
 - [[nodes/projects/homelab-stack.md|Homelab Stack]] — the project behind the topic

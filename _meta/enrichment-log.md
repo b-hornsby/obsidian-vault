@@ -72,3 +72,8 @@ linked_nodes: [list of entity page names]
 | partial | (remaining) |
 | unresolved | (remaining) |
 | abandoned | (remaining) |
+
+
+## Related
+- [[_meta/hermes-instructions|Hermes Instructions]]
+- [[nodes/projects/second-brain-vault|Second Brain Vault]]

@@ -159,3 +159,8 @@ Bryan's vault shows a clear pattern: high energy, deep planning, rapid abandonme
 The honest read: He's better at starting than finishing, better at tooling than shipping, and better at infrastructure than output. The goals in [[goals-overall]] are real, but the conversation archive shows they're being pursued sideways — through setup, comparison, and optimization — rather than directly through building and delivery.
 
 The one project that should be revived: the Helpdesk AI Assistant. It had product-market fit with his own goals, real technical progress, and a clear use case. Everything else should either ship in 30 days or be consciously closed.
+
+
+## Related
+- [[insights/blind-spots/2026-04-blind-spots|Blind Spots Report]]
+- [[insights/blind-spots/2026-04-blind-spots|Blind Spots Report]]

@@ -18,7 +18,8 @@ _All weekly insight reports in chronological order._
 | W7 | [[insights/weekly-report/2026-05-10-weekly|May 10]] | Archive |
 | W8 | [[insights/weekly-report/2026-05-17-weekly|May 17]] | Archive |
 | W9 | [[insights/weekly-report/2026-05-18-weekly|May 18]] | Archive |
-| W10 | [[insights/weekly-report/2026-05-19-weekly|May 19]] | Latest |
+| W10 | [[insights/weekly-report/2026-05-19-weekly|May 19]] | Stalled |
+| W11+ | [[TODO|TBD]] |
 
 ---
 
@@ -27,3 +28,7 @@ _All weekly insight reports in chronological order._
 ---
 
 *Reports are generated automatically every Sunday by Hermes.*
+
+
+## Related
+- [[weekly-reports-index|Weekly Reports]]

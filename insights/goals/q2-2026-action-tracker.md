@@ -138,3 +138,13 @@ No auto-detected status changes this week.
 - Action 3: operation-immortal-agent — One test trade OR log why not; document risk notes
 - Action 12: operation-immortal-agent — Go live with real trade OR write archive note
 - Action 18: operation-immortal-agent — 7-day stable uptime OR clean exit archived
+
+---
+
+> Paused as of 2026-07-19 — items carried over to Q3 tracker where applicable.
+
+
+## Related
+- [[goals-index|Goals Index]]
+- [[insights/goals/q2-2026-action-tracker|Q2 Action Tracker]]
+- [[insights/goals/q2-2026-action-tracker|Q2 Action Tracker]]

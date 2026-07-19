@@ -63,6 +63,7 @@ I've caught AI tools up to speed on projects: *"working on a project and i need 
 ---
 
 ## Related
+- [[MOC.md|Map of Content]]
 
 - [[nodes/people/bryan.md|Bryan]] — the person behind the eclectic interests
 - [[nodes/topics/tech/ai-tools.md|AI Tools]] — the tools used for image generation

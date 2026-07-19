@@ -236,3 +236,8 @@
 ---
 
 > **The ruthless truth:** You don't need more research. You need more deadlines. This plan gives you deadlines. The vault makes sure you don't forget why you set them.
+
+
+## Related
+- [[insights/goals/concrete-action-plan-Q2-2026|Concrete Action Plan]]
+- [[insights/goals/concrete-action-plan-Q2-2026|Concrete Action Plan]]

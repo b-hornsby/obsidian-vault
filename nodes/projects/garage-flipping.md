@@ -2611,3 +2611,7 @@ See [leads-log.md](leads-log.md) for chronological lead entries.
 ## Leads Log
 
 See [leads-log.md](leads-log.md) for chronological lead entries.
+
+
+## Related
+- [[goals-index|Goals Index]]

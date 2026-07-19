@@ -156,3 +156,7 @@ A sample of the conversations that define who I am:
 ---
 
 *This page is the hub of the second brain. Every entity page in the vault connects back to here. If you're lost, start here. If you want to know who I am, start here. This is me — not a summary, not a resume, but the real thing pulled from 3,400 conversations.*
+
+
+## Related
+- 

@@ -20,3 +20,8 @@
 ## Notes for next time
 - If future runtime files re-appear as untracked, `.gitignore` already covers them.
 - If this triggers GitHub security alerts from the old history, a GitHub support ticket is the fastest way to invalidate cached refs.
+
+
+## Related
+- [[MOC.md|Map of Content]]
+- [[nodes/topics/tech/pc-security|PC Security]]
