@@ -8,6 +8,8 @@ aliases: [Map of Content, Vault Home, Second Brain Dashboard]
 
 *This is the entry point. Everything in the vault is reachable from here.*
 
+- [[Home|Home]] — vault entry point
+
 ---
 
 ## Who Am I?

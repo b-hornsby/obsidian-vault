@@ -16,6 +16,8 @@ Bryan's second brain — personal knowledge management covering:
 - Refined author outputs go in `processed/<provider>/`
 - Insights, reports, queries, daily notes go in `insights/`
 - Ephemeral config/setup notes go in `Reference/`
+- Canonical model state lives in `Reference/model-state.md`
+- Vault automation scripts live in `_meta/scripts/`
 
 ## Frontmatter
 Every wiki page should have:
@@ -70,5 +72,7 @@ Tw1n/                               # Wiki root (WIKI_PATH)
 ├── hermes-memories/                # Hermes memory exports
 ├── raw/                            # Raw source material awaiting processing
 ├── Reference/                      # Ephemeral setup/config notes
+│   └── model-state.md              # Canonical model runtime config
 └── _meta/                          # Templates, scripts, archive
+    └── scripts/                    # Automation: weekly report, config sync
 ```
